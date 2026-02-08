@@ -67,11 +67,19 @@ jobs:
       - name: Build database
         run: python scraper/build_db.py
 
-      # ── 9. Check for changes in data/ ─────────────────────────
+      # ── 9. Copy data to web/public/data/ for frontend ────────
+      - name: Copy data to frontend
+        run: |
+          cp data/trades.json web/public/data/trades.json
+          cp data/summary.json web/public/data/summary.json
+          cp data/latest.json web/public/data/latest.json
+          cp data/signals.json web/public/data/signals.json
+
+      # ── 10. Check for changes ────────────────────────────────
       - name: Check for data changes
         id: changes
         run: |
-          git add data/
+          git add data/ web/public/data/
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No data changes detected."
@@ -80,7 +88,7 @@ jobs:
             echo "Data changes detected."
           fi
 
-      # ── 10. Commit & push if data changed ─────────────────────
+      # ── 11. Commit & push if data changed ─────────────────────
       - name: Commit and push data
         if: steps.changes.outputs.changed == 'true'
         run: |
