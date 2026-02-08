@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import type { Trade, PoliticianSummary, Signal } from "@/types";
+import type { Trade, PoliticianSummary, Signal, TopPick } from "@/types";
 
 /**
  * Base URL for data files.
@@ -61,6 +61,17 @@ export function useSignals() {
     queryKey: ["signals"],
     queryFn: () => fetchJson<Signal[]>("signals.json"),
     staleTime: 10 * 60 * 1000, // 10 minutes
+  });
+}
+
+/**
+ * Fetch top stock picks based on politician activity.
+ */
+export function useTopPicks() {
+  return useQuery<TopPick[]>({
+    queryKey: ["topPicks"],
+    queryFn: () => fetchJson<TopPick[]>("top_picks.json"),
+    staleTime: 10 * 60 * 1000,
   });
 }
 

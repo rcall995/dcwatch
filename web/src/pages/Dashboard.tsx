@@ -1,6 +1,7 @@
 import { useLatestTrades } from "@/hooks/useTradeData";
 import ThemeToggle from "@/components/ThemeToggle";
 import StatsBar from "@/components/StatsBar";
+import TopPicks from "@/components/TopPicks";
 import TradeList from "@/components/TradeList";
 import LoadingSpinner from "@/components/LoadingSpinner";
 import styles from "./Dashboard.module.css";
@@ -32,6 +33,7 @@ function Dashboard() {
       {trades && !isLoading && !error && (
         <>
           <StatsBar trades={trades} />
+          <TopPicks />
 
           <div className={styles.section}>
             <h2 className={styles.sectionTitle}>Recent Trades</h2>

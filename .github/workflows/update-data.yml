@@ -74,6 +74,7 @@ jobs:
           cp data/summary.json web/public/data/summary.json
           cp data/latest.json web/public/data/latest.json
           cp data/signals.json web/public/data/signals.json
+          cp data/top_picks.json web/public/data/top_picks.json
 
       # ── 10. Check for changes ────────────────────────────────
       - name: Check for data changes

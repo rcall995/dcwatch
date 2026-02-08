@@ -1,0 +1,173 @@
+.container {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-heading, var(--text));
+  margin-bottom: 0.15rem;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  display: flex;
+  gap: 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius-lg, 12px);
+  padding: 1rem;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  background: var(--bg-card-hover);
+  box-shadow: var(--shadow, 0 2px 8px rgba(0, 0, 0, 0.3));
+}
+
+.rank {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.5;
+  min-width: 28px;
+  padding-top: 0.1rem;
+}
+
+.cardBody {
+  flex: 1;
+  min-width: 0;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+
+.ticker {
+  font-family: var(--font-mono, monospace);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+
+.scoreBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15em 0.5em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 4px;
+  background: rgba(255, 214, 0, 0.15);
+  color: var(--yellow, #ffd600);
+}
+
+.companyName {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0.6rem;
+}
+
+.statsRow {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.statValue {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.statLabel {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.badges {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.bipartisanBadge {
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  font-size: 0.68rem;
+  font-weight: 600;
+  border-radius: 3px;
+  background: rgba(156, 39, 176, 0.15);
+  color: #ce93d8;
+}
+
+.dateBadge {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+
+.buyerList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.buyerTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.15em 0.4em;
+  font-size: 0.7rem;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.partyDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.moreTag {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  padding: 0.15em 0.3em;
+}

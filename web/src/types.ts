@@ -56,3 +56,16 @@ export interface MockTrade {
   created_at: string;
   notes: string;
 }
+
+export interface TopPick {
+  ticker: string;
+  company_name: string;
+  score: number;
+  num_politicians: number;
+  bipartisan: boolean;
+  avg_win_rate: number;
+  latest_trade_date: string;
+  price_at_latest: number | null;
+  current_price: number | null;
+  politicians: { name: string; party: string; tx_date: string; win_rate: number }[];
+}

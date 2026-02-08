@@ -32,6 +32,7 @@ from config import (
     PRICE_CACHE_DIR,
     SIGNALS_JSON,
     SUMMARY_JSON,
+    TOP_PICKS_JSON,
     TRADES_JSON,
 )
 
@@ -553,6 +554,144 @@ def detect_signals(trades: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 # ---------------------------------------------------------------------------
+# Top picks: best stocks to watch based on recent politician buying
+# ---------------------------------------------------------------------------
+
+def build_top_picks(trades: list[dict], summary: list[dict]) -> list[dict]:
+    """
+    Find the top 5 stocks to watch based on recent politician buying activity.
+
+    Scoring considers:
+    - Number of unique politicians buying (not selling) in last 60 days
+    - Bipartisan buying (both D and R)
+    - Average win rate of the politicians buying
+    - Recency of trades (more recent = higher score)
+    - Volume (midpoint of amount ranges)
+    """
+    # 1. Build lookup: politician name -> win_rate from summary
+    win_rate_lookup: dict[str, float] = {}
+    for s in summary:
+        name = s.get("name", "")
+        if name:
+            win_rate_lookup[name] = s.get("win_rate", 0.0)
+
+    # 2. Filter to purchases in the last 60 days
+    today = date.today()
+    cutoff = today - timedelta(days=60)
+    cutoff_str = cutoff.isoformat()
+
+    recent_purchases = [
+        t for t in trades
+        if t.get("tx_type") == "purchase"
+        and t.get("tx_date", "") >= cutoff_str
+        and t.get("ticker", "")
+    ]
+
+    # 3. Group by ticker
+    by_ticker: dict[str, list[dict]] = defaultdict(list)
+    for t in recent_purchases:
+        by_ticker[t["ticker"]].append(t)
+
+    # 4. Score each ticker with 2+ unique politicians buying
+    candidates: list[dict] = []
+
+    for ticker, ticker_trades in by_ticker.items():
+        # Unique politicians
+        politician_set: set[str] = set()
+        party_set: set[str] = set()
+        politician_details: list[dict] = []
+        seen_politicians: set[str] = set()
+
+        for t in ticker_trades:
+            pol = t.get("politician", "")
+            if pol:
+                politician_set.add(pol)
+                party = t.get("party", "")
+                if party:
+                    party_set.add(party[0].upper())
+
+                if pol not in seen_politicians:
+                    seen_politicians.add(pol)
+                    politician_details.append({
+                        "name": pol,
+                        "party": party,
+                        "tx_date": t.get("tx_date", ""),
+                        "win_rate": win_rate_lookup.get(pol, 0.0),
+                    })
+
+        num_politicians = len(politician_set)
+        if num_politicians < 2:
+            continue
+
+        bipartisan = "D" in party_set and "R" in party_set
+
+        # Average win rate of buying politicians
+        win_rates = [win_rate_lookup.get(p, 0.0) for p in politician_set]
+        avg_win_rate = sum(win_rates) / len(win_rates) if win_rates else 0.0
+
+        # Recency score
+        recency_score = 0.0
+        for t in ticker_trades:
+            tx_date_str = t.get("tx_date", "")
+            try:
+                tx_dt = date.fromisoformat(tx_date_str)
+                days_ago = (today - tx_dt).days
+                if days_ago <= 14:
+                    recency_score += 3
+                elif days_ago <= 30:
+                    recency_score += 2
+                else:
+                    recency_score += 1
+            except ValueError:
+                pass
+
+        # Total score
+        total_score = (
+            (num_politicians * 3)
+            + (5 if bipartisan else 0)
+            + (avg_win_rate / 10)
+            + recency_score
+        )
+
+        # Company name from asset_description of first trade
+        company_name = ""
+        for t in ticker_trades:
+            desc = t.get("asset_description", "")
+            if desc:
+                company_name = desc
+                break
+        if not company_name:
+            company_name = ticker
+
+        # Price info from the most recent trade
+        most_recent = max(ticker_trades, key=lambda t: t.get("tx_date", ""))
+        price_at_latest = most_recent.get("price_at_trade")
+        current_price = most_recent.get("current_price")
+
+        latest_trade_date = most_recent.get("tx_date", "")
+
+        candidates.append({
+            "ticker": ticker,
+            "company_name": company_name,
+            "score": round(total_score, 1),
+            "num_politicians": num_politicians,
+            "bipartisan": bipartisan,
+            "avg_win_rate": round(avg_win_rate, 1),
+            "latest_trade_date": latest_trade_date,
+            "price_at_latest": price_at_latest,
+            "current_price": current_price,
+            "politicians": politician_details,
+        })
+
+    # 5. Sort by score descending, take top 5
+    candidates.sort(key=lambda c: c["score"], reverse=True)
+    top_picks = candidates[:5]
+
+    log.info("Built %d top picks from %d candidates", len(top_picks), len(candidates))
+    return top_picks
+
+
+# ---------------------------------------------------------------------------
 # Main enrichment pipeline
 # ---------------------------------------------------------------------------
 
@@ -622,6 +761,15 @@ def run() -> None:
         log.info("Wrote %d signals to %s", len(signals), SIGNALS_JSON)
     except OSError as exc:
         log.error("Could not write signals.json: %s", exc)
+
+    # Build top picks
+    top_picks = build_top_picks(trades, summary)
+    try:
+        with open(TOP_PICKS_JSON, "w", encoding="utf-8") as f:
+            json.dump(top_picks, f, indent=2, default=str)
+        log.info("Wrote %d top picks to %s", len(top_picks), TOP_PICKS_JSON)
+    except OSError as exc:
+        log.error("Could not write top_picks.json: %s", exc)
 
     log.info("Enrichment pipeline complete.")
 

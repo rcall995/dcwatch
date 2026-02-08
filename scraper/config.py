@@ -26,6 +26,7 @@ TRADES_JSON = DATA_DIR / "trades.json"
 SUMMARY_JSON = DATA_DIR / "summary.json"
 LATEST_JSON = DATA_DIR / "latest.json"
 SIGNALS_JSON = DATA_DIR / "signals.json"
+TOP_PICKS_JSON = DATA_DIR / "top_picks.json"
 DB_PATH = DATA_DIR / "dc-watcher.db"
 
 # Enrichment

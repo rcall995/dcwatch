@@ -1,0 +1,235 @@
+[
+  {
+    "ticker": "GS",
+    "company_name": "Virginia St Pub Bldg 4.00% 08/01/36 [GS]",
+    "score": 72.7,
+    "num_politicians": 13,
+    "bipartisan": true,
+    "avg_win_rate": 76.8,
+    "latest_trade_date": "2026-01-15",
+    "price_at_latest": 975.86,
+    "current_price": 928.75,
+    "politicians": [
+      {
+        "name": "Donald Sternoff Beyer Jr",
+        "party": "D",
+        "tx_date": "2026-01-15",
+        "win_rate": 33.3
+      },
+      {
+        "name": "Suzan K. DelBene",
+        "party": "D",
+        "tx_date": "2026-01-13",
+        "win_rate": 80.0
+      },
+      {
+        "name": "Thomas H. Kean Jr",
+        "party": "R",
+        "tx_date": "2025-12-31",
+        "win_rate": 50.0
+      },
+      {
+        "name": "Gilbert Cisneros",
+        "party": "D",
+        "tx_date": "2025-12-30",
+        "win_rate": 55.8
+      },
+      {
+        "name": "Scott H. Peters",
+        "party": "D",
+        "tx_date": "2025-12-29",
+        "win_rate": 100.0
+      },
+      {
+        "name": "Sheri Biggs",
+        "party": "R",
+        "tx_date": "2025-12-22",
+        "win_rate": 100.0
+      },
+      {
+        "name": "Ann Wagner",
+        "party": "R",
+        "tx_date": "2025-12-18",
+        "win_rate": 100.0
+      },
+      {
+        "name": "Julie Johnson",
+        "party": "D",
+        "tx_date": "2025-12-18",
+        "win_rate": 73.3
+      },
+      {
+        "name": "Steve Cohen",
+        "party": "D",
+        "tx_date": "2025-12-17",
+        "win_rate": 100.0
+      },
+      {
+        "name": "Julia Letlow",
+        "party": "R",
+        "tx_date": "2025-12-17",
+        "win_rate": 58.5
+      },
+      {
+        "name": "Doris O. Matsui",
+        "party": "D",
+        "tx_date": "2025-12-15",
+        "win_rate": 100.0
+      },
+      {
+        "name": "Zoe Lofgren",
+        "party": "D",
+        "tx_date": "2025-12-11",
+        "win_rate": 100.0
+      },
+      {
+        "name": "Markwayne Mullin",
+        "party": "",
+        "tx_date": "2025-12-29",
+        "win_rate": 47.1
+      }
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "company_name": "Microsoft Corporation - Common Stock (MSFT) [ST]",
+    "score": 28.8,
+    "num_politicians": 4,
+    "bipartisan": true,
+    "avg_win_rate": 57.7,
+    "latest_trade_date": "2026-01-16",
+    "price_at_latest": 459.86,
+    "current_price": 401.14,
+    "politicians": [
+      {
+        "name": "David J. Taylor",
+        "party": "R",
+        "tx_date": "2026-01-16",
+        "win_rate": 75.0
+      },
+      {
+        "name": "Gilbert Cisneros",
+        "party": "D",
+        "tx_date": "2025-12-19",
+        "win_rate": 55.8
+      },
+      {
+        "name": "John Boozman",
+        "party": "",
+        "tx_date": "2025-12-17",
+        "win_rate": 52.8
+      },
+      {
+        "name": "Markwayne Mullin",
+        "party": "",
+        "tx_date": "2025-12-29",
+        "win_rate": 47.1
+      }
+    ]
+  },
+  {
+    "ticker": "AMZN",
+    "company_name": "Amazon.com, Inc. - Common Stock (AMZN) [ST]",
+    "score": 28.3,
+    "num_politicians": 4,
+    "bipartisan": true,
+    "avg_win_rate": 52.8,
+    "latest_trade_date": "2026-01-29",
+    "price_at_latest": 241.73,
+    "current_price": 210.32,
+    "politicians": [
+      {
+        "name": "David J. Taylor",
+        "party": "R",
+        "tx_date": "2026-01-29",
+        "win_rate": 75.0
+      },
+      {
+        "name": "Nancy Pelosi",
+        "party": "D",
+        "tx_date": "2025-12-24",
+        "win_rate": 33.3
+      },
+      {
+        "name": "Gilbert Cisneros",
+        "party": "D",
+        "tx_date": "2025-12-24",
+        "win_rate": 55.8
+      },
+      {
+        "name": "Markwayne Mullin",
+        "party": "",
+        "tx_date": "2025-12-29",
+        "win_rate": 47.1
+      }
+    ]
+  },
+  {
+    "ticker": "AAPL",
+    "company_name": "Apple Inc. - Common Stock (AAPL) [ST]",
+    "score": 28.2,
+    "num_politicians": 4,
+    "bipartisan": true,
+    "avg_win_rate": 52.0,
+    "latest_trade_date": "2026-01-16",
+    "price_at_latest": 255.53,
+    "current_price": 278.12,
+    "politicians": [
+      {
+        "name": "David J. Taylor",
+        "party": "R",
+        "tx_date": "2026-01-16",
+        "win_rate": 75.0
+      },
+      {
+        "name": "Nancy Pelosi",
+        "party": "D",
+        "tx_date": "2025-12-30",
+        "win_rate": 33.3
+      },
+      {
+        "name": "John Boozman",
+        "party": "",
+        "tx_date": "2025-12-17",
+        "win_rate": 52.8
+      },
+      {
+        "name": "Markwayne Mullin",
+        "party": "",
+        "tx_date": "2025-12-29",
+        "win_rate": 47.1
+      }
+    ]
+  },
+  {
+    "ticker": "HD",
+    "company_name": "Home Depot, Inc. (HD) [ST]",
+    "score": 25.4,
+    "num_politicians": 3,
+    "bipartisan": true,
+    "avg_win_rate": 74.0,
+    "latest_trade_date": "2026-01-16",
+    "price_at_latest": 380.17,
+    "current_price": 385.15,
+    "politicians": [
+      {
+        "name": "David J. Taylor",
+        "party": "R",
+        "tx_date": "2026-01-16",
+        "win_rate": 75.0
+      },
+      {
+        "name": "Lloyd Doggett",
+        "party": "D",
+        "tx_date": "2025-12-18",
+        "win_rate": 100.0
+      },
+      {
+        "name": "Markwayne Mullin",
+        "party": "",
+        "tx_date": "2025-12-29",
+        "win_rate": 47.1
+      }
+    ]
+  }
+]
