@@ -1,0 +1,67 @@
+.page {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-heading, var(--text));
+}
+
+.titleAccent {
+  color: var(--accent);
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-heading, var(--text));
+  margin-bottom: 1rem;
+}
+
+.errorBox {
+  padding: 1.5rem;
+  background: var(--red-dim, rgba(255, 23, 68, 0.1));
+  color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: var(--radius, 8px);
+  text-align: center;
+}
+
+.retryButton {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  background: var(--bg-card);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius, 8px);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.retryButton:hover {
+  background: var(--accent-dim, rgba(0, 212, 255, 0.1));
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

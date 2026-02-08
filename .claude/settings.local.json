@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:disclosures-clerk.house.gov)",
+      "WebFetch(domain:efdsearch.senate.gov)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:housestockwatcher.com)",
+      "WebFetch(domain:senatestockwatcher.com)",
+      "Bash(git init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(where:*)",
+      "Bash(dir:*)",
+      "Bash(pushd:*)",
+      "Bash(copy:*)",
+      "Bash(copy \"C:\\\\Users\\\\rich\\\\DC-Watcher\\\\data\\\\latest.json\" \"C:\\\\Users\\\\rich\\\\DC-Watcher\\\\web\\\\public\\\\data\\\\latest.json\")",
+      "Bash(cmd /c \"copy /Y \\\\\"C:\\\\Users\\\\rich\\\\DC-Watcher\\\\data\\\\trades.json\\\\\" \\\\\"C:\\\\Users\\\\rich\\\\DC-Watcher\\\\web\\\\public\\\\data\\\\trades.json\\\\\" && copy /Y \\\\\"C:\\\\Users\\\\rich\\\\DC-Watcher\\\\data\\\\summary.json\\\\\" \\\\\"C:\\\\Users\\\\rich\\\\DC-Watcher\\\\web\\\\public\\\\data\\\\summary.json\\\\\" && copy /Y \\\\\"C:\\\\Users\\\\rich\\\\DC-Watcher\\\\data\\\\latest.json\\\\\" \\\\\"C:\\\\Users\\\\rich\\\\DC-Watcher\\\\web\\\\public\\\\data\\\\latest.json\\\\\"\":*)",
+      "Bash(cmd /c \"dir \"\"C:\\\\Users\\\\rich\\\\DC-Watcher\\\\web\\\\public\\\\data\\\\*.json\"\"\")",
+      "Bash(npx vite:*)",
+      "Bash(gh auth status:*)"
+    ]
+  }
+}

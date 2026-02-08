@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd web && npm install && npm run build",
+  "outputDirectory": "web/dist",
+  "installCommand": "cd web && npm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/((?!data/|assets/|sw\\.js|workbox-|manifest\\.webmanifest|registerSW\\.js).*)", "destination": "/index.html" }
+  ]
+}

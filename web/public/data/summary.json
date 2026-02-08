@@ -1,0 +1,954 @@
+[
+  {
+    "name": "Byron Donalds",
+    "party": "R",
+    "state": "FL",
+    "chamber": "house",
+    "total_trades": 6,
+    "trades_with_returns": 4,
+    "est_return_1y": 39.61,
+    "win_rate": 75.0,
+    "unique_tickers": 4,
+    "best_trade": {
+      "ticker": "LRCX",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-07",
+      "est_return": 133.84,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "ABT",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-04",
+      "est_return": -11.17,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Tim Moore",
+    "party": "R",
+    "state": "NC",
+    "chamber": "house",
+    "total_trades": 50,
+    "trades_with_returns": 18,
+    "est_return_1y": 33.75,
+    "win_rate": 72.2,
+    "unique_tickers": 10,
+    "best_trade": {
+      "ticker": "INTC",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-01",
+      "est_return": 161.99,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "MSTY",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-20",
+      "est_return": -56.28,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Adam Smith",
+    "party": "D",
+    "state": "WA",
+    "chamber": "house",
+    "total_trades": 15,
+    "trades_with_returns": 7,
+    "est_return_1y": 26.02,
+    "win_rate": 100.0,
+    "unique_tickers": 7,
+    "best_trade": {
+      "ticker": "NEM",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-08",
+      "est_return": 68.23,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "PG",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-08",
+      "est_return": 5.15,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Suzan K. DelBene",
+    "party": "D",
+    "state": "WA",
+    "chamber": "house",
+    "total_trades": 27,
+    "trades_with_returns": 15,
+    "est_return_1y": 24.4,
+    "win_rate": 80.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-07-16",
+      "est_return": 32.38,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2026-01-06",
+      "est_return": -2.8,
+      "est_position": 375000
+    }
+  },
+  {
+    "name": "Scott H. Peters",
+    "party": "D",
+    "state": "CA",
+    "chamber": "house",
+    "total_trades": 9,
+    "trades_with_returns": 5,
+    "est_return_1y": 21.6,
+    "win_rate": 100.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-01",
+      "est_return": 32.24,
+      "est_position": 75000
+    },
+    "worst_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-29",
+      "est_return": 4.1,
+      "est_position": 175000
+    }
+  },
+  {
+    "name": "Julia Letlow",
+    "party": "R",
+    "state": "LA",
+    "chamber": "house",
+    "total_trades": 99,
+    "trades_with_returns": 53,
+    "est_return_1y": 18.16,
+    "win_rate": 58.5,
+    "unique_tickers": 82,
+    "best_trade": {
+      "ticker": "MU",
+      "tx_type": "purchase",
+      "tx_date": "2025-04-14",
+      "est_return": 456.84,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "ICON",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-08",
+      "est_return": -61.76,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Marjorie Taylor Greene",
+    "party": "R",
+    "state": "GA",
+    "chamber": "house",
+    "total_trades": 22,
+    "trades_with_returns": 11,
+    "est_return_1y": 14.35,
+    "win_rate": 63.6,
+    "unique_tickers": 10,
+    "best_trade": {
+      "ticker": "ASML",
+      "tx_type": "purchase",
+      "tx_date": "2025-09-11",
+      "est_return": 76.02,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "MELI",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-28",
+      "est_return": -20.31,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "state": "TX",
+    "chamber": "house",
+    "total_trades": 3,
+    "trades_with_returns": 2,
+    "est_return_1y": 14.26,
+    "win_rate": 100.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "JNJ",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-09",
+      "est_return": 20.02,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "HD",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-18",
+      "est_return": 8.5,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Valerie Hoyle",
+    "party": "D",
+    "state": "OR",
+    "chamber": "house",
+    "total_trades": 234,
+    "trades_with_returns": 39,
+    "est_return_1y": 12.38,
+    "win_rate": 64.1,
+    "unique_tickers": 99,
+    "best_trade": {
+      "ticker": "GOOGL",
+      "tx_type": "purchase",
+      "tx_date": "2025-04-15",
+      "est_return": 107.12,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "IT",
+      "tx_type": "purchase",
+      "tx_date": "2025-06-26",
+      "est_return": -61.36,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Jared Moskowitz",
+    "party": "D",
+    "state": "FL",
+    "chamber": "house",
+    "total_trades": 5,
+    "trades_with_returns": 4,
+    "est_return_1y": 11.8,
+    "win_rate": 100.0,
+    "unique_tickers": 3,
+    "best_trade": {
+      "ticker": "PEP",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-02",
+      "est_return": 15.85,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "SO",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-02",
+      "est_return": 1.17,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Steve Cohen",
+    "party": "D",
+    "state": "TN",
+    "chamber": "house",
+    "total_trades": 4,
+    "trades_with_returns": 3,
+    "est_return_1y": 11.38,
+    "win_rate": 100.0,
+    "unique_tickers": 3,
+    "best_trade": {
+      "ticker": "NOC",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-29",
+      "est_return": 22.73,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "RFI",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-17",
+      "est_return": 4.95,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "David J. Taylor",
+    "party": "R",
+    "state": "OH",
+    "chamber": "house",
+    "total_trades": 45,
+    "trades_with_returns": 32,
+    "est_return_1y": 10.91,
+    "win_rate": 75.0,
+    "unique_tickers": 22,
+    "best_trade": {
+      "ticker": "LRCX",
+      "tx_type": "purchase",
+      "tx_date": "2025-07-18",
+      "est_return": 130.32,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "CRM",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-07",
+      "est_return": -20.29,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Roger Williams",
+    "party": "R",
+    "state": "TX",
+    "chamber": "house",
+    "total_trades": 3,
+    "trades_with_returns": 2,
+    "est_return_1y": 9.71,
+    "win_rate": 100.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "FANG",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-22",
+      "est_return": 12.44,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "RTX",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-22",
+      "est_return": 6.99,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Kelly Louise Morrison",
+    "party": "D",
+    "state": "MN",
+    "chamber": "house",
+    "total_trades": 16,
+    "trades_with_returns": 10,
+    "est_return_1y": 9.0,
+    "win_rate": 80.0,
+    "unique_tickers": 5,
+    "best_trade": {
+      "ticker": "JNJ",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-19",
+      "est_return": 36.83,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "ACN",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-19",
+      "est_return": -5.96,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Sheri Biggs",
+    "party": "R",
+    "state": "SC",
+    "chamber": "house",
+    "total_trades": 7,
+    "trades_with_returns": 2,
+    "est_return_1y": 8.62,
+    "win_rate": 100.0,
+    "unique_tickers": 4,
+    "best_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-02",
+      "est_return": 13.93,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-22",
+      "est_return": 3.31,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Rick Larsen",
+    "party": "D",
+    "state": "WA",
+    "chamber": "house",
+    "total_trades": 4,
+    "trades_with_returns": 3,
+    "est_return_1y": 8.11,
+    "win_rate": 100.0,
+    "unique_tickers": 3,
+    "best_trade": {
+      "ticker": "MDLZ",
+      "tx_type": "purchase",
+      "tx_date": "2026-01-07",
+      "est_return": 16.52,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "ESS",
+      "tx_type": "purchase",
+      "tx_date": "2026-01-07",
+      "est_return": 2.79,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Julie Johnson",
+    "party": "D",
+    "state": "TX",
+    "chamber": "house",
+    "total_trades": 92,
+    "trades_with_returns": 60,
+    "est_return_1y": 7.85,
+    "win_rate": 73.3,
+    "unique_tickers": 46,
+    "best_trade": {
+      "ticker": "MRK",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-14",
+      "est_return": 50.05,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "FIS",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-14",
+      "est_return": -26.58,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Ann Wagner",
+    "party": "R",
+    "state": "MO",
+    "chamber": "house",
+    "total_trades": 3,
+    "trades_with_returns": 2,
+    "est_return_1y": 7.33,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-05",
+      "est_return": 8.68,
+      "est_position": 175000
+    },
+    "worst_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-18",
+      "est_return": 5.99,
+      "est_position": 175000
+    }
+  },
+  {
+    "name": "Lisa McClain",
+    "party": "R",
+    "state": "MI",
+    "chamber": "house",
+    "total_trades": 134,
+    "trades_with_returns": 65,
+    "est_return_1y": 5.55,
+    "win_rate": 56.9,
+    "unique_tickers": 66,
+    "best_trade": {
+      "ticker": "MKSI",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-04",
+      "est_return": 159.41,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "HIMS",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-04",
+      "est_return": -63.66,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Gilbert Cisneros",
+    "party": "D",
+    "state": "CA",
+    "chamber": "house",
+    "total_trades": 118,
+    "trades_with_returns": 86,
+    "est_return_1y": 5.27,
+    "win_rate": 55.8,
+    "unique_tickers": 82,
+    "best_trade": {
+      "ticker": "LUV",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-05",
+      "est_return": 83.19,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "APP",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-19",
+      "est_return": -43.62,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Dan Newhouse",
+    "party": "R",
+    "state": "WA",
+    "chamber": "house",
+    "total_trades": 25,
+    "trades_with_returns": 17,
+    "est_return_1y": 5.25,
+    "win_rate": 52.9,
+    "unique_tickers": 17,
+    "best_trade": {
+      "ticker": "XOM",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-18",
+      "est_return": 40.89,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "ADP",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-18",
+      "est_return": -22.66,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "James French Hill",
+    "party": "R",
+    "state": "AR",
+    "chamber": "house",
+    "total_trades": 3,
+    "trades_with_returns": 2,
+    "est_return_1y": 4.87,
+    "win_rate": 50.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "PFE",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-31",
+      "est_return": 11.15,
+      "est_position": 175000
+    },
+    "worst_trade": {
+      "ticker": "SOLV",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-31",
+      "est_return": -1.41,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Doris O. Matsui",
+    "party": "D",
+    "state": "CA",
+    "chamber": "house",
+    "total_trades": 2,
+    "trades_with_returns": 1,
+    "est_return_1y": 4.4,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-15",
+      "est_return": 4.4,
+      "est_position": 0
+    },
+    "worst_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-15",
+      "est_return": 4.4,
+      "est_position": 0
+    }
+  },
+  {
+    "name": "April McClain Delaney",
+    "party": "D",
+    "state": "MD",
+    "chamber": "house",
+    "total_trades": 41,
+    "trades_with_returns": 24,
+    "est_return_1y": 3.71,
+    "win_rate": 66.7,
+    "unique_tickers": 20,
+    "best_trade": {
+      "ticker": "ENTG",
+      "tx_type": "purchase",
+      "tx_date": "2025-07-28",
+      "est_return": 33.42,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "MORN",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-02",
+      "est_return": -39.0,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Cleo Fields",
+    "party": "D",
+    "state": "LA",
+    "chamber": "house",
+    "total_trades": 121,
+    "trades_with_returns": 63,
+    "est_return_1y": 3.63,
+    "win_rate": 57.1,
+    "unique_tickers": 20,
+    "best_trade": {
+      "ticker": "IREN",
+      "tx_type": "purchase",
+      "tx_date": "2025-07-10",
+      "est_return": 145.63,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "FIG",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-01",
+      "est_return": -81.98,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Zoe Lofgren",
+    "party": "D",
+    "state": "CA",
+    "chamber": "house",
+    "total_trades": 2,
+    "trades_with_returns": 1,
+    "est_return_1y": 1.95,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-11",
+      "est_return": 1.95,
+      "est_position": 175000
+    },
+    "worst_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-11",
+      "est_return": 1.95,
+      "est_position": 175000
+    }
+  },
+  {
+    "name": "Michael A. Collins Jr",
+    "party": "R",
+    "state": "GA",
+    "chamber": "house",
+    "total_trades": 3,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 1,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Max Miller",
+    "party": "R",
+    "state": "OH",
+    "chamber": "house",
+    "total_trades": 2,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 1,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Jefferson Shreve",
+    "party": "R",
+    "state": "IN",
+    "chamber": "house",
+    "total_trades": 4,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 3,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Richard Dean Dr McCormick",
+    "party": "R",
+    "state": "GA",
+    "chamber": "house",
+    "total_trades": 33,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 16,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Donald Sternoff Beyer Jr",
+    "party": "D",
+    "state": "VA",
+    "chamber": "house",
+    "total_trades": 4,
+    "trades_with_returns": 3,
+    "est_return_1y": -0.05,
+    "win_rate": 33.3,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-18",
+      "est_return": 5.99,
+      "est_position": 75000
+    },
+    "worst_trade": {
+      "ticker": "GS",
+      "tx_type": "purchase",
+      "tx_date": "2026-01-15",
+      "est_return": -4.83,
+      "est_position": 75000
+    }
+  },
+  {
+    "name": "Thomas H. Kean Jr",
+    "party": "R",
+    "state": "NJ",
+    "chamber": "house",
+    "total_trades": 7,
+    "trades_with_returns": 4,
+    "est_return_1y": -2.71,
+    "win_rate": 50.0,
+    "unique_tickers": 4,
+    "best_trade": {
+      "ticker": "CP",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-22",
+      "est_return": 7.7,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "MSFT",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-25",
+      "est_return": -20.3,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "August Lee Pfluger II",
+    "party": "R",
+    "state": "TX",
+    "chamber": "house",
+    "total_trades": 2,
+    "trades_with_returns": 1,
+    "est_return_1y": -3.92,
+    "win_rate": 0.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "LLYVK",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-16",
+      "est_return": -3.92,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "LLYVK",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-16",
+      "est_return": -3.92,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Richard W. Allen",
+    "party": "R",
+    "state": "GA",
+    "chamber": "house",
+    "total_trades": 3,
+    "trades_with_returns": 2,
+    "est_return_1y": -4.58,
+    "win_rate": 50.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "ATO",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-19",
+      "est_return": 4.49,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "NFLX",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-12",
+      "est_return": -13.65,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Jonathan Jackson",
+    "party": "D",
+    "state": "IL",
+    "chamber": "house",
+    "total_trades": 5,
+    "trades_with_returns": 4,
+    "est_return_1y": -5.05,
+    "win_rate": 50.0,
+    "unique_tickers": 4,
+    "best_trade": {
+      "ticker": "IBM",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-13",
+      "est_return": 25.21,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "HOOD",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-22",
+      "est_return": -32.32,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Josh Gottheimer",
+    "party": "D",
+    "state": "NJ",
+    "chamber": "house",
+    "total_trades": 8,
+    "trades_with_returns": 6,
+    "est_return_1y": -5.84,
+    "win_rate": 33.3,
+    "unique_tickers": 6,
+    "best_trade": {
+      "ticker": "NTRA",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-22",
+      "est_return": 22.61,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "NOW",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-17",
+      "est_return": -35.62,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Laura Friedman",
+    "party": "D",
+    "state": "CA",
+    "chamber": "house",
+    "total_trades": 2,
+    "trades_with_returns": 1,
+    "est_return_1y": -6.98,
+    "win_rate": 0.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "DIS",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-26",
+      "est_return": -6.98,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "DIS",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-26",
+      "est_return": -6.98,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Nancy Pelosi",
+    "party": "D",
+    "state": "CA",
+    "chamber": "house",
+    "total_trades": 10,
+    "trades_with_returns": 9,
+    "est_return_1y": -8.98,
+    "win_rate": 33.3,
+    "unique_tickers": 7,
+    "best_trade": {
+      "ticker": "GOOGL",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-30",
+      "est_return": 2.87,
+      "est_position": 3000000
+    },
+    "worst_trade": {
+      "ticker": "VSNT",
+      "tx_type": "purchase",
+      "tx_date": "2026-01-02",
+      "est_return": -36.85,
+      "est_position": 7
+    }
+  },
+  {
+    "name": "Virginia Foxx",
+    "party": "R",
+    "state": "NC",
+    "chamber": "house",
+    "total_trades": 2,
+    "trades_with_returns": 1,
+    "est_return_1y": -11.84,
+    "win_rate": 0.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "HTGC",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-19",
+      "est_return": -11.84,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "HTGC",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-19",
+      "est_return": -11.84,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Judy Chu",
+    "party": "D",
+    "state": "CA",
+    "chamber": "house",
+    "total_trades": 2,
+    "trades_with_returns": 1,
+    "est_return_1y": -28.98,
+    "win_rate": 0.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "ASTH",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-19",
+      "est_return": -28.98,
+      "est_position": 175000
+    },
+    "worst_trade": {
+      "ticker": "ASTH",
+      "tx_type": "purchase",
+      "tx_date": "2025-08-19",
+      "est_return": -28.98,
+      "est_position": 175000
+    }
+  }
+]

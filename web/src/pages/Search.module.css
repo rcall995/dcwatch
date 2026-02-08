@@ -1,0 +1,91 @@
+.page {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-heading, var(--text));
+  margin-bottom: 1rem;
+}
+
+.searchWrapper {
+  margin-bottom: 1.5rem;
+}
+
+.placeholder {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sectionTitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-heading, var(--text));
+}
+
+.resultCount {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.politicianGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+.showMore {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  background: var(--bg-card);
+  color: var(--accent);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  border-radius: var(--radius, 8px);
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.2s ease;
+}
+
+.showMore:hover {
+  background: var(--accent-dim, rgba(0, 212, 255, 0.1));
+}
+
+.noResults {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--text-muted);
+}
+
+@media (min-width: 769px) {
+  .politicianGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

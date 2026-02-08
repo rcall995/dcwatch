@@ -1,0 +1,217 @@
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+}
+
+.filterSelect {
+  padding: 0.45rem 0.75rem;
+  font-size: 0.8rem;
+  font-family: inherit;
+  background: var(--bg-input, var(--bg-card));
+  color: var(--text);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  border-radius: var(--radius, 8px);
+  outline: none;
+}
+
+.filterSelect:focus {
+  border-color: var(--accent);
+}
+
+.filterInput {
+  padding: 0.45rem 0.75rem;
+  font-size: 0.8rem;
+  font-family: inherit;
+  background: var(--bg-input, var(--bg-card));
+  color: var(--text);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  border-radius: var(--radius, 8px);
+  outline: none;
+  width: 120px;
+}
+
+.filterInput:focus {
+  border-color: var(--accent);
+}
+
+.filterInput::placeholder {
+  color: var(--text-muted);
+}
+
+/* Desktop table */
+.tableContainer {
+  overflow-x: auto;
+  border-radius: var(--radius, 8px);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.table thead th {
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.7rem 0.85rem;
+  text-align: left;
+  border-bottom: 2px solid var(--border, rgba(255, 255, 255, 0.1));
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.15s ease;
+}
+
+.table thead th:hover {
+  color: var(--accent);
+}
+
+.sortIndicator {
+  margin-left: 4px;
+  font-size: 0.65rem;
+}
+
+.table tbody td {
+  padding: 0.65rem 0.85rem;
+  border-bottom: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.03));
+  white-space: nowrap;
+}
+
+.table tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+.table tbody tr:hover {
+  background: var(--bg-card-hover, rgba(255, 255, 255, 0.03));
+}
+
+.politicianLink {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.politicianLink:hover {
+  text-decoration: underline;
+}
+
+.ticker {
+  font-family: var(--font-mono, monospace);
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.partyBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15em 0.45em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 3px;
+  letter-spacing: 0.03em;
+}
+
+.txBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15em 0.5em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.daysLate {
+  font-size: 0.8rem;
+}
+
+.daysLateWarn {
+  color: var(--red);
+  font-weight: 600;
+}
+
+/* Mobile card list */
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tradeCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius-lg, 12px);
+  padding: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.tradeCard:hover {
+  background: var(--bg-card-hover, rgba(255, 255, 255, 0.04));
+}
+
+.cardRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.35rem;
+}
+
+.cardRow:last-child {
+  margin-bottom: 0;
+}
+
+.cardDate {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.cardAmount {
+  font-size: 0.85rem;
+  font-family: var(--font-mono, monospace);
+}
+
+.desktopOnly {
+  display: none;
+}
+
+.mobileOnly {
+  display: block;
+}
+
+.skeleton {
+  background: var(--bg-card);
+  border-radius: var(--radius, 8px);
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  height: 60px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.empty {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--text-muted);
+}
+
+@media (min-width: 769px) {
+  .desktopOnly {
+    display: block;
+  }
+
+  .mobileOnly {
+    display: none;
+  }
+}

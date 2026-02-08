@@ -1,0 +1,30 @@
+{
+  "name": "dc-watcher-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DC Watcher — Congressional Trade Tracker PWA",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.app.json --noEmit && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc -p tsconfig.app.json --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.0.0",
+    "react-router-dom": "^7.0.0",
+    "@tanstack/react-query": "^5.62.0",
+    "recharts": "^2.15.0",
+    "sql.js": "^1.12.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite-plugin-pwa": "^0.21.0",
+    "typescript": "^5.7.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}

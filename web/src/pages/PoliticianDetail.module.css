@@ -1,0 +1,52 @@
+.page {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
+  background: var(--bg-card);
+  color: var(--text-muted);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  border-radius: var(--radius, 8px);
+  cursor: pointer;
+  margin-bottom: 1.25rem;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.backButton:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.cardSection {
+  margin-bottom: 1.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-heading, var(--text));
+  margin-bottom: 1rem;
+}
+
+.empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

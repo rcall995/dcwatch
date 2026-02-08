@@ -1,0 +1,90 @@
+name: Update Data
+
+on:
+  schedule:
+    # Run daily at 6 AM UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      # ── 1. Checkout ────────────────────────────────────────────
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Python setup ────────────────────────────────────────
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ── 3. Cache pip dependencies ──────────────────────────────
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('scraper/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # ── 4. Install requirements ────────────────────────────────
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      # ── 5. Primary data fetch (S3) ────────────────────────────
+      - name: Fetch S3 data
+        id: s3_fetch
+        continue-on-error: true
+        run: python scraper/fetch_s3_data.py
+
+      # ── 6. Scrape House & Senate (fill gaps) ───────────────────
+      #    Always run scrapers — they fill gaps even when S3 succeeds,
+      #    and serve as a fallback when S3 fails.
+      - name: Scrape House disclosures
+        continue-on-error: true
+        run: python scraper/scrape_house.py
+
+      - name: Scrape Senate disclosures
+        continue-on-error: true
+        run: python scraper/scrape_senate.py
+
+      # ── 7. Enrich data (prices & stats) ────────────────────────
+      #    Some tickers may fail to resolve prices — that is acceptable.
+      #    The script should exit 0 for partial success.
+      - name: Enrich data
+        run: python scraper/enrich.py
+
+      # ── 8. Build SQLite database ───────────────────────────────
+      - name: Build database
+        run: python scraper/build_db.py
+
+      # ── 9. Check for changes in data/ ─────────────────────────
+      - name: Check for data changes
+        id: changes
+        run: |
+          git add data/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes detected."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Data changes detected."
+          fi
+
+      # ── 10. Commit & push if data changed ─────────────────────
+      - name: Commit and push data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): update disclosures $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
