@@ -15,13 +15,17 @@ function NavBar() {
         <span className={styles.icon}>&#9733;</span>
         <span className={styles.label}>Leaderboard</span>
       </NavLink>
+      <NavLink to="/signals" className={linkClass}>
+        <span className={styles.icon}>&#9889;</span>
+        <span className={styles.label}>Signals</span>
+      </NavLink>
+      <NavLink to="/portfolio" className={linkClass}>
+        <span className={styles.icon}>&#128188;</span>
+        <span className={styles.label}>Portfolio</span>
+      </NavLink>
       <NavLink to="/search" className={linkClass}>
         <span className={styles.icon}>&#128269;</span>
         <span className={styles.label}>Search</span>
-      </NavLink>
-      <NavLink to="/about" className={linkClass}>
-        <span className={styles.icon}>&#9432;</span>
-        <span className={styles.label}>About</span>
       </NavLink>
     </nav>
   );

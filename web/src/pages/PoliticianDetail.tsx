@@ -1,6 +1,8 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { usePoliticianTrades, useLeaderboard } from "@/hooks/useTradeData";
 import PoliticianCard from "@/components/PoliticianCard";
+import TradeTimeline from "@/components/TradeTimeline";
+import ReturnChart from "@/components/ReturnChart";
 import TradeList from "@/components/TradeList";
 import LoadingSpinner from "@/components/LoadingSpinner";
 import styles from "./PoliticianDetail.module.css";
@@ -37,6 +39,8 @@ function PoliticianDetail() {
 
       {!isLoading && trades && trades.length > 0 && (
         <div>
+          <TradeTimeline trades={trades} />
+          <ReturnChart trades={trades} />
           <h2 className={styles.sectionTitle}>All Trades</h2>
           <TradeList trades={trades} showFilters={true} />
         </div>

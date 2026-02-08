@@ -44,3 +44,15 @@ export interface Signal {
   heat_score: number;
   bipartisan: boolean;
 }
+
+export interface MockTrade {
+  id: string;
+  trade_id: string;
+  ticker: string;
+  politician: string;
+  tx_type: "buy" | "sell";
+  entry_price: number;
+  current_price: number;
+  created_at: string;
+  notes: string;
+}

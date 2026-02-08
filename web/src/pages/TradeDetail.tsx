@@ -1,5 +1,7 @@
+import { useState } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { useTrades } from "@/hooks/useTradeData";
+import { useMockTrades } from "@/hooks/useMockTrades";
 import {
   formatDate,
   formatAmount,
@@ -14,6 +16,10 @@ function TradeDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { data: trades, isLoading } = useTrades();
+  const { addMockTrade } = useMockTrades();
+  const [showFollowForm, setShowFollowForm] = useState(false);
+  const [followDirection, setFollowDirection] = useState<"buy" | "sell">("buy");
+  const [followNotes, setFollowNotes] = useState("");
 
   const trade = trades?.find((t) => t.id === id);
 
@@ -184,6 +190,67 @@ function TradeDetail() {
                 </div>
               )}
             </div>
+          </div>
+        )}
+
+        {trade.price_at_trade != null && (
+          <div className={styles.followSection}>
+            {!showFollowForm ? (
+              <button
+                className={styles.followBtn}
+                onClick={() => setShowFollowForm(true)}
+              >
+                Follow This Trade
+              </button>
+            ) : (
+              <div className={styles.followForm}>
+                <div className={styles.followFormTitle}>Follow Trade</div>
+                <div className={styles.followFormRow}>
+                  <label>
+                    <span className={styles.followLabel}>Direction</span>
+                    <select
+                      value={followDirection}
+                      onChange={(e) => setFollowDirection(e.target.value as "buy" | "sell")}
+                      className={styles.followSelect}
+                    >
+                      <option value="buy">Buy</option>
+                      <option value="sell">Sell</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span className={styles.followLabel}>Notes (optional)</span>
+                    <input
+                      type="text"
+                      value={followNotes}
+                      onChange={(e) => setFollowNotes(e.target.value)}
+                      placeholder="Why follow this trade?"
+                      className={styles.followInput}
+                    />
+                  </label>
+                </div>
+                <div className={styles.followActions}>
+                  <button
+                    className={styles.confirmBtn}
+                    onClick={() => {
+                      addMockTrade(trade, followDirection, followNotes);
+                      setShowFollowForm(false);
+                      setFollowNotes("");
+                    }}
+                  >
+                    Confirm
+                  </button>
+                  <button
+                    className={styles.cancelBtn}
+                    onClick={() => {
+                      setShowFollowForm(false);
+                      setFollowNotes("");
+                    }}
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>

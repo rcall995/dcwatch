@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import logging
+import math
 import sys
 import time
 from collections import defaultdict
@@ -29,6 +30,7 @@ except ImportError:
 from config import (
     LATEST_JSON,
     PRICE_CACHE_DIR,
+    SIGNALS_JSON,
     SUMMARY_JSON,
     TRADES_JSON,
 )
@@ -409,6 +411,148 @@ def build_summary(trades: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 # ---------------------------------------------------------------------------
+# Signal / cluster detection
+# ---------------------------------------------------------------------------
+
+def detect_signals(trades: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """
+    Detect trading clusters: 3+ unique politicians trading the same ticker
+    within a 10-day sliding window.
+
+    Returns a list of Signal dicts sorted by heat_score descending.
+    """
+    # Group trades by ticker
+    by_ticker: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for t in trades:
+        ticker = t.get("ticker", "")
+        if ticker and t.get("tx_date", ""):
+            by_ticker[ticker].append(t)
+
+    signals: list[dict[str, Any]] = []
+
+    for ticker, ticker_trades in by_ticker.items():
+        # Sort by tx_date
+        ticker_trades.sort(key=lambda t: t.get("tx_date", ""))
+
+        # Sliding window: for each trade, gather all trades within 10 days
+        clusters: list[dict[str, Any]] = []
+        n = len(ticker_trades)
+
+        for i in range(n):
+            anchor_date_str = ticker_trades[i].get("tx_date", "")
+            try:
+                anchor_date = date.fromisoformat(anchor_date_str)
+            except ValueError:
+                continue
+
+            window_trades = []
+            unique_politicians: set[str] = set()
+
+            for j in range(n):
+                other_date_str = ticker_trades[j].get("tx_date", "")
+                try:
+                    other_date = date.fromisoformat(other_date_str)
+                except ValueError:
+                    continue
+
+                if 0 <= (other_date - anchor_date).days <= 10:
+                    window_trades.append(ticker_trades[j])
+                    pol_name = ticker_trades[j].get("politician", "")
+                    if pol_name:
+                        unique_politicians.add(pol_name)
+
+            if len(unique_politicians) < 3:
+                continue
+
+            # Build cluster info
+            parties = set()
+            politicians_list = []
+            total_volume = 0.0
+            start_date = None
+            end_date = None
+
+            seen_politicians_in_cluster: set[str] = set()
+            for wt in window_trades:
+                pol_name = wt.get("politician", "")
+                party = wt.get("party", "")
+                if party:
+                    parties.add(party[0].upper())  # D, R, I, etc.
+
+                # Build politician entry (may have multiple trades per politician)
+                pol_key = f"{pol_name}|{wt.get('tx_date', '')}|{wt.get('tx_type', '')}"
+                if pol_key not in seen_politicians_in_cluster:
+                    seen_politicians_in_cluster.add(pol_key)
+                    politicians_list.append({
+                        "name": pol_name,
+                        "party": party,
+                        "tx_type": wt.get("tx_type", ""),
+                        "tx_date": wt.get("tx_date", ""),
+                    })
+
+                amount_low = wt.get("amount_low", 0) or 0
+                amount_high = wt.get("amount_high", 0) or 0
+                total_volume += (amount_low + amount_high) / 2
+
+                wt_date_str = wt.get("tx_date", "")
+                if wt_date_str:
+                    if start_date is None or wt_date_str < start_date:
+                        start_date = wt_date_str
+                    if end_date is None or wt_date_str > end_date:
+                        end_date = wt_date_str
+
+            bipartisan = "D" in parties and "R" in parties
+            num_politicians = len(unique_politicians)
+            heat_score = (
+                num_politicians * 2
+                + (5 if bipartisan else 0)
+                + int(math.log(total_volume + 1))
+            )
+
+            company_name = ""
+            for wt in window_trades:
+                desc = wt.get("asset_description", "")
+                if desc:
+                    company_name = desc
+                    break
+            if not company_name:
+                company_name = ticker
+
+            clusters.append({
+                "ticker": ticker,
+                "company_name": company_name,
+                "politicians": politicians_list,
+                "start_date": start_date or "",
+                "end_date": end_date or "",
+                "heat_score": heat_score,
+                "bipartisan": bipartisan,
+            })
+
+        # Deduplicate overlapping clusters for same ticker: keep highest heat_score
+        if clusters:
+            clusters.sort(key=lambda c: c["heat_score"], reverse=True)
+            kept: list[dict[str, Any]] = []
+            used_ranges: list[tuple[str, str]] = []
+
+            for cluster in clusters:
+                overlaps = False
+                for used_start, used_end in used_ranges:
+                    # Check if date ranges overlap
+                    if cluster["start_date"] <= used_end and cluster["end_date"] >= used_start:
+                        overlaps = True
+                        break
+                if not overlaps:
+                    kept.append(cluster)
+                    used_ranges.append((cluster["start_date"], cluster["end_date"]))
+
+            signals.extend(kept)
+
+    # Sort all signals by heat_score descending
+    signals.sort(key=lambda s: s["heat_score"], reverse=True)
+    log.info("Detected %d trading signals/clusters", len(signals))
+    return signals
+
+
+# ---------------------------------------------------------------------------
 # Main enrichment pipeline
 # ---------------------------------------------------------------------------
 
@@ -434,6 +578,12 @@ def run() -> None:
         sys.exit(1)
 
     log.info("Loaded %d trades from %s", len(trades), TRADES_JSON)
+
+    # Filter out trades with empty tx_date (PDF parsing failures)
+    original_count = len(trades)
+    trades = [t for t in trades if t.get("tx_date", "").strip()]
+    if original_count != len(trades):
+        log.info("Filtered out %d trades with empty tx_date", original_count - len(trades))
 
     # Enrich
     trades = enrich_trades(trades)
@@ -463,6 +613,15 @@ def run() -> None:
         log.info("Wrote %d latest trades to %s", len(latest), LATEST_JSON)
     except OSError as exc:
         log.error("Could not write latest.json: %s", exc)
+
+    # Detect trading signals/clusters
+    signals = detect_signals(trades)
+    try:
+        with open(SIGNALS_JSON, "w", encoding="utf-8") as f:
+            json.dump(signals, f, indent=2, default=str)
+        log.info("Wrote %d signals to %s", len(signals), SIGNALS_JSON)
+    except OSError as exc:
+        log.error("Could not write signals.json: %s", exc)
 
     log.info("Enrichment pipeline complete.")
 

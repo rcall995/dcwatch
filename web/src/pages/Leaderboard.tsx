@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import { useLeaderboard } from "@/hooks/useTradeData";
 import LeaderboardTable from "@/components/LeaderboardTable";
+import PartyComparison from "@/components/PartyComparison";
 import LoadingSpinner from "@/components/LoadingSpinner";
 import styles from "./Leaderboard.module.css";
 
@@ -60,6 +61,7 @@ function Leaderboard() {
         </div>
       )}
 
+      {!isLoading && !error && data && <PartyComparison politicians={data} />}
       {!isLoading && !error && <LeaderboardTable data={filtered} />}
     </div>
   );

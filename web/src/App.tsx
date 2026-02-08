@@ -8,6 +8,8 @@ import PoliticianDetail from "@/pages/PoliticianDetail";
 import TradeDetail from "@/pages/TradeDetail";
 import Search from "@/pages/Search";
 import About from "@/pages/About";
+import Signals from "@/pages/Signals";
+import MockPortfolio from "@/pages/MockPortfolio";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -32,6 +34,8 @@ function App() {
             <Route path="/trade/:id" element={<TradeDetail />} />
             <Route path="/search" element={<Search />} />
             <Route path="/about" element={<About />} />
+            <Route path="/signals" element={<Signals />} />
+            <Route path="/portfolio" element={<MockPortfolio />} />
           </Routes>
         </Layout>
         <NavBar />

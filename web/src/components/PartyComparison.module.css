@@ -1,0 +1,28 @@
+.container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius-lg, 12px);
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-heading, var(--text));
+  margin-bottom: 1rem;
+}
+
+.tooltip {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  font-size: 0.8rem;
+}
+
+.tooltipTicker {
+  font-weight: 700;
+  color: var(--accent);
+  font-family: var(--font-mono);
+}
