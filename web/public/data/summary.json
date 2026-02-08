@@ -50,6 +50,31 @@
     }
   },
   {
+    "name": "Jerry Moran,",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 2,
+    "trades_with_returns": 1,
+    "est_return_1y": 28.12,
+    "win_rate": 100.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "GOOG",
+      "tx_type": "09/23/2025",
+      "tx_date": "2025-09-23",
+      "est_return": 28.12,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "GOOG",
+      "tx_type": "09/23/2025",
+      "tx_date": "2025-09-23",
+      "est_return": 28.12,
+      "est_position": 8000
+    }
+  },
+  {
     "name": "Adam Smith",
     "party": "D",
     "state": "WA",
@@ -100,6 +125,31 @@
     }
   },
   {
+    "name": "Tina Smith",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 3,
+    "trades_with_returns": 1,
+    "est_return_1y": 22.43,
+    "win_rate": 100.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "HBAN",
+      "tx_type": "11/21/2025",
+      "tx_date": "2025-11-21",
+      "est_return": 22.43,
+      "est_position": 175000
+    },
+    "worst_trade": {
+      "ticker": "HBAN",
+      "tx_type": "11/21/2025",
+      "tx_date": "2025-11-21",
+      "est_return": 22.43,
+      "est_position": 175000
+    }
+  },
+  {
     "name": "Scott H. Peters",
     "party": "D",
     "state": "CA",
@@ -125,6 +175,31 @@
     }
   },
   {
+    "name": "Katie Britt",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 23,
+    "trades_with_returns": 23,
+    "est_return_1y": 20.56,
+    "win_rate": 73.9,
+    "unique_tickers": 12,
+    "best_trade": {
+      "ticker": "GOOG",
+      "tx_type": "04/14/2025",
+      "tx_date": "2025-04-14",
+      "est_return": 100.65,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "UNH",
+      "tx_type": "04/14/2025",
+      "tx_date": "2025-04-14",
+      "est_return": -51.92,
+      "est_position": 8000
+    }
+  },
+  {
     "name": "Julia Letlow",
     "party": "R",
     "state": "LA",
@@ -147,6 +222,31 @@
       "tx_date": "2025-12-08",
       "est_return": -61.76,
       "est_position": 8000
+    }
+  },
+  {
+    "name": "Rafael E Cruz",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 1,
+    "est_return_1y": 15.19,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "GS",
+      "tx_type": "11/11/2025",
+      "tx_date": "2025-11-11",
+      "est_return": 15.19,
+      "est_position": 175000
+    },
+    "worst_trade": {
+      "ticker": "GS",
+      "tx_type": "11/11/2025",
+      "tx_date": "2025-11-11",
+      "est_return": 15.19,
+      "est_position": 175000
     }
   },
   {
@@ -197,6 +297,56 @@
       "tx_date": "2025-12-18",
       "est_return": 8.5,
       "est_position": 8000
+    }
+  },
+  {
+    "name": "John Boozman",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 107,
+    "trades_with_returns": 105,
+    "est_return_1y": 13.27,
+    "win_rate": 85.7,
+    "unique_tickers": 64,
+    "best_trade": {
+      "ticker": "MU",
+      "tx_type": "08/22/2025",
+      "tx_date": "2025-08-22",
+      "est_return": 235.73,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "ORCL",
+      "tx_type": "09/12/2025",
+      "tx_date": "2025-09-12",
+      "est_return": -50.9,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "James Conley Justice, II",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 1,
+    "est_return_1y": 12.95,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "PEBO",
+      "tx_type": "08/28/2025",
+      "tx_date": "2025-08-28",
+      "est_return": 12.95,
+      "est_position": 375000
+    },
+    "worst_trade": {
+      "ticker": "PEBO",
+      "tx_type": "08/28/2025",
+      "tx_date": "2025-08-28",
+      "est_return": 12.95,
+      "est_position": 375000
     }
   },
   {
@@ -275,6 +425,31 @@
     }
   },
   {
+    "name": "Sheldon Whitehouse",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 21,
+    "trades_with_returns": 20,
+    "est_return_1y": 11.08,
+    "win_rate": 70.0,
+    "unique_tickers": 17,
+    "best_trade": {
+      "ticker": "LRCX",
+      "tx_type": "08/28/2025",
+      "tx_date": "2025-08-28",
+      "est_return": 122.75,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "MSFT",
+      "tx_type": "09/04/2025",
+      "tx_date": "2025-09-04",
+      "est_return": -20.88,
+      "est_position": 32500
+    }
+  },
+  {
     "name": "David J. Taylor",
     "party": "R",
     "state": "OH",
@@ -296,6 +471,56 @@
       "tx_type": "purchase",
       "tx_date": "2025-08-07",
       "est_return": -20.29,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Angus S King, Jr.",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 27,
+    "trades_with_returns": 26,
+    "est_return_1y": 10.8,
+    "win_rate": 61.5,
+    "unique_tickers": 26,
+    "best_trade": {
+      "ticker": "GOOGL",
+      "tx_type": "07/21/2025",
+      "tx_date": "2025-07-21",
+      "est_return": 70.1,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "PYPL",
+      "tx_type": "07/21/2025",
+      "tx_date": "2025-07-21",
+      "est_return": -45.85,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Gary C Peters",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 6,
+    "trades_with_returns": 6,
+    "est_return_1y": 9.93,
+    "win_rate": 83.3,
+    "unique_tickers": 6,
+    "best_trade": {
+      "ticker": "INTC",
+      "tx_type": "12/12/2025",
+      "tx_date": "2025-12-12",
+      "est_return": 33.8,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "OGN",
+      "tx_type": "07/10/2025",
+      "tx_date": "2025-07-10",
+      "est_return": -17.65,
       "est_position": 8000
     }
   },
@@ -346,6 +571,31 @@
       "tx_type": "purchase",
       "tx_date": "2025-08-19",
       "est_return": -5.96,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Adam B Schiff",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 1,
+    "est_return_1y": 8.71,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "AAPL",
+      "tx_type": "09/22/2025",
+      "tx_date": "2025-09-22",
+      "est_return": 8.71,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "AAPL",
+      "tx_type": "09/22/2025",
+      "tx_date": "2025-09-22",
+      "est_return": 8.71,
       "est_position": 32500
     }
   },
@@ -625,6 +875,56 @@
     }
   },
   {
+    "name": "Markwayne Mullin",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 139,
+    "trades_with_returns": 70,
+    "est_return_1y": 3.46,
+    "win_rate": 64.3,
+    "unique_tickers": 80,
+    "best_trade": {
+      "ticker": "LRN",
+      "tx_type": "12/18/2025",
+      "tx_date": "2025-12-18",
+      "est_return": 33.52,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "NOW",
+      "tx_type": "09/24/2025",
+      "tx_date": "2025-09-24",
+      "est_return": -46.03,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Shelley M Capito",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 23,
+    "trades_with_returns": 22,
+    "est_return_1y": 2.6,
+    "win_rate": 59.1,
+    "unique_tickers": 15,
+    "best_trade": {
+      "ticker": "PLD",
+      "tx_type": "08/01/2025",
+      "tx_date": "2025-08-01",
+      "est_return": 32.73,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "MSFT",
+      "tx_type": "10/29/2025",
+      "tx_date": "2025-10-29",
+      "est_return": -25.79,
+      "est_position": 32500
+    }
+  },
+  {
     "name": "Zoe Lofgren",
     "party": "D",
     "state": "CA",
@@ -647,6 +947,56 @@
       "tx_date": "2025-12-11",
       "est_return": 1.95,
       "est_position": 175000
+    }
+  },
+  {
+    "name": "Thomas H Tuberville",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 12,
+    "trades_with_returns": 11,
+    "est_return_1y": 1.82,
+    "win_rate": 81.8,
+    "unique_tickers": 9,
+    "best_trade": {
+      "ticker": "GOOGL",
+      "tx_type": "10/07/2025",
+      "tx_date": "2025-10-07",
+      "est_return": 31.46,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "ORCL",
+      "tx_type": "10/07/2025",
+      "tx_date": "2025-10-07",
+      "est_return": -49.53,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Lindsey Graham",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 8,
+    "trades_with_returns": 5,
+    "est_return_1y": 1.34,
+    "win_rate": 80.0,
+    "unique_tickers": 5,
+    "best_trade": {
+      "ticker": "VWUAX",
+      "tx_type": "11/06/2025",
+      "tx_date": "2025-11-06",
+      "est_return": 3.16,
+      "est_position": 175000
+    },
+    "worst_trade": {
+      "ticker": "IBDQ",
+      "tx_type": "12/18/2025",
+      "tx_date": "2025-12-18",
+      "est_return": 0.0,
+      "est_position": 32500
     }
   },
   {
@@ -698,6 +1048,84 @@
     "est_return_1y": 0.0,
     "win_rate": 0.0,
     "unique_tickers": 16,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Susan M Collins",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "John R Curtis",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 3,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "John Fetterman",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 7,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Bernie Moreno",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 4,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Rick Scott",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 30,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Mark R Warner",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 2,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
     "best_trade": null,
     "worst_trade": null
   },
@@ -802,6 +1230,31 @@
     }
   },
   {
+    "name": "John W Hickenlooper",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 9,
+    "trades_with_returns": 9,
+    "est_return_1y": -5.03,
+    "win_rate": 44.4,
+    "unique_tickers": 8,
+    "best_trade": {
+      "ticker": "PEP",
+      "tx_type": "09/02/2025",
+      "tx_date": "2025-09-02",
+      "est_return": 15.68,
+      "est_position": 175000
+    },
+    "worst_trade": {
+      "ticker": "INTU",
+      "tx_type": "09/02/2025",
+      "tx_date": "2025-09-02",
+      "est_return": -32.72,
+      "est_position": 175000
+    }
+  },
+  {
     "name": "Jonathan Jackson",
     "party": "D",
     "state": "IL",
@@ -902,6 +1355,31 @@
     }
   },
   {
+    "name": "A. Mitchell McConnell, Jr.",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 3,
+    "trades_with_returns": 3,
+    "est_return_1y": -11.3,
+    "win_rate": 66.7,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "WFC",
+      "tx_type": "09/01/2025",
+      "tx_date": "2025-09-01",
+      "est_return": 15.51,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "LAZR",
+      "tx_type": "12/24/2025",
+      "tx_date": "2025-12-24",
+      "est_return": -60.0,
+      "est_position": 8000
+    }
+  },
+  {
     "name": "Virginia Foxx",
     "party": "R",
     "state": "NC",
@@ -924,6 +1402,31 @@
       "tx_date": "2025-08-19",
       "est_return": -11.84,
       "est_position": 8000
+    }
+  },
+  {
+    "name": "David H McCormick",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 39,
+    "trades_with_returns": 4,
+    "est_return_1y": -21.59,
+    "win_rate": 0.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "BITB",
+      "tx_type": "11/25/2025",
+      "tx_date": "2025-11-25",
+      "est_return": -19.88,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "BITB",
+      "tx_type": "11/28/2025",
+      "tx_date": "2025-11-28",
+      "est_return": -22.87,
+      "est_position": 75000
     }
   },
   {

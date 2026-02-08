@@ -37,15 +37,14 @@ logging.basicConfig(
 )
 log = logging.getLogger("scrape_senate")
 
-SENATE_EFD_SEARCH = "https://efts.sec.gov/LATEST/search-index"
-SENATE_EFD_AGREEMENT = "https://efts.sec.gov/LATEST/search-index"
-SENATE_SEARCH_URL = "https://efts.sec.gov/LATEST/search-index"
-
-# Alternative: Senate's own eFD portal
 SENATE_EFD_HOME = "https://efdsearch.senate.gov"
 SENATE_EFD_AGREE = f"{SENATE_EFD_HOME}/search/home/"
-SENATE_EFD_SEARCH_API = f"{SENATE_EFD_HOME}/search/"
+SENATE_EFD_SEARCH_PAGE = f"{SENATE_EFD_HOME}/search/"
+SENATE_EFD_DATA_API = f"{SENATE_EFD_HOME}/search/report/data/"
 SENATE_EFD_REPORT = f"{SENATE_EFD_HOME}/search/view/ptr/"
+
+# DataTables page size for the server-side AJAX endpoint
+_DT_PAGE_SIZE = 100
 
 SENATE_META_JSON = DATA_DIR / "senate_filings_meta.json"
 
@@ -115,6 +114,81 @@ def create_senate_session() -> requests.Session:
 # Search for PTR filings
 # ---------------------------------------------------------------------------
 
+def _build_datatables_params(
+    start: int,
+    length: int,
+    first_name: str,
+    last_name: str,
+    filer_types: str,
+    report_types: str,
+    submitted_start_date: str,
+    submitted_end_date: str,
+) -> dict[str, str]:
+    """
+    Build the form-encoded payload that the Senate eFD DataTables
+    server-side endpoint expects at /search/report/data/.
+
+    The site uses jQuery DataTables 1.10 with ``serverSide: true``.
+    Each AJAX request must include both the standard DataTables draw /
+    paging / column / order / search parameters **and** the custom
+    search fields the site appends via its ``data`` callback.
+    """
+    params: dict[str, str] = {
+        # DataTables standard fields
+        "draw": "1",
+        "start": str(start),
+        "length": str(length),
+        # Column definitions (5 columns: first, last, office, report, date)
+        "columns[0][data]": "0",
+        "columns[0][name]": "",
+        "columns[0][searchable]": "true",
+        "columns[0][orderable]": "true",
+        "columns[0][search][value]": "",
+        "columns[0][search][regex]": "false",
+        "columns[1][data]": "1",
+        "columns[1][name]": "",
+        "columns[1][searchable]": "true",
+        "columns[1][orderable]": "true",
+        "columns[1][search][value]": "",
+        "columns[1][search][regex]": "false",
+        "columns[2][data]": "2",
+        "columns[2][name]": "",
+        "columns[2][searchable]": "true",
+        "columns[2][orderable]": "true",
+        "columns[2][search][value]": "",
+        "columns[2][search][regex]": "false",
+        "columns[3][data]": "3",
+        "columns[3][name]": "",
+        "columns[3][searchable]": "true",
+        "columns[3][orderable]": "true",
+        "columns[3][search][value]": "",
+        "columns[3][search][regex]": "false",
+        "columns[4][data]": "4",
+        "columns[4][name]": "",
+        "columns[4][searchable]": "true",
+        "columns[4][orderable]": "true",
+        "columns[4][search][value]": "",
+        "columns[4][search][regex]": "false",
+        # Default ordering: column 1 (last name) ascending
+        "order[0][column]": "1",
+        "order[0][dir]": "asc",
+        # Global search (unused by us)
+        "search[value]": "",
+        "search[regex]": "false",
+        # Custom site-specific search parameters
+        "report_types": report_types,
+        "filer_types": filer_types,
+        "submitted_start_date": submitted_start_date,
+        "submitted_end_date": submitted_end_date,
+        "candidate_state": "",
+        "senator_state": "",
+        "office_id": "",
+        "first_name": first_name,
+        "last_name": last_name,
+    }
+    return params
+
+
 def search_ptr_filings(
     session: requests.Session,
     first_name: str = "",
@@ -123,6 +197,10 @@ def search_ptr_filings(
 ) -> list[dict[str, Any]]:
     """
     Search the Senate eFD for Periodic Transaction Reports.
+
+    The site uses a jQuery DataTables server-side AJAX endpoint at
+    ``/search/report/data/`` that returns JSON. We paginate through
+    all results automatically.
 
     Args:
         session: Authenticated session (from create_senate_session).
@@ -138,82 +216,118 @@ def search_ptr_filings(
     date_from = (datetime.now() - timedelta(days=days_back)).strftime("%m/%d/%Y")
     date_to = datetime.now().strftime("%m/%d/%Y")
 
-    payload = {
-        "csrfmiddlewaretoken": csrf_token,
-        "first_name": first_name,
-        "last_name": last_name,
-        "filer_type": "1",  # Senator
-        "report_type": "11",  # Periodic Transaction Report
-        "date_start": date_from,
-        "date_end": date_to,
-        "submitted": "1",
-    }
-
     log.info(
         "Searching Senate PTR filings from %s to %s (name: %s %s)",
         date_from, date_to, first_name, last_name,
     )
 
-    try:
-        resp = session.post(
-            SENATE_EFD_SEARCH_API,
-            data=payload,
-            headers={
-                "Referer": SENATE_EFD_SEARCH_API,
-                "X-CSRFToken": csrf_token,
-            },
-            timeout=REQUEST_TIMEOUT,
-        )
-        resp.raise_for_status()
-    except requests.RequestException as exc:
-        log.error("Senate PTR search failed: %s", exc)
-        return []
-
-    return parse_search_results(resp.text)
-
-
-def parse_search_results(html: str) -> list[dict[str, Any]]:
-    """
-    Parse the HTML search results table from the Senate eFD portal.
-    Returns a list of filing metadata dicts.
-    """
-    soup = BeautifulSoup(html, "html.parser")
     filings: list[dict[str, Any]] = []
+    start = 0
 
-    table = soup.find("table", class_="table")
-    if not table:
-        # Try alternative selectors
-        table = soup.find("table")
+    while True:
+        params = _build_datatables_params(
+            start=start,
+            length=_DT_PAGE_SIZE,
+            first_name=first_name,
+            last_name=last_name,
+            filer_types="[1]",            # Senator
+            report_types="[11]",          # Periodic Transaction Report
+            submitted_start_date=f"{date_from} 00:00:00",
+            submitted_end_date=f"{date_to} 23:59:59",
+        )
 
-    if not table:
-        log.warning("No results table found in search response")
-        return filings
+        try:
+            resp = session.post(
+                SENATE_EFD_DATA_API,
+                data=params,
+                headers={
+                    "Referer": SENATE_EFD_SEARCH_PAGE,
+                    "X-CSRFToken": csrf_token,
+                    "X-Requested-With": "XMLHttpRequest",
+                    "Accept": "application/json, text/javascript, */*; q=0.01",
+                },
+                timeout=REQUEST_TIMEOUT,
+            )
+            resp.raise_for_status()
+        except requests.RequestException as exc:
+            log.error("Senate PTR search failed: %s", exc)
+            break
 
-    tbody = table.find("tbody")
-    rows = tbody.find_all("tr") if tbody else table.find_all("tr")[1:]
+        page_filings, total = _parse_datatables_response(resp.text)
+        filings.extend(page_filings)
+
+        log.info(
+            "  Page at offset %d: got %d filings (total on server: %d)",
+            start, len(page_filings), total,
+        )
+
+        if not page_filings or start + _DT_PAGE_SIZE >= total:
+            break
+        start += _DT_PAGE_SIZE
+        time.sleep(0.3)  # polite delay between pages
+
+    log.info("Found %d total filing records", len(filings))
+    return filings
+
+
+def _parse_datatables_response(body: str) -> tuple[list[dict[str, Any]], int]:
+    """
+    Parse the JSON response from the DataTables AJAX endpoint.
+
+    Each row in ``data`` is a 5-element list:
+        [first_name, last_name, office/title, report_link_html, date_filed]
+
+    The report_link_html contains an ``<a>`` tag with href and text like
+    ``Periodic Transaction Report for MM/DD/YYYY``.
+
+    Returns:
+        (list_of_filing_dicts, total_records_on_server)
+    """
+    filings: list[dict[str, Any]] = []
+    total = 0
+
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        log.error("Senate search response was not valid JSON")
+        return filings, total
+
+    if data.get("result") != "ok":
+        log.warning("Senate search returned result=%s", data.get("result"))
+
+    total = data.get("recordsFiltered", data.get("recordsTotal", 0))
+    rows = data.get("data", [])
 
     for row in rows:
-        cells = row.find_all("td")
-        if len(cells) < 4:
+        if not isinstance(row, list) or len(row) < 5:
             continue
 
-        # Typical columns: Name, Office, Report Type, Date Filed, Link
-        name = cells[0].get_text(strip=True)
-        office = cells[1].get_text(strip=True) if len(cells) > 1 else ""
-        report_type = cells[2].get_text(strip=True) if len(cells) > 2 else ""
-        date_filed = cells[3].get_text(strip=True) if len(cells) > 3 else ""
+        first_name = row[0].strip()
+        last_name = row[1].strip()
+        office = row[2].strip()
+        report_html = row[3]
+        date_filed = row[4].strip()
 
-        # Extract link to the full report
-        link_tag = row.find("a", href=True)
+        # Combine first + last into a single name
+        name = f"{first_name} {last_name}".strip()
+
+        # Extract href and report text from the embedded <a> tag
         report_url = ""
         report_id = ""
-        if link_tag:
-            href = link_tag["href"]
+        report_type = ""
+        link_match = re.search(r'href="([^"]+)"', report_html)
+        if link_match:
+            href = link_match.group(1)
             report_url = href if href.startswith("http") else f"{SENATE_EFD_HOME}{href}"
-            # Try to extract report ID from URL
-            id_match = re.search(r"/ptr/(\w+)/", href)
+            # Extract report ID from URL (works for both /ptr/<id>/ and /paper/<id>/)
+            id_match = re.search(r"/(?:ptr|paper)/([\w-]+)/", href)
             if id_match:
                 report_id = id_match.group(1)
+
+        # Extract the link text for report type description
+        text_match = re.search(r">([^<]+)</a>", report_html)
+        if text_match:
+            report_type = text_match.group(1).strip()
 
         filings.append({
             "name": name,
@@ -224,8 +338,7 @@ def parse_search_results(html: str) -> list[dict[str, Any]]:
             "report_id": report_id,
         })
 
-    log.info("Parsed %d filing records from search results", len(filings))
-    return filings
+    return filings, total
 
 
 # ---------------------------------------------------------------------------
@@ -298,7 +411,7 @@ def fetch_report_detail(
         resp = session.get(
             report_url,
             timeout=REQUEST_TIMEOUT,
-            headers={"Referer": SENATE_EFD_SEARCH_API},
+            headers={"Referer": SENATE_EFD_SEARCH_PAGE},
         )
         resp.raise_for_status()
     except requests.RequestException as exc:
