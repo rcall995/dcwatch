@@ -358,6 +358,9 @@ def _normalize_tx_type(raw: str) -> str:
         return "sale_full"
     if "exchange" in raw_lower:
         return "exchange"
+    # Guard: if the value looks like a date, it's a column mapping error
+    if re.match(r"^\d{1,2}/\d{1,2}/\d{2,4}$", raw.strip()):
+        return "purchase"  # safe default
     return raw.strip().lower()
 
 
@@ -464,19 +467,41 @@ def fetch_report_detail(
 
     # Map column indices
     col_map: dict[str, int] = {}
-    header_keywords = {
-        "tx_date": ["transaction date", "date"],
-        "owner": ["owner"],
-        "ticker": ["ticker", "symbol"],
-        "asset_name": ["asset name", "asset", "name", "description"],
-        "tx_type": ["transaction type", "type", "transaction"],
-        "amount": ["amount"],
+    # Senate PTR table columns are typically:
+    # #, Transaction Date, Owner, Ticker, Asset Name, Asset Type, Type, Amount, Comment
+    # Match exact header text first, then fall back to keyword matching
+    exact_map = {
+        "transaction date": "tx_date",
+        "owner": "owner",
+        "ticker": "ticker",
+        "asset name": "asset_name",
+        "type": "tx_type",
+        "amount": "amount",
     }
-    for field, keywords in header_keywords.items():
-        for i, h in enumerate(headers):
+    for i, h in enumerate(headers):
+        field = exact_map.get(h)
+        if field and field not in col_map:
+            col_map[field] = i
+
+    # Fallback keyword matching for non-standard headers
+    if not col_map:
+        header_keywords = {
+            "tx_date": ["transaction date", "date"],
+            "owner": ["owner"],
+            "ticker": ["ticker", "symbol"],
+            "asset_name": ["asset name", "description"],
+            "tx_type": ["transaction type"],
+            "amount": ["amount"],
+        }
+        for field, keywords in header_keywords.items():
             for kw in keywords:
-                if kw in h and field not in col_map:
-                    col_map[field] = i
+                for i, h in enumerate(headers):
+                    if any(v == i for v in col_map.values()):
+                        continue
+                    if kw in h and field not in col_map:
+                        col_map[field] = i
+                        break
+                if field in col_map:
                     break
 
     # Parse rows

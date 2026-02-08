@@ -60,7 +60,7 @@
       {
         "name": "Markwayne Mullin",
         "party": "",
-        "tx_type": "12/18/2025",
+        "tx_type": "sale_full",
         "tx_date": "2025-12-18"
       }
     ],
@@ -82,7 +82,7 @@
       {
         "name": "Markwayne Mullin",
         "party": "",
-        "tx_type": "12/29/2025",
+        "tx_type": "purchase",
         "tx_date": "2025-12-29"
       },
       {
@@ -122,19 +122,19 @@
       {
         "name": "Shelley M Capito",
         "party": "",
-        "tx_type": "12/16/2025",
+        "tx_type": "sale_partial",
         "tx_date": "2025-12-16"
       },
       {
         "name": "John Boozman",
         "party": "",
-        "tx_type": "12/17/2025",
+        "tx_type": "purchase",
         "tx_date": "2025-12-17"
       },
       {
         "name": "Thomas H Tuberville",
         "party": "",
-        "tx_type": "12/17/2025",
+        "tx_type": "sale_full",
         "tx_date": "2025-12-17"
       },
       {
@@ -230,7 +230,7 @@
       {
         "name": "Markwayne Mullin",
         "party": "",
-        "tx_type": "12/29/2025",
+        "tx_type": "purchase",
         "tx_date": "2025-12-29"
       }
     ],
@@ -258,7 +258,7 @@
       {
         "name": "Markwayne Mullin",
         "party": "",
-        "tx_type": "12/29/2025",
+        "tx_type": "purchase",
         "tx_date": "2025-12-29"
       }
     ],
@@ -274,13 +274,13 @@
       {
         "name": "Shelley M Capito",
         "party": "",
-        "tx_type": "12/16/2025",
+        "tx_type": "sale_partial",
         "tx_date": "2025-12-16"
       },
       {
         "name": "John Boozman",
         "party": "",
-        "tx_type": "12/17/2025",
+        "tx_type": "purchase",
         "tx_date": "2025-12-17"
       },
       {
