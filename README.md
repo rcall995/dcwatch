@@ -69,3 +69,4 @@ Then create a Pages project named `dc-watcher` in your Cloudflare dashboard.
 - **Phase 2**: Charts (Recharts), cluster detection, stock price overlays
 - **Phase 3**: Committee integration, alerts, advanced features
 "# dcwatch" 
+"# dcwatch" 
