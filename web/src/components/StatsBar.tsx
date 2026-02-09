@@ -1,62 +1,66 @@
 import { useMemo } from "react";
-import type { Trade } from "@/types";
+import type { Trade, PoliticianSummary } from "@/types";
 import styles from "./StatsBar.module.css";
 
 interface StatsBarProps {
   trades: Trade[];
+  summary?: PoliticianSummary[];
 }
 
-function StatsBar({ trades }: StatsBarProps) {
+function StatsBar({ trades, summary }: StatsBarProps) {
   const stats = useMemo(() => {
-    const totalTrades = trades.length;
+    // Use summary for accurate totals when available
+    const totalTrades = summary
+      ? summary.reduce((sum, p) => sum + p.total_trades, 0)
+      : trades.length;
 
-    // Trades this month
-    const now = new Date();
-    const monthStart = new Date(now.getFullYear(), now.getMonth(), 1);
-    const tradesThisMonth = trades.filter(
-      (t) => new Date(t.tx_date) >= monthStart,
-    ).length;
+    const totalPoliticians = summary ? summary.length : 0;
 
-    // Most active politician
-    const politicianCounts: Record<string, number> = {};
-    for (const t of trades) {
-      politicianCounts[t.politician] =
-        (politicianCounts[t.politician] || 0) + 1;
-    }
+    // Most active politician (from summary if available)
     let mostActivePolitician = "N/A";
     let maxPoliticianCount = 0;
-    for (const [name, count] of Object.entries(politicianCounts)) {
-      if (count > maxPoliticianCount) {
-        maxPoliticianCount = count;
-        mostActivePolitician = name;
+    if (summary && summary.length > 0) {
+      for (const p of summary) {
+        if (p.total_trades > maxPoliticianCount) {
+          maxPoliticianCount = p.total_trades;
+          mostActivePolitician = p.name;
+        }
+      }
+    } else {
+      const politicianCounts: Record<string, number> = {};
+      for (const t of trades) {
+        politicianCounts[t.politician] =
+          (politicianCounts[t.politician] || 0) + 1;
+      }
+      for (const [name, count] of Object.entries(politicianCounts)) {
+        if (count > maxPoliticianCount) {
+          maxPoliticianCount = count;
+          mostActivePolitician = name;
+        }
       }
     }
 
-    // Most traded ticker
-    const tickerCounts: Record<string, number> = {};
-    for (const t of trades) {
-      if (t.ticker) {
-        tickerCounts[t.ticker] = (tickerCounts[t.ticker] || 0) + 1;
-      }
-    }
-    let mostTradedTicker = "N/A";
-    let maxTickerCount = 0;
-    for (const [ticker, count] of Object.entries(tickerCounts)) {
-      if (count > maxTickerCount) {
-        maxTickerCount = count;
-        mostTradedTicker = ticker;
+    // Top performer by return (from summary)
+    let topPerformer = "N/A";
+    let topReturn = 0;
+    if (summary && summary.length > 0) {
+      for (const p of summary) {
+        if (p.total_trades >= 3 && p.est_return_1y > topReturn) {
+          topReturn = p.est_return_1y;
+          topPerformer = p.name;
+        }
       }
     }
 
     return {
       totalTrades,
-      tradesThisMonth,
+      totalPoliticians,
       mostActivePolitician,
       maxPoliticianCount,
-      mostTradedTicker,
-      maxTickerCount,
+      topPerformer,
+      topReturn,
     };
-  }, [trades]);
+  }, [trades, summary]);
 
   return (
     <div className={styles.grid}>
@@ -65,8 +69,8 @@ function StatsBar({ trades }: StatsBarProps) {
         <div className={styles.value}>{stats.totalTrades.toLocaleString()}</div>
       </div>
       <div className={styles.statCard}>
-        <div className={styles.label}>This Month</div>
-        <div className={styles.value}>{stats.tradesThisMonth.toLocaleString()}</div>
+        <div className={styles.label}>Politicians Tracked</div>
+        <div className={styles.value}>{stats.totalPoliticians.toLocaleString()}</div>
       </div>
       <div className={styles.statCard}>
         <div className={styles.label}>Most Active</div>
@@ -78,11 +82,15 @@ function StatsBar({ trades }: StatsBarProps) {
         </div>
       </div>
       <div className={styles.statCard}>
-        <div className={styles.label}>Top Ticker</div>
-        <div className={styles.value}>{stats.mostTradedTicker}</div>
-        <div className={styles.subValue}>
-          {stats.maxTickerCount} trades
+        <div className={styles.label}>Top Performer</div>
+        <div className={styles.value} style={{ fontSize: "1rem" }}>
+          {stats.topPerformer}
         </div>
+        {stats.topReturn !== 0 && (
+          <div className={styles.subValue} style={{ color: stats.topReturn > 0 ? "var(--green)" : "var(--red)" }}>
+            {stats.topReturn > 0 ? "+" : ""}{stats.topReturn.toFixed(1)}% avg return
+          </div>
+        )}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { useLatestTrades } from "@/hooks/useTradeData";
+import { useLatestTrades, useLeaderboard } from "@/hooks/useTradeData";
 import ThemeToggle from "@/components/ThemeToggle";
 import StatsBar from "@/components/StatsBar";
 import TopPicks from "@/components/TopPicks";
@@ -8,6 +8,7 @@ import styles from "./Dashboard.module.css";
 
 function Dashboard() {
   const { data: trades, isLoading, error, refetch } = useLatestTrades();
+  const { data: summary } = useLeaderboard();
 
   return (
     <div className={styles.page}>
@@ -32,7 +33,7 @@ function Dashboard() {
 
       {trades && !isLoading && !error && (
         <>
-          <StatsBar trades={trades} />
+          <StatsBar trades={trades} summary={summary} />
           <TopPicks />
 
           <div className={styles.section}>
