@@ -5,19 +5,19 @@
     "politicians": [
       {
         "name": "Shelley M Capito",
-        "party": "",
+        "party": "R",
         "tx_type": "sale_partial",
         "tx_date": "2025-12-16"
       },
       {
         "name": "John Boozman",
-        "party": "",
+        "party": "R",
         "tx_type": "purchase",
         "tx_date": "2025-12-17"
       },
       {
         "name": "Thomas H Tuberville",
-        "party": "",
+        "party": "R",
         "tx_type": "sale_full",
         "tx_date": "2025-12-17"
       }

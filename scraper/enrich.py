@@ -718,6 +718,35 @@ def run() -> None:
 
     log.info("Loaded %d trades from %s", len(trades), TRADES_JSON)
 
+    # Fill in missing party data from known lookup
+    PARTY_LOOKUP: dict[str, str] = {
+        "A. Mitchell McConnell, Jr.": "R",
+        "Angus S King, Jr.": "I",
+        "Bernie Moreno": "R",
+        "David H McCormick": "R",
+        "Gary C Peters": "D",
+        "John Boozman": "R",
+        "John Fetterman": "D",
+        "John W Hickenlooper": "D",
+        "Katie Britt": "R",
+        "Lindsey Graham": "R",
+        "Mark R Warner": "D",
+        "Markwayne Mullin": "R",
+        "Rafael E Cruz": "R",
+        "Sheldon Whitehouse": "D",
+        "Shelley M Capito": "R",
+        "Thomas H Tuberville": "R",
+        "Tina Smith": "D",
+        "Richard Blumenthal": "D",
+    }
+    party_filled = 0
+    for t in trades:
+        if not t.get("party") and t.get("politician") in PARTY_LOOKUP:
+            t["party"] = PARTY_LOOKUP[t["politician"]]
+            party_filled += 1
+    if party_filled:
+        log.info("Filled party for %d trades from lookup table", party_filled)
+
     # Filter out trades with empty tx_date (PDF parsing failures)
     original_count = len(trades)
     trades = [t for t in trades if t.get("tx_date", "").strip()]

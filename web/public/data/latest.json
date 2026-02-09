@@ -2,7 +2,7 @@
   {
     "id": "0544059dde541471",
     "politician": "Katie Britt",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "JPM",
@@ -25,7 +25,7 @@
   {
     "id": "0ee1b4fb41536a09",
     "politician": "Shelley M Capito",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "SBUX",
@@ -48,7 +48,7 @@
   {
     "id": "6ad1ef88550a4e37",
     "politician": "Tina Smith",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "BRK.B",
@@ -71,7 +71,7 @@
   {
     "id": "096f16307616c7bf",
     "politician": "John W Hickenlooper",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "LOW",
@@ -94,7 +94,7 @@
   {
     "id": "64411654c40fa2ec",
     "politician": "John W Hickenlooper",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "TJX",
@@ -117,7 +117,7 @@
   {
     "id": "7837de8c0d686c8a",
     "politician": "John W Hickenlooper",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "ETN",
@@ -140,7 +140,7 @@
   {
     "id": "c17453cd8deeb83c",
     "politician": "John W Hickenlooper",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "UBER",
@@ -163,7 +163,7 @@
   {
     "id": "26215d2ff6346ded",
     "politician": "Gary C Peters",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "WPC",
@@ -186,7 +186,7 @@
   {
     "id": "242295596ede4a88",
     "politician": "Gary C Peters",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "SWK",
@@ -209,7 +209,7 @@
   {
     "id": "924b1abeec126476",
     "politician": "Sheldon Whitehouse",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "SBUX",
@@ -232,7 +232,7 @@
   {
     "id": "f0cbc79259e1e474",
     "politician": "Sheldon Whitehouse",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "NVDA",
@@ -255,7 +255,7 @@
   {
     "id": "d01b47e05b609990",
     "politician": "Sheldon Whitehouse",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "HD",
@@ -278,7 +278,7 @@
   {
     "id": "c3e124bd9100de33",
     "politician": "Sheldon Whitehouse",
-    "party": "",
+    "party": "D",
     "state": "",
     "chamber": "senate",
     "ticker": "MCD",
@@ -301,7 +301,7 @@
   {
     "id": "297f5ee22ceb5bf2",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "VSEC",
@@ -324,7 +324,7 @@
   {
     "id": "9359084a86bd9fe6",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "MPWR",
@@ -347,7 +347,7 @@
   {
     "id": "0c8d35fc145fe96f",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "MCK",
@@ -370,7 +370,7 @@
   {
     "id": "4f195d89f51fe70d",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "LRN",
@@ -393,7 +393,7 @@
   {
     "id": "ab5d748f7d3e0551",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "FCFS",
@@ -416,7 +416,7 @@
   {
     "id": "0822e1c3a21a2081",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "CRS",
@@ -439,7 +439,7 @@
   {
     "id": "ac1c6cb3937f41e0",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "C",
@@ -462,7 +462,7 @@
   {
     "id": "41b7d9e29efeb0de",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "APG",
@@ -485,7 +485,7 @@
   {
     "id": "c5c3b613c73f5d90",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "AMKR",
@@ -508,7 +508,7 @@
   {
     "id": "129766c13ded9307",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "ADBE",
@@ -531,7 +531,7 @@
   {
     "id": "94c7faa629cbb72f",
     "politician": "John Boozman",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "IVW",
@@ -554,7 +554,7 @@
   {
     "id": "2878ea13fe831f4b",
     "politician": "John Boozman",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "SMCI",
@@ -577,7 +577,7 @@
   {
     "id": "9e88d6b6de323c96",
     "politician": "Lindsey Graham",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "BSCQ",
@@ -600,7 +600,7 @@
   {
     "id": "e66589b07159b570",
     "politician": "Angus S King, Jr.",
-    "party": "",
+    "party": "I",
     "state": "",
     "chamber": "senate",
     "ticker": "HON",
@@ -623,7 +623,7 @@
   {
     "id": "7dcdb9f02cc5a4d8",
     "politician": "Angus S King, Jr.",
-    "party": "",
+    "party": "I",
     "state": "",
     "chamber": "senate",
     "ticker": "LLY",
@@ -646,7 +646,7 @@
   {
     "id": "14090d116c19ab27",
     "politician": "Angus S King, Jr.",
-    "party": "",
+    "party": "I",
     "state": "",
     "chamber": "senate",
     "ticker": "CMCSA",
@@ -669,7 +669,7 @@
   {
     "id": "8b61f62343f20a02",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "CAT",
@@ -692,7 +692,7 @@
   {
     "id": "d05131181e6ae1c4",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "LLY",
@@ -715,7 +715,7 @@
   {
     "id": "41574864319c99f5",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "JPM",
@@ -738,7 +738,7 @@
   {
     "id": "568209b26649a87e",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "COF",
@@ -761,7 +761,7 @@
   {
     "id": "c00099c7b40bf28d",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "RTX",
@@ -784,7 +784,7 @@
   {
     "id": "482f63ff7e84b06c",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "GOOGL",
@@ -807,7 +807,7 @@
   {
     "id": "ca2370cfbe5d156c",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "ICE",
@@ -830,7 +830,7 @@
   {
     "id": "0554fc6aa6327702",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "DE",
@@ -853,7 +853,7 @@
   {
     "id": "fbea9cc97a896ad7",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "BSX",
@@ -876,7 +876,7 @@
   {
     "id": "8bfc68cfee25f6e1",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "MSFT",
@@ -899,7 +899,7 @@
   {
     "id": "8860f0aa3f701b38",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "GS",
@@ -922,7 +922,7 @@
   {
     "id": "c4566a427fc38fe3",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "LRCX",
@@ -945,7 +945,7 @@
   {
     "id": "2c644c656da6b562",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "KO",
@@ -968,7 +968,7 @@
   {
     "id": "dfdc006bb62baa34",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "AMZN",
@@ -991,7 +991,7 @@
   {
     "id": "988d1dcf55c91221",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "NVDA",
@@ -1014,7 +1014,7 @@
   {
     "id": "5d269ea32b233f4d",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "CRM",
@@ -1037,7 +1037,7 @@
   {
     "id": "736e52d87c1b0b23",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "IQV",
@@ -1060,7 +1060,7 @@
   {
     "id": "2703a69f0a1a5b48",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "ELV",
@@ -1083,7 +1083,7 @@
   {
     "id": "1255764fbc03877a",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "AXP",
@@ -1106,7 +1106,7 @@
   {
     "id": "10921c1c1ee9f86d",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "CVX",
@@ -1129,7 +1129,7 @@
   {
     "id": "7e5111e1e14d1a00",
     "politician": "Markwayne Mullin",
-    "party": "",
+    "party": "R",
     "state": "",
     "chamber": "senate",
     "ticker": "AAPL",

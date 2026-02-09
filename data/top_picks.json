@@ -12,13 +12,13 @@
     "politicians": [
       {
         "name": "John Boozman",
-        "party": "",
+        "party": "R",
         "tx_date": "2025-12-17",
         "win_rate": 51.9
       },
       {
         "name": "Markwayne Mullin",
-        "party": "",
+        "party": "R",
         "tx_date": "2025-12-29",
         "win_rate": 50.8
       }
@@ -37,13 +37,13 @@
     "politicians": [
       {
         "name": "John Boozman",
-        "party": "",
+        "party": "R",
         "tx_date": "2025-12-17",
         "win_rate": 51.9
       },
       {
         "name": "Markwayne Mullin",
-        "party": "",
+        "party": "R",
         "tx_date": "2025-12-29",
         "win_rate": 50.8
       }
@@ -62,13 +62,13 @@
     "politicians": [
       {
         "name": "Angus S King, Jr.",
-        "party": "",
+        "party": "I",
         "tx_date": "2025-12-29",
         "win_rate": 33.3
       },
       {
         "name": "Markwayne Mullin",
-        "party": "",
+        "party": "R",
         "tx_date": "2025-12-29",
         "win_rate": 50.8
       }
