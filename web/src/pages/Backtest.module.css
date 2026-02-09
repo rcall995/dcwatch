@@ -69,6 +69,15 @@
   letter-spacing: 0.04em;
 }
 
+/* Toggle row */
+.toggleRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
 /* Window toggle (segmented control) */
 .windowToggle {
   display: inline-flex;
@@ -77,7 +86,71 @@
   border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
   border-radius: var(--radius, 8px);
   padding: 3px;
+}
+
+/* Info button */
+.infoBtn {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.82rem;
+  font-family: inherit;
+  background: var(--bg-card);
+  color: var(--accent);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius, 8px);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.infoBtn:hover {
+  background: var(--bg-card-hover);
+}
+
+/* Info panel */
+.infoPanel {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius-lg, 12px);
+  padding: 1.25rem 1.5rem;
   margin-bottom: 1.5rem;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.infoBold {
+  font-weight: 600;
+  color: var(--text-heading, var(--text));
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.infoText {
+  font-size: 0.85rem;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.infoList {
+  margin: 0.4rem 0 0 1.25rem;
+  padding: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.infoList li {
+  margin-bottom: 0.2rem;
+}
+
+.infoList strong {
+  color: var(--text);
+}
+
+.infoMuted {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 1rem;
+  opacity: 0.7;
 }
 
 .windowBtn {

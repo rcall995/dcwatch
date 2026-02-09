@@ -9,6 +9,7 @@ import {
   ResponsiveContainer,
   CartesianGrid,
   Legend,
+  Cell,
 } from "recharts";
 import { useBacktest } from "@/hooks/useTradeData";
 import { formatDate, formatReturn } from "@/utils/format";
@@ -75,6 +76,7 @@ function Backtest() {
   const { data, isLoading, error } = useBacktest();
   const [window, setWindow] = useState<Window>("current");
   const [showTable, setShowTable] = useState(false);
+  const [showInfo, setShowInfo] = useState(false);
   const [sortField, setSortField] = useState<SortField>("copycat_return");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
 
@@ -216,18 +218,57 @@ function Backtest() {
             </div>
           </div>
 
-          {/* Window toggle */}
-          <div className={styles.windowToggle}>
-            {(["current", "30d", "90d"] as Window[]).map((w) => (
-              <button
-                key={w}
-                className={`${styles.windowBtn} ${window === w ? styles.windowBtnActive : ""}`}
-                onClick={() => setWindow(w)}
-              >
-                {windowLabel(w)}
-              </button>
-            ))}
+          {/* Window toggle + info button */}
+          <div className={styles.toggleRow}>
+            <div className={styles.windowToggle}>
+              {(["current", "30d", "90d"] as Window[]).map((w) => (
+                <button
+                  key={w}
+                  className={`${styles.windowBtn} ${window === w ? styles.windowBtnActive : ""}`}
+                  onClick={() => setWindow(w)}
+                >
+                  {windowLabel(w)}
+                </button>
+              ))}
+            </div>
+            <button
+              className={styles.infoBtn}
+              onClick={() => setShowInfo(!showInfo)}
+            >
+              {showInfo ? "Hide info" : "What this shows"}
+            </button>
           </div>
+
+          {showInfo && (
+            <div className={styles.infoPanel}>
+              <p className={styles.infoBold}>
+                The copycat strategy simulates: "A politician bought stock X on date A, the public found out on date B -- what if you bought on date B?"
+              </p>
+              <p className={styles.infoText}>For each of the {data.total_trades_analyzed} purchase trades:</p>
+              <ul className={styles.infoList}>
+                <li><strong>Buy price</strong> = stock price on the disclosure date (when the filing became public)</li>
+                <li><strong>Returns</strong> = how that stock performed after you bought it (30 days, 90 days, or hold to now)</li>
+                <li><strong>vs SPY</strong> = compared against just buying the S&P 500 index on the same day</li>
+              </ul>
+              <p className={styles.infoText}>Key takeaways:</p>
+              <ul className={styles.infoList}>
+                <li><strong>Best window:</strong> {(() => {
+                  const windows = [
+                    { label: "30-day hold", stats: data.strategy_summary["30d"] },
+                    { label: "90-day hold", stats: data.strategy_summary["90d"] },
+                    { label: "Hold to now", stats: data.strategy_summary.current },
+                  ];
+                  const best = windows.reduce((a, b) => a.stats.avg_return > b.stats.avg_return ? a : b);
+                  return `${best.label} is the sweet spot at ${fmtPct(best.stats.avg_return)} avg return, ${best.stats.win_rate}% win rate`;
+                })()}</li>
+                <li><strong>Alpha:</strong> {fmtPct(data.vs_benchmark.current.alpha)} over SPY on hold-to-now -- copying politicians {data.vs_benchmark.current.alpha > 1 ? "meaningfully beats" : "barely edges out"} the market</li>
+                <li><strong>Timing cost:</strong> {fmtPct(data.politician_vs_copycat.avg_timing_cost)} on average -- stocks moved between when politicians traded and when you'd find out, hurting you in {data.politician_vs_copycat.pct_where_delay_hurt.toFixed(0)}% of cases</li>
+              </ul>
+              <p className={styles.infoMuted}>
+                Data last updated: {formatDate(data.generated_at.split("T")[0])}
+              </p>
+            </div>
+          )}
 
           {/* Insight cards */}
           <div className={styles.insightGrid}>
@@ -293,7 +334,7 @@ function Backtest() {
                   <Tooltip content={<ChartTooltip />} />
                   <Bar dataKey="win_rate" name="Win Rate" radius={[4, 4, 0, 0]}>
                     {partyData.map((entry, i) => (
-                      <rect key={i} fill={entry.fill} />
+                      <Cell key={i} fill={entry.fill} />
                     ))}
                   </Bar>
                 </BarChart>
