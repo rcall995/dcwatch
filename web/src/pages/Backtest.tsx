@@ -184,6 +184,17 @@ function Backtest() {
         <p className={styles.subtitle}>
           What if you bought when politicians disclosed their trades?
         </p>
+        {data && data.total_trades_analyzed > 0 && (
+          <div className={styles.dateMeta}>
+            <span>Latest trade: <strong>{formatDate(
+              data.individual_trades.reduce((latest, t) =>
+                t.tx_date > latest ? t.tx_date : latest, ""
+              )
+            )}</strong></span>
+            <span className={styles.dateSep}>|</span>
+            <span>Data updated: <strong>{formatDate(data.generated_at.split("T")[0])}</strong></span>
+          </div>
+        )}
       </div>
 
       {isLoading && <LoadingSpinner message="Loading backtest results..." />}
@@ -265,7 +276,7 @@ function Backtest() {
                 <li><strong>Timing cost:</strong> {fmtPct(data.politician_vs_copycat.avg_timing_cost)} on average -- stocks moved between when politicians traded and when you'd find out, hurting you in {data.politician_vs_copycat.pct_where_delay_hurt.toFixed(0)}% of cases</li>
               </ul>
               <p className={styles.infoMuted}>
-                Data last updated: {formatDate(data.generated_at.split("T")[0])}
+                Not financial advice. Past performance does not guarantee future results.
               </p>
             </div>
           )}

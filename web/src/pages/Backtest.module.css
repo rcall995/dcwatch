@@ -18,6 +18,23 @@
   margin-top: 0.25rem;
 }
 
+.dateMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.dateMeta strong {
+  color: var(--text);
+}
+
+.dateSep {
+  opacity: 0.3;
+}
+
 .error {
   color: var(--red);
   text-align: center;
