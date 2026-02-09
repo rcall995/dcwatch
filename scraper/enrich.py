@@ -744,8 +744,12 @@ def run() -> None:
     except OSError as exc:
         log.error("Could not write summary.json: %s", exc)
 
-    # Build latest (most recent 50 trades with tickers)
-    latest = [t for t in trades if t.get("ticker")][:50]
+    # Build latest (most recent 50 trades with tickers, sorted by date desc)
+    latest = sorted(
+        [t for t in trades if t.get("ticker")],
+        key=lambda t: t.get("tx_date", ""),
+        reverse=True,
+    )[:50]
     try:
         with open(LATEST_JSON, "w", encoding="utf-8") as f:
             json.dump(latest, f, indent=2, default=str)
