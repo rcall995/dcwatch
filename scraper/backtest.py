@@ -138,6 +138,18 @@ def fetch_prices_for_dates(ticker: str, dates: list[str]) -> dict[str, float | N
     # Flatten to Series if DataFrame
     if hasattr(close_data, "columns"):
         close_data = close_data.squeeze()
+
+    # Handle scalar (single value) case
+    import numpy as np
+    if isinstance(close_data, (float, int, np.floating, np.integer)):
+        # Single value - try to get its date from the index
+        for d in uncached:
+            if d not in results:
+                results[d] = round(float(close_data), 2)
+                cache[d] = round(float(close_data), 2)
+        _save_price_cache(ticker, cache)
+        return results
+
     if hasattr(close_data, "empty") and close_data.empty:
         for d in uncached:
             if d not in results:
@@ -288,6 +300,26 @@ def run_backtest() -> None:
         trades = json.load(f)
 
     log.info("Loaded %d trades", len(trades))
+
+    # Estimate disclosure_date where missing: tx_date + days_late, or tx_date + 30 days
+    estimated_count = 0
+    for t in trades:
+        if not t.get("disclosure_date") and t.get("tx_date"):
+            try:
+                tx_dt = date.fromisoformat(t["tx_date"])
+                delay = t.get("days_late", 0)
+                if delay and delay > 0:
+                    disc_dt = tx_dt + timedelta(days=delay + 45)
+                else:
+                    disc_dt = tx_dt + timedelta(days=30)  # median reporting delay
+                t["disclosure_date"] = disc_dt.isoformat()
+                t["disclosure_date_estimated"] = True
+                estimated_count += 1
+            except ValueError:
+                pass
+
+    if estimated_count:
+        log.info("Estimated disclosure_date for %d trades (tx_date + 30d default)", estimated_count)
 
     # Filter to purchases with required fields
     eligible = [
@@ -440,7 +472,7 @@ def run_backtest() -> None:
             "asset_description": t.get("asset_description", ""),
             "tx_date": tx_date,
             "disclosure_date": disclosure_date,
-            "days_late": t.get("days_late", 0),
+            "days_late": t.get("days_late") or max(0, (date.fromisoformat(disclosure_date) - date.fromisoformat(tx_date)).days),
             "amount_low": t.get("amount_low", 0),
             "amount_high": t.get("amount_high", 0),
             "price_at_trade": price_at_trade,
