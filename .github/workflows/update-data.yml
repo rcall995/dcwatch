@@ -67,6 +67,23 @@ jobs:
       - name: Build database
         run: python scraper/build_db.py
 
+      # ── 8b. Fetch committee data ─────────────────────────────
+      - name: Fetch committee data
+        continue-on-error: true
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: python scraper/fetch_committees.py
+
+      # ── 8c. Build committee correlations ─────────────────────
+      - name: Build committee correlations
+        continue-on-error: true
+        run: python scraper/build_correlations.py
+
+      # ── 8d. Run copycat strategy backtest ──────────────────
+      - name: Run backtest
+        continue-on-error: true
+        run: python scraper/backtest.py
+
       # ── 9. Copy data to web/public/data/ for frontend ────────
       - name: Copy data to frontend
         run: |
@@ -75,6 +92,10 @@ jobs:
           cp data/latest.json web/public/data/latest.json
           cp data/signals.json web/public/data/signals.json
           cp data/top_picks.json web/public/data/top_picks.json
+          cp -f data/committees.json web/public/data/committees.json 2>/dev/null || true
+          cp -f data/committee_correlations.json web/public/data/committee_correlations.json 2>/dev/null || true
+          cp -f data/hearings.json web/public/data/hearings.json 2>/dev/null || true
+          cp -f data/backtest_results.json web/public/data/backtest_results.json 2>/dev/null || true
 
       # ── 10. Check for changes ────────────────────────────────
       - name: Check for data changes

@@ -19,9 +19,17 @@ function NavBar() {
         <span className={styles.icon}>&#9889;</span>
         <span className={styles.label}>Signals</span>
       </NavLink>
+      <NavLink to="/committees" className={linkClass}>
+        <span className={styles.icon}>&#9878;</span>
+        <span className={styles.label}>Committees</span>
+      </NavLink>
       <NavLink to="/portfolio" className={linkClass}>
         <span className={styles.icon}>&#128188;</span>
         <span className={styles.label}>Portfolio</span>
+      </NavLink>
+      <NavLink to="/backtest" className={linkClass}>
+        <span className={styles.icon}>&#128200;</span>
+        <span className={styles.label}>Backtest</span>
       </NavLink>
       <NavLink to="/search" className={linkClass}>
         <span className={styles.icon}>&#128269;</span>

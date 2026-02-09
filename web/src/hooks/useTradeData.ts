@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import type { Trade, PoliticianSummary, Signal, TopPick } from "@/types";
+import type { Trade, PoliticianSummary, Signal, TopPick, CommitteeCorrelationsData, CommitteesData, HearingsData, BacktestData } from "@/types";
 
 /**
  * Base URL for data files.
@@ -96,5 +96,49 @@ export function usePoliticianTrades(name: string) {
     enabled: !!tradesQuery.data && !!name,
     staleTime: 15 * 60 * 1000,
     gcTime: 60 * 60 * 1000,
+  });
+}
+
+/**
+ * Fetch committee correlation data.
+ */
+export function useCommitteeCorrelations() {
+  return useQuery<CommitteeCorrelationsData>({
+    queryKey: ["committeeCorrelations"],
+    queryFn: () => fetchJson<CommitteeCorrelationsData>("committee_correlations.json"),
+    staleTime: 10 * 60 * 1000,
+  });
+}
+
+/**
+ * Fetch committee membership data.
+ */
+export function useCommittees() {
+  return useQuery<CommitteesData>({
+    queryKey: ["committees"],
+    queryFn: () => fetchJson<CommitteesData>("committees.json"),
+    staleTime: 10 * 60 * 1000,
+  });
+}
+
+/**
+ * Fetch upcoming committee hearings.
+ */
+export function useHearings() {
+  return useQuery<HearingsData>({
+    queryKey: ["hearings"],
+    queryFn: () => fetchJson<HearingsData>("hearings.json"),
+    staleTime: 10 * 60 * 1000,
+  });
+}
+
+/**
+ * Fetch backtest results (copycat strategy analysis).
+ */
+export function useBacktest() {
+  return useQuery<BacktestData>({
+    queryKey: ["backtest"],
+    queryFn: () => fetchJson<BacktestData>("backtest_results.json"),
+    staleTime: 10 * 60 * 1000,
   });
 }

@@ -1,0 +1,362 @@
+.page {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-heading, var(--text));
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.error {
+  color: var(--red);
+  text-align: center;
+  padding: 2rem;
+}
+
+.empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted);
+}
+
+.emptyHint {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  opacity: 0.7;
+}
+
+/* Summary bar */
+.summaryBar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.summaryItem {
+  flex: 1;
+  min-width: 120px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius-lg, 12px);
+  padding: 1rem;
+  text-align: center;
+}
+
+.summaryValue {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-family: var(--font-mono, monospace);
+}
+
+.summaryLabel {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Window toggle (segmented control) */
+.windowToggle {
+  display: inline-flex;
+  gap: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius, 8px);
+  padding: 3px;
+  margin-bottom: 1.5rem;
+}
+
+.windowBtn {
+  padding: 0.4rem 1rem;
+  font-size: 0.82rem;
+  font-family: inherit;
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.windowBtn:hover {
+  color: var(--text);
+}
+
+.windowBtnActive {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Insight cards */
+.insightGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.insightCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius-lg, 12px);
+  padding: 1.25rem;
+}
+
+.insightTitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-heading, var(--text));
+  margin-bottom: 0.75rem;
+}
+
+.insightStat {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.insightStatValue {
+  font-family: var(--font-mono, monospace);
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* Charts */
+.chartGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.chartCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius-lg, 12px);
+  padding: 1.25rem;
+}
+
+.chartTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-heading, var(--text));
+  margin-bottom: 1rem;
+}
+
+/* Breakdowns section */
+.sectionTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-heading, var(--text));
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.breakdownGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.breakdownCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius-lg, 12px);
+  padding: 1rem;
+  text-align: center;
+}
+
+.breakdownLabel {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.breakdownValue {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: var(--font-mono, monospace);
+}
+
+.breakdownSub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+/* Top/Worst trades */
+.tradesSection {
+  margin-bottom: 1.5rem;
+}
+
+.tradesList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tradeRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+  border-radius: var(--radius, 8px);
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.tradeRow:hover {
+  background: var(--bg-card-hover);
+}
+
+.tradeTicker {
+  font-family: var(--font-mono, monospace);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--accent);
+  min-width: 60px;
+}
+
+.tradePolitician {
+  flex: 1;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.tradeReturn {
+  font-family: var(--font-mono, monospace);
+  font-weight: 600;
+  font-size: 0.9rem;
+  min-width: 70px;
+  text-align: right;
+}
+
+.tradeAlpha {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.8rem;
+  min-width: 60px;
+  text-align: right;
+  color: var(--text-muted);
+}
+
+.partyDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Full trade table */
+.tableToggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  margin-top: 1rem;
+}
+
+.tableToggle:hover {
+  text-decoration: underline;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.table th {
+  text-align: left;
+  padding: 0.6rem 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.08));
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+
+.table th:hover {
+  color: var(--text);
+}
+
+.table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.03));
+  white-space: nowrap;
+}
+
+.table tr:hover td {
+  background: var(--bg-card-hover, rgba(255, 255, 255, 0.02));
+}
+
+.textGreen {
+  color: var(--green, #00c853);
+}
+
+.textRed {
+  color: var(--red, #ff1744);
+}
+
+.textMuted {
+  color: var(--text-muted);
+}
+
+/* Recharts tooltip override */
+.customTooltip {
+  background: var(--bg-card, #1a1a2e);
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 0.82rem;
+}
+
+.tooltipLabel {
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.3rem;
+}
+
+.tooltipValue {
+  color: var(--text-muted);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}

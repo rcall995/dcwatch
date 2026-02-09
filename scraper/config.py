@@ -29,6 +29,15 @@ SIGNALS_JSON = DATA_DIR / "signals.json"
 TOP_PICKS_JSON = DATA_DIR / "top_picks.json"
 DB_PATH = DATA_DIR / "dc-watcher.db"
 
+# Committee correlation
+COMMITTEES_JSON = DATA_DIR / "committees.json"
+COMMITTEE_CORRELATIONS_JSON = DATA_DIR / "committee_correlations.json"
+HEARINGS_JSON = DATA_DIR / "hearings.json"
+NAME_MATCHES_JSON = DATA_DIR / "name_matches.json"
+
+# Backtest
+BACKTEST_JSON = DATA_DIR / "backtest_results.json"
+
 # Enrichment
 PRICE_CACHE_DIR = DATA_DIR / "price_cache"
 PRICE_CACHE_DIR.mkdir(exist_ok=True)

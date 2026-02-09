@@ -1,0 +1,66 @@
+{
+  "generated_at": "2025-06-01T12:00:00",
+  "total_trades_analyzed": 20,
+  "strategy_summary": {
+    "current": { "count": 20, "win_rate": 65.0, "avg_return": 8.42, "median_return": 5.10 },
+    "30d": { "count": 18, "win_rate": 55.6, "avg_return": 2.31, "median_return": 1.80 },
+    "90d": { "count": 15, "win_rate": 60.0, "avg_return": 5.67, "median_return": 4.20 }
+  },
+  "vs_benchmark": {
+    "current": { "copycat_avg": 8.42, "spy_avg": 6.10, "alpha": 2.32, "beat_spy_pct": 55.0 },
+    "30d": { "copycat_avg": 2.31, "spy_avg": 1.80, "alpha": 0.51, "beat_spy_pct": 50.0 },
+    "90d": { "copycat_avg": 5.67, "spy_avg": 4.20, "alpha": 1.47, "beat_spy_pct": 53.3 }
+  },
+  "politician_vs_copycat": {
+    "avg_politician_return": 12.50,
+    "avg_copycat_return": 8.42,
+    "avg_timing_cost": 3.15,
+    "pct_where_delay_hurt": 62.0
+  },
+  "by_party": {
+    "D": { "count": 10, "win_rate": 60.0, "avg_return": 7.20, "median_return": 4.50 },
+    "R": { "count": 10, "win_rate": 70.0, "avg_return": 9.64, "median_return": 6.10 }
+  },
+  "by_amount": {
+    "small": { "count": 8, "win_rate": 62.5, "avg_return": 6.80, "median_return": 4.20 },
+    "medium": { "count": 7, "win_rate": 71.4, "avg_return": 10.30, "median_return": 7.50 },
+    "large": { "count": 5, "win_rate": 60.0, "avg_return": 9.10, "median_return": 5.80 }
+  },
+  "by_year": [
+    { "year": 2023, "count": 8, "win_rate": 62.5, "avg_return": 7.80, "median_return": 5.20 },
+    { "year": 2024, "count": 7, "win_rate": 57.1, "avg_return": 6.40, "median_return": 4.10 },
+    { "year": 2025, "count": 5, "win_rate": 80.0, "avg_return": 12.60, "median_return": 9.30 }
+  ],
+  "by_days_late": [
+    { "bucket": "0-15d", "count": 5, "win_rate": 80.0, "avg_return": 11.20, "median_return": 8.50 },
+    { "bucket": "16-30d", "count": 8, "win_rate": 62.5, "avg_return": 7.80, "median_return": 5.10 },
+    { "bucket": "31-45d", "count": 4, "win_rate": 50.0, "avg_return": 5.20, "median_return": 3.40 },
+    { "bucket": "45d+", "count": 3, "win_rate": 33.3, "avg_return": 2.10, "median_return": 0.80 }
+  ],
+  "top_trades": {
+    "best": [
+      { "id": "abc123", "politician": "Nancy Pelosi", "party": "D", "ticker": "NVDA", "tx_date": "2024-01-15", "disclosure_date": "2024-02-01", "days_late": 17, "price_at_trade": 480.50, "price_at_disclosure": 615.20, "current_price": 890.30, "copycat_return_current": 44.72, "spy_return_current": 12.30, "alpha_current": 32.42, "timing_cost": 28.03 },
+      { "id": "def456", "politician": "Dan Crenshaw", "party": "R", "ticker": "MSFT", "tx_date": "2024-03-10", "disclosure_date": "2024-03-25", "days_late": 15, "price_at_trade": 410.20, "price_at_disclosure": 425.80, "current_price": 520.10, "copycat_return_current": 22.13, "spy_return_current": 8.50, "alpha_current": 13.63, "timing_cost": 3.80 },
+      { "id": "ghi789", "politician": "Tommy Tuberville", "party": "R", "ticker": "AAPL", "tx_date": "2023-11-20", "disclosure_date": "2023-12-15", "days_late": 25, "price_at_trade": 175.60, "price_at_disclosure": 195.20, "current_price": 230.40, "copycat_return_current": 18.03, "spy_return_current": 10.20, "alpha_current": 7.83, "timing_cost": 11.16 },
+      { "id": "jkl012", "politician": "Mark Green", "party": "R", "ticker": "AMZN", "tx_date": "2024-02-05", "disclosure_date": "2024-02-28", "days_late": 23, "price_at_trade": 155.30, "price_at_disclosure": 172.40, "current_price": 198.50, "copycat_return_current": 15.14, "spy_return_current": 9.80, "alpha_current": 5.34, "timing_cost": 11.01 },
+      { "id": "mno345", "politician": "Josh Gottheimer", "party": "D", "ticker": "GOOGL", "tx_date": "2024-01-22", "disclosure_date": "2024-02-10", "days_late": 19, "price_at_trade": 141.20, "price_at_disclosure": 148.90, "current_price": 170.50, "copycat_return_current": 14.51, "spy_return_current": 11.40, "alpha_current": 3.11, "timing_cost": 5.45 }
+    ],
+    "worst": [
+      { "id": "pqr678", "politician": "Virginia Foxx", "party": "R", "ticker": "INTC", "tx_date": "2024-04-10", "disclosure_date": "2024-05-01", "days_late": 21, "price_at_trade": 36.80, "price_at_disclosure": 31.20, "current_price": 22.50, "copycat_return_current": -27.88, "spy_return_current": 7.20, "alpha_current": -35.08, "timing_cost": -15.22 },
+      { "id": "stu901", "politician": "Ro Khanna", "party": "D", "ticker": "MRNA", "tx_date": "2024-02-15", "disclosure_date": "2024-03-05", "days_late": 19, "price_at_trade": 98.50, "price_at_disclosure": 102.30, "current_price": 78.20, "copycat_return_current": -23.56, "spy_return_current": 8.90, "alpha_current": -32.46, "timing_cost": 3.86 },
+      { "id": "vwx234", "politician": "Markwayne Mullin", "party": "R", "ticker": "DIS", "tx_date": "2023-12-01", "disclosure_date": "2024-01-10", "days_late": 40, "price_at_trade": 92.40, "price_at_disclosure": 95.80, "current_price": 80.10, "copycat_return_current": -16.39, "spy_return_current": 12.10, "alpha_current": -28.49, "timing_cost": 3.68 },
+      { "id": "yza567", "politician": "Michael McCaul", "party": "R", "ticker": "BA", "tx_date": "2024-01-08", "disclosure_date": "2024-02-05", "days_late": 28, "price_at_trade": 215.30, "price_at_disclosure": 205.10, "current_price": 178.40, "copycat_return_current": -13.02, "spy_return_current": 9.50, "alpha_current": -22.52, "timing_cost": -4.74 },
+      { "id": "bcd890", "politician": "Debbie Wasserman Schultz", "party": "D", "ticker": "PYPL", "tx_date": "2024-03-20", "disclosure_date": "2024-04-15", "days_late": 26, "price_at_trade": 62.80, "price_at_disclosure": 65.40, "current_price": 58.90, "copycat_return_current": -9.94, "spy_return_current": 6.80, "alpha_current": -16.74, "timing_cost": 4.14 }
+    ]
+  },
+  "individual_trades": [
+    { "id": "abc123", "politician": "Nancy Pelosi", "party": "D", "ticker": "NVDA", "asset_description": "NVIDIA Corporation", "tx_date": "2024-01-15", "disclosure_date": "2024-02-01", "days_late": 17, "amount_low": 250001, "amount_high": 500000, "price_at_trade": 480.50, "price_at_disclosure": 615.20, "price_30d": 680.10, "price_90d": 820.40, "current_price": 890.30, "politician_return": 85.28, "copycat_return_current": 44.72, "copycat_return_30d": 10.55, "copycat_return_90d": 33.36, "spy_return_current": 12.30, "spy_return_30d": 3.20, "spy_return_90d": 8.50, "alpha_current": 32.42, "alpha_30d": 7.35, "alpha_90d": 24.86, "timing_cost": 28.03 },
+    { "id": "def456", "politician": "Dan Crenshaw", "party": "R", "ticker": "MSFT", "asset_description": "Microsoft Corporation", "tx_date": "2024-03-10", "disclosure_date": "2024-03-25", "days_late": 15, "amount_low": 50001, "amount_high": 100000, "price_at_trade": 410.20, "price_at_disclosure": 425.80, "price_30d": 440.10, "price_90d": 475.30, "current_price": 520.10, "politician_return": 26.78, "copycat_return_current": 22.13, "copycat_return_30d": 3.36, "copycat_return_90d": 11.62, "spy_return_current": 8.50, "spy_return_30d": 2.10, "spy_return_90d": 5.80, "alpha_current": 13.63, "alpha_30d": 1.26, "alpha_90d": 5.82, "timing_cost": 3.80 },
+    { "id": "ghi789", "politician": "Tommy Tuberville", "party": "R", "ticker": "AAPL", "asset_description": "Apple Inc.", "tx_date": "2023-11-20", "disclosure_date": "2023-12-15", "days_late": 25, "amount_low": 100001, "amount_high": 250000, "price_at_trade": 175.60, "price_at_disclosure": 195.20, "price_30d": 188.40, "price_90d": 210.80, "current_price": 230.40, "politician_return": 31.21, "copycat_return_current": 18.03, "copycat_return_30d": -3.48, "copycat_return_90d": 7.99, "spy_return_current": 10.20, "spy_return_30d": 1.50, "spy_return_90d": 5.40, "alpha_current": 7.83, "alpha_30d": -4.98, "alpha_90d": 2.59, "timing_cost": 11.16 },
+    { "id": "jkl012", "politician": "Mark Green", "party": "R", "ticker": "AMZN", "asset_description": "Amazon.com Inc.", "tx_date": "2024-02-05", "disclosure_date": "2024-02-28", "days_late": 23, "amount_low": 15001, "amount_high": 50000, "price_at_trade": 155.30, "price_at_disclosure": 172.40, "price_30d": 178.50, "price_90d": 186.20, "current_price": 198.50, "politician_return": 27.82, "copycat_return_current": 15.14, "copycat_return_30d": 3.54, "copycat_return_90d": 8.00, "spy_return_current": 9.80, "spy_return_30d": 2.40, "spy_return_90d": 6.10, "alpha_current": 5.34, "alpha_30d": 1.14, "alpha_90d": 1.90, "timing_cost": 11.01 },
+    { "id": "mno345", "politician": "Josh Gottheimer", "party": "D", "ticker": "GOOGL", "asset_description": "Alphabet Inc.", "tx_date": "2024-01-22", "disclosure_date": "2024-02-10", "days_late": 19, "amount_low": 50001, "amount_high": 100000, "price_at_trade": 141.20, "price_at_disclosure": 148.90, "price_30d": 152.10, "price_90d": 160.80, "current_price": 170.50, "politician_return": 20.75, "copycat_return_current": 14.51, "copycat_return_30d": 2.15, "copycat_return_90d": 7.99, "spy_return_current": 11.40, "spy_return_30d": 2.80, "spy_return_90d": 7.10, "alpha_current": 3.11, "alpha_30d": -0.65, "alpha_90d": 0.89, "timing_cost": 5.45 },
+    { "id": "pqr678", "politician": "Virginia Foxx", "party": "R", "ticker": "INTC", "asset_description": "Intel Corporation", "tx_date": "2024-04-10", "disclosure_date": "2024-05-01", "days_late": 21, "amount_low": 1001, "amount_high": 15000, "price_at_trade": 36.80, "price_at_disclosure": 31.20, "price_30d": 28.50, "price_90d": 25.10, "current_price": 22.50, "politician_return": -38.86, "copycat_return_current": -27.88, "copycat_return_30d": -8.65, "copycat_return_90d": -19.55, "spy_return_current": 7.20, "spy_return_30d": 1.80, "spy_return_90d": 4.50, "alpha_current": -35.08, "alpha_30d": -10.45, "alpha_90d": -24.05, "timing_cost": -15.22 },
+    { "id": "stu901", "politician": "Ro Khanna", "party": "D", "ticker": "MRNA", "asset_description": "Moderna Inc.", "tx_date": "2024-02-15", "disclosure_date": "2024-03-05", "days_late": 19, "amount_low": 15001, "amount_high": 50000, "price_at_trade": 98.50, "price_at_disclosure": 102.30, "price_30d": 95.40, "price_90d": 85.60, "current_price": 78.20, "politician_return": -20.61, "copycat_return_current": -23.56, "copycat_return_30d": -6.74, "copycat_return_90d": -16.32, "spy_return_current": 8.90, "spy_return_30d": 2.10, "spy_return_90d": 5.80, "alpha_current": -32.46, "alpha_30d": -8.84, "alpha_90d": -22.12, "timing_cost": 3.86 },
+    { "id": "vwx234", "politician": "Markwayne Mullin", "party": "R", "ticker": "DIS", "asset_description": "Walt Disney Company", "tx_date": "2023-12-01", "disclosure_date": "2024-01-10", "days_late": 40, "amount_low": 50001, "amount_high": 100000, "price_at_trade": 92.40, "price_at_disclosure": 95.80, "price_30d": 94.20, "price_90d": 88.50, "current_price": 80.10, "politician_return": -13.31, "copycat_return_current": -16.39, "copycat_return_30d": -1.67, "copycat_return_90d": -7.62, "spy_return_current": 12.10, "spy_return_30d": 3.50, "spy_return_90d": 8.20, "alpha_current": -28.49, "alpha_30d": -5.17, "alpha_90d": -15.82, "timing_cost": 3.68 }
+  ]
+}

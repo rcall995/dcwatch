@@ -10,6 +10,8 @@ import Search from "@/pages/Search";
 import About from "@/pages/About";
 import Signals from "@/pages/Signals";
 import MockPortfolio from "@/pages/MockPortfolio";
+import Committees from "@/pages/Committees";
+import Backtest from "@/pages/Backtest";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -35,7 +37,9 @@ function App() {
             <Route path="/search" element={<Search />} />
             <Route path="/about" element={<About />} />
             <Route path="/signals" element={<Signals />} />
+            <Route path="/committees" element={<Committees />} />
             <Route path="/portfolio" element={<MockPortfolio />} />
+            <Route path="/backtest" element={<Backtest />} />
           </Routes>
         </Layout>
         <NavBar />
