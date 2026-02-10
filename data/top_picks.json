@@ -2,19 +2,19 @@
   {
     "ticker": "MSFT",
     "company_name": "Microsoft Corp",
-    "score": 13.1,
+    "score": 12.9,
     "num_politicians": 2,
     "bipartisan": false,
-    "avg_win_rate": 51.3,
+    "avg_win_rate": 49.5,
     "latest_trade_date": "2025-12-29",
     "price_at_latest": 487.1,
-    "current_price": 401.14,
+    "current_price": 413.6,
     "politicians": [
       {
         "name": "John Boozman",
         "party": "R",
         "tx_date": "2025-12-17",
-        "win_rate": 51.9
+        "win_rate": 48.1
       },
       {
         "name": "Markwayne Mullin",
@@ -27,19 +27,19 @@
   {
     "ticker": "AAPL",
     "company_name": "Apple Inc",
-    "score": 13.1,
+    "score": 12.9,
     "num_politicians": 2,
     "bipartisan": false,
-    "avg_win_rate": 51.3,
+    "avg_win_rate": 49.5,
     "latest_trade_date": "2025-12-29",
     "price_at_latest": 273.76,
-    "current_price": 278.12,
+    "current_price": 274.62,
     "politicians": [
       {
         "name": "John Boozman",
         "party": "R",
         "tx_date": "2025-12-17",
-        "win_rate": 51.9
+        "win_rate": 48.1
       },
       {
         "name": "Markwayne Mullin",
@@ -58,7 +58,7 @@
     "avg_win_rate": 42.0,
     "latest_trade_date": "2025-12-29",
     "price_at_latest": 1078.73,
-    "current_price": 1058.18,
+    "current_price": 1044.67,
     "politicians": [
       {
         "name": "Angus S King, Jr.",
