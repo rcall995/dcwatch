@@ -2,13 +2,13 @@
   {
     "ticker": "MSFT",
     "company_name": "Microsoft Corp",
-    "score": 12.6,
+    "score": 12.3,
     "num_politicians": 2,
     "bipartisan": false,
-    "avg_win_rate": 46.0,
+    "avg_win_rate": 43.5,
     "latest_trade_date": "2025-12-29",
     "price_at_latest": 487.1,
-    "current_price": 413.27,
+    "current_price": 404.37,
     "politicians": [
       {
         "name": "John Boozman",
@@ -20,20 +20,20 @@
         "name": "Markwayne Mullin",
         "party": "R",
         "tx_date": "2025-12-29",
-        "win_rate": 45.8
+        "win_rate": 40.7
       }
     ]
   },
   {
     "ticker": "AAPL",
     "company_name": "Apple Inc",
-    "score": 12.6,
+    "score": 12.3,
     "num_politicians": 2,
     "bipartisan": false,
-    "avg_win_rate": 46.0,
+    "avg_win_rate": 43.5,
     "latest_trade_date": "2025-12-29",
     "price_at_latest": 273.76,
-    "current_price": 273.68,
+    "current_price": 275.5,
     "politicians": [
       {
         "name": "John Boozman",
@@ -45,20 +45,20 @@
         "name": "Markwayne Mullin",
         "party": "R",
         "tx_date": "2025-12-29",
-        "win_rate": 45.8
+        "win_rate": 40.7
       }
     ]
   },
   {
     "ticker": "LLY",
     "company_name": "Eli Lilly and Company",
-    "score": 12.0,
+    "score": 11.7,
     "num_politicians": 2,
     "bipartisan": false,
-    "avg_win_rate": 39.5,
+    "avg_win_rate": 37.0,
     "latest_trade_date": "2025-12-29",
     "price_at_latest": 1078.73,
-    "current_price": 1025.0,
+    "current_price": 1015.21,
     "politicians": [
       {
         "name": "Angus S King, Jr.",
@@ -70,7 +70,7 @@
         "name": "Markwayne Mullin",
         "party": "R",
         "tx_date": "2025-12-29",
-        "win_rate": 45.8
+        "win_rate": 40.7
       }
     ]
   }
