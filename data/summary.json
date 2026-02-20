@@ -6,7 +6,7 @@
     "chamber": "senate",
     "total_trades": 2,
     "trades_with_returns": 2,
-    "est_return_1y": 32.1,
+    "est_return_1y": 31.52,
     "win_rate": 100.0,
     "unique_tickers": 2,
     "best_trade": {
@@ -20,7 +20,7 @@
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2025-12-01",
-      "est_return": 4.21,
+      "est_return": 3.05,
       "est_position": 8000
     }
   },
@@ -31,21 +31,21 @@
     "chamber": "senate",
     "total_trades": 23,
     "trades_with_returns": 23,
-    "est_return_1y": 17.51,
+    "est_return_1y": 17.31,
     "win_rate": 73.9,
     "unique_tickers": 12,
     "best_trade": {
       "ticker": "GOOG",
       "tx_type": "purchase",
       "tx_date": "2025-04-14",
-      "est_return": 88.75,
+      "est_return": 88.51,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "UNH",
       "tx_type": "purchase",
       "tx_date": "2025-04-14",
-      "est_return": -49.91,
+      "est_return": -49.61,
       "est_position": 8000
     }
   },
@@ -56,21 +56,21 @@
     "chamber": "senate",
     "total_trades": 6,
     "trades_with_returns": 6,
-    "est_return_1y": 8.37,
+    "est_return_1y": 8.85,
     "win_rate": 83.3,
     "unique_tickers": 6,
     "best_trade": {
       "ticker": "OGN",
       "tx_type": "sale_full",
       "tx_date": "2025-07-10",
-      "est_return": 25.18,
+      "est_return": 24.57,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "INTC",
       "tx_type": "sale_full",
       "tx_date": "2025-12-12",
-      "est_return": -20.23,
+      "est_return": -18.01,
       "est_position": 32500
     }
   },
@@ -81,21 +81,21 @@
     "chamber": "senate",
     "total_trades": 5,
     "trades_with_returns": 5,
-    "est_return_1y": 4.47,
+    "est_return_1y": 4.87,
     "win_rate": 80.0,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "XLP",
       "tx_type": "purchase",
       "tx_date": "2025-12-17",
-      "est_return": 11.41,
+      "est_return": 10.95,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "GOOGL",
       "tx_type": "sale_full",
       "tx_date": "2025-12-17",
-      "est_return": -2.23,
+      "est_return": -2.07,
       "est_position": 8000
     }
   },
@@ -106,21 +106,21 @@
     "chamber": "senate",
     "total_trades": 8,
     "trades_with_returns": 7,
-    "est_return_1y": 2.6,
+    "est_return_1y": 3.38,
     "win_rate": 71.4,
     "unique_tickers": 8,
     "best_trade": {
-      "ticker": "MSFT",
+      "ticker": "PAYX",
       "tx_type": "sale_partial",
-      "tx_date": "2025-12-16",
-      "est_return": 16.12,
+      "tx_date": "2025-11-13",
+      "est_return": 16.55,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "LOW",
       "tx_type": "sale_partial",
       "tx_date": "2025-11-13",
-      "est_return": -22.43,
+      "est_return": -20.72,
       "est_position": 8000
     }
   },
@@ -131,21 +131,21 @@
     "chamber": "senate",
     "total_trades": 7,
     "trades_with_returns": 7,
-    "est_return_1y": 1.79,
+    "est_return_1y": 1.59,
     "win_rate": 42.9,
     "unique_tickers": 7,
     "best_trade": {
       "ticker": "HSY",
       "tx_type": "purchase",
       "tx_date": "2025-11-21",
-      "est_return": 19.38,
+      "est_return": 18.23,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "SBUX",
       "tx_type": "sale_full",
       "tx_date": "2026-01-09",
-      "est_return": -7.74,
+      "est_return": -7.79,
       "est_position": 8000
     }
   },
@@ -156,21 +156,21 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 3,
-    "est_return_1y": 0.92,
+    "est_return_1y": 1.2,
     "win_rate": 33.3,
     "unique_tickers": 3,
     "best_trade": {
       "ticker": "HON",
       "tx_type": "purchase",
       "tx_date": "2025-12-29",
-      "est_return": 22.35,
+      "est_return": 22.16,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "CMCSA",
       "tx_type": "sale_full",
       "tx_date": "2025-12-29",
-      "est_return": -14.2,
+      "est_return": -13.41,
       "est_position": 8000
     }
   },
@@ -181,21 +181,21 @@
     "chamber": "senate",
     "total_trades": 6,
     "trades_with_returns": 6,
-    "est_return_1y": 0.44,
+    "est_return_1y": 0.39,
     "win_rate": 50.0,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "ETN",
       "tx_type": "purchase",
       "tx_date": "2026-01-14",
-      "est_return": 14.87,
+      "est_return": 13.95,
       "est_position": 75000
     },
     "worst_trade": {
       "ticker": "UBER",
       "tx_type": "purchase",
       "tx_date": "2026-01-14",
-      "est_return": -14.03,
+      "est_return": -13.83,
       "est_position": 175000
     }
   },
@@ -213,14 +213,14 @@
       "ticker": "VWUAX",
       "tx_type": "purchase",
       "tx_date": "2025-11-06",
-      "est_return": 2.55,
+      "est_return": 2.36,
       "est_position": 175000
     },
     "worst_trade": {
       "ticker": "VWUSX",
       "tx_type": "sale_full",
       "tx_date": "2025-11-06",
-      "est_return": -2.51,
+      "est_return": -2.33,
       "est_position": 175000
     }
   },
@@ -283,21 +283,21 @@
     "chamber": "senate",
     "total_trades": 79,
     "trades_with_returns": 77,
-    "est_return_1y": -1.2,
-    "win_rate": 49.4,
+    "est_return_1y": -1.6,
+    "win_rate": 48.1,
     "unique_tickers": 52,
     "best_trade": {
       "ticker": "PPLT",
       "tx_type": "sale_full",
       "tx_date": "2026-01-23",
-      "est_return": 24.97,
+      "est_return": 25.29,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "PYPL",
       "tx_type": "purchase",
       "tx_date": "2025-11-21",
-      "est_return": -31.57,
+      "est_return": -31.1,
       "est_position": 8000
     }
   },
@@ -306,23 +306,23 @@
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 66,
-    "trades_with_returns": 59,
-    "est_return_1y": -3.32,
-    "win_rate": 35.6,
-    "unique_tickers": 55,
+    "total_trades": 61,
+    "trades_with_returns": 56,
+    "est_return_1y": -2.88,
+    "win_rate": 39.3,
+    "unique_tickers": 51,
     "best_trade": {
-      "ticker": "AMAT",
+      "ticker": "DE",
       "tx_type": "purchase",
       "tx_date": "2025-12-29",
-      "est_return": 40.39,
+      "est_return": 41.27,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "INTU",
       "tx_type": "purchase",
       "tx_date": "2025-12-29",
-      "est_return": -42.11,
+      "est_return": -43.3,
       "est_position": 32500
     }
   },
@@ -333,21 +333,21 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 1,
-    "est_return_1y": -13.66,
+    "est_return_1y": -13.41,
     "win_rate": 0.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "HBAN",
       "tx_type": "sale_full",
       "tx_date": "2025-11-21",
-      "est_return": -13.66,
+      "est_return": -13.41,
       "est_position": 175000
     },
     "worst_trade": {
       "ticker": "HBAN",
       "tx_type": "sale_full",
       "tx_date": "2025-11-21",
-      "est_return": -13.66,
+      "est_return": -13.41,
       "est_position": 175000
     }
   },
@@ -358,21 +358,21 @@
     "chamber": "senate",
     "total_trades": 23,
     "trades_with_returns": 4,
-    "est_return_1y": -25.88,
+    "est_return_1y": -24.87,
     "win_rate": 0.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "BITB",
       "tx_type": "purchase",
       "tx_date": "2025-11-25",
-      "est_return": -24.26,
+      "est_return": -23.23,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "BITB",
       "tx_type": "purchase",
       "tx_date": "2025-11-28",
-      "est_return": -27.09,
+      "est_return": -26.09,
       "est_position": 75000
     }
   }
