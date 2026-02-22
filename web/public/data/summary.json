@@ -283,8 +283,8 @@
     "chamber": "senate",
     "total_trades": 79,
     "trades_with_returns": 77,
-    "est_return_1y": -2.28,
-    "win_rate": 48.1,
+    "est_return_1y": -2.24,
+    "win_rate": 45.5,
     "unique_tickers": 52,
     "best_trade": {
       "ticker": "WWSYX",
