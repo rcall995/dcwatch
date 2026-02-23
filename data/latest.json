@@ -433,8 +433,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 47.28,
-    "current_price": 50.51,
-    "est_return": 6.83
+    "current_price": 50.68,
+    "est_return": 7.19
   },
   {
     "id": "a5d37b3f902a1863",
@@ -456,8 +456,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 36.83,
-    "current_price": 40.36,
-    "est_return": 9.58
+    "current_price": 40.76,
+    "est_return": 10.67
   },
   {
     "id": "a10628715102cd80",
@@ -479,8 +479,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 16.0,
-    "current_price": 13.04,
-    "est_return": -18.5
+    "current_price": 12.75,
+    "est_return": -20.31
   },
   {
     "id": "11ab9b079a2abe42",
@@ -502,8 +502,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 97.99,
-    "current_price": 99.8,
-    "est_return": 1.85
+    "current_price": 101.27,
+    "est_return": 3.35
   },
   {
     "id": "37726e7d97d6dc33",
@@ -548,8 +548,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 692.24,
-    "current_price": 685.84,
-    "est_return": -0.92
+    "current_price": 692.5,
+    "est_return": 0.04
   },
   {
     "id": "0e97c1b734948a14",
@@ -571,8 +571,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 49.03,
-    "current_price": 49.65,
-    "est_return": 1.26
+    "current_price": 49.36,
+    "est_return": 0.67
   },
   {
     "id": "f88b509f3ae100bd",
@@ -594,8 +594,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 95.22,
-    "current_price": 96.34,
-    "est_return": 1.18
+    "current_price": 96.35,
+    "est_return": 1.19
   },
   {
     "id": "8f795eefd24e845b",
@@ -617,8 +617,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 105.55,
-    "current_price": 105.78,
-    "est_return": 0.22
+    "current_price": 105.82,
+    "est_return": 0.26
   },
   {
     "id": "3abb87390f231790",
@@ -640,8 +640,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 46.32,
-    "current_price": 46.81,
-    "est_return": 1.06
+    "current_price": 46.77,
+    "est_return": 0.97
   },
   {
     "id": "64759ba68ff04ffe",
@@ -663,8 +663,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 44.88,
-    "current_price": 46.39,
-    "est_return": 3.36
+    "current_price": 47.46,
+    "est_return": 5.75
   },
   {
     "id": "33f5a8065c0a7562",
@@ -686,8 +686,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 25.06,
-    "current_price": 24.11,
-    "est_return": -3.79
+    "current_price": 25.09,
+    "est_return": 0.12
   },
   {
     "id": "87a85236b08bc9e9",
@@ -709,8 +709,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 20.5,
-    "current_price": 21.93,
-    "est_return": 6.98
+    "current_price": 22.04,
+    "est_return": 7.51
+  },
+  {
+    "id": "26803789186f932e",
+    "politician": "David H McCormick",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "GS",
+    "asset_description": "Goldman Sachs Group",
+    "asset_type": "stock",
+    "tx_type": "sale_full",
+    "tx_date": "2026-01-23",
+    "disclosure_date": "",
+    "amount_low": 1000001,
+    "amount_high": 5000000,
+    "owner": "Spouse",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 3000000,
+    "price_at_trade": 918.88,
+    "current_price": 922.24,
+    "est_return": -0.37
   },
   {
     "id": "c85d8303297c31cd",
@@ -1125,28 +1148,5 @@
     "price_at_trade": 114.17,
     "current_price": 105.58,
     "est_return": -7.52
-  },
-  {
-    "id": "297f5ee22ceb5bf2",
-    "politician": "Markwayne Mullin",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "VSEC",
-    "asset_description": "VSE Corporation - Common Stock",
-    "asset_type": "stock",
-    "tx_type": "purchase",
-    "tx_date": "2026-01-05",
-    "disclosure_date": "",
-    "amount_low": 15001,
-    "amount_high": 50000,
-    "owner": "Spouse",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/98b3317b-2632-48c3-b636-d5555c4680ca/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 32500,
-    "price_at_trade": 197.71,
-    "current_price": 227.78,
-    "est_return": 15.21
   }
 ]
