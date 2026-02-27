@@ -2,19 +2,19 @@
   {
     "ticker": "ETN",
     "company_name": "Eaton Corp",
-    "score": 19.7,
+    "score": 19.6,
     "num_politicians": 2,
     "bipartisan": true,
-    "avg_win_rate": 57.4,
+    "avg_win_rate": 56.1,
     "latest_trade_date": "2026-01-29",
     "price_at_latest": 354.37,
-    "current_price": 373.53,
+    "current_price": 374.59,
     "politicians": [
       {
         "name": "John Boozman",
         "party": "R",
         "tx_date": "2026-01-29",
-        "win_rate": 48.1
+        "win_rate": 45.5
       },
       {
         "name": "John W Hickenlooper",
@@ -27,63 +27,63 @@
   {
     "ticker": "CAT",
     "company_name": "Caterpillar Inc",
-    "score": 13.5,
+    "score": 13.2,
     "num_politicians": 2,
     "bipartisan": false,
-    "avg_win_rate": 44.6,
+    "avg_win_rate": 42.4,
     "latest_trade_date": "2026-01-29",
     "price_at_latest": 665.24,
-    "current_price": 766.61,
+    "current_price": 752.93,
     "politicians": [
       {
         "name": "John Boozman",
         "party": "R",
         "tx_date": "2026-01-29",
-        "win_rate": 48.1
+        "win_rate": 45.5
       },
       {
         "name": "Markwayne Mullin",
         "party": "R",
         "tx_date": "2025-12-29",
-        "win_rate": 41.1
+        "win_rate": 39.3
       }
     ]
   },
   {
     "ticker": "AAPL",
     "company_name": "Apple Inc",
-    "score": 12.5,
+    "score": 12.2,
     "num_politicians": 2,
     "bipartisan": false,
-    "avg_win_rate": 44.6,
+    "avg_win_rate": 42.4,
     "latest_trade_date": "2026-01-15",
     "price_at_latest": 257.97,
-    "current_price": 274.23,
+    "current_price": 272.95,
     "politicians": [
       {
         "name": "John Boozman",
         "party": "R",
         "tx_date": "2026-01-15",
-        "win_rate": 48.1
+        "win_rate": 45.5
       },
       {
         "name": "Markwayne Mullin",
         "party": "R",
         "tx_date": "2025-12-29",
-        "win_rate": 41.1
+        "win_rate": 39.3
       }
     ]
   },
   {
     "ticker": "LLY",
     "company_name": "Eli Lilly and Company",
-    "score": 11.7,
+    "score": 11.6,
     "num_politicians": 2,
     "bipartisan": false,
-    "avg_win_rate": 37.2,
+    "avg_win_rate": 36.3,
     "latest_trade_date": "2025-12-29",
     "price_at_latest": 1078.73,
-    "current_price": 1028.83,
+    "current_price": 1022.02,
     "politicians": [
       {
         "name": "Angus S King, Jr.",
@@ -95,7 +95,7 @@
         "name": "Markwayne Mullin",
         "party": "R",
         "tx_date": "2025-12-29",
-        "win_rate": 41.1
+        "win_rate": 39.3
       }
     ]
   }
