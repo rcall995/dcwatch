@@ -2,13 +2,13 @@
   {
     "ticker": "ETN",
     "company_name": "Eaton Corp",
-    "score": 19.7,
+    "score": 18.7,
     "num_politicians": 2,
     "bipartisan": true,
     "avg_win_rate": 57.4,
     "latest_trade_date": "2026-01-29",
     "price_at_latest": 354.37,
-    "current_price": 362.05,
+    "current_price": 375.92,
     "politicians": [
       {
         "name": "John Boozman",

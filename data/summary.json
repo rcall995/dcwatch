@@ -150,6 +150,31 @@
     }
   },
   {
+    "name": "John W Hickenlooper",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 6,
+    "trades_with_returns": 6,
+    "est_return_1y": 0.55,
+    "win_rate": 66.7,
+    "unique_tickers": 5,
+    "best_trade": {
+      "ticker": "ETN",
+      "tx_type": "purchase",
+      "tx_date": "2026-01-14",
+      "est_return": 13.52,
+      "est_position": 75000
+    },
+    "worst_trade": {
+      "ticker": "UBER",
+      "tx_type": "purchase",
+      "tx_date": "2026-01-14",
+      "est_return": -10.9,
+      "est_position": 175000
+    }
+  },
+  {
     "name": "Lindsey Graham",
     "party": "R",
     "state": "",
@@ -253,38 +278,13 @@
     "worst_trade": null
   },
   {
-    "name": "John W Hickenlooper",
-    "party": "D",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 6,
-    "trades_with_returns": 6,
-    "est_return_1y": -0.15,
-    "win_rate": 66.7,
-    "unique_tickers": 5,
-    "best_trade": {
-      "ticker": "ETN",
-      "tx_type": "purchase",
-      "tx_date": "2026-01-14",
-      "est_return": 9.33,
-      "est_position": 75000
-    },
-    "worst_trade": {
-      "ticker": "UBER",
-      "tx_type": "purchase",
-      "tx_date": "2026-01-14",
-      "est_return": -10.9,
-      "est_position": 175000
-    }
-  },
-  {
     "name": "John Boozman",
     "party": "R",
     "state": "",
     "chamber": "senate",
     "total_trades": 79,
     "trades_with_returns": 77,
-    "est_return_1y": -2.45,
+    "est_return_1y": -2.27,
     "win_rate": 48.1,
     "unique_tickers": 52,
     "best_trade": {
@@ -334,7 +334,7 @@
     "chamber": "senate",
     "total_trades": 61,
     "trades_with_returns": 56,
-    "est_return_1y": -4.47,
+    "est_return_1y": -4.51,
     "win_rate": 37.5,
     "unique_tickers": 51,
     "best_trade": {

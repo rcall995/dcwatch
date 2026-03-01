@@ -111,8 +111,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 53.11,
-    "current_price": 44.05,
-    "est_return": -17.06
+    "current_price": 46.21,
+    "est_return": -12.99
   },
   {
     "id": "445dd26dddc6cf78",
@@ -134,8 +134,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 354.37,
-    "current_price": 362.05,
-    "est_return": 2.17
+    "current_price": 375.92,
+    "est_return": 6.08
   },
   {
     "id": "fa3e277905978c05",
@@ -157,8 +157,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 74.44,
-    "current_price": 77.0,
-    "est_return": 3.44
+    "current_price": 79.9,
+    "est_return": 7.33
   },
   {
     "id": "493b7927e60936a6",
@@ -180,8 +180,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 665.24,
-    "current_price": 756.47,
-    "est_return": 13.71
+    "current_price": 742.83,
+    "est_return": 11.66
   },
   {
     "id": "0544059dde541471",
@@ -870,8 +870,8 @@
     "days_late": 0,
     "est_position": 75000,
     "price_at_trade": 331.14,
-    "current_price": 362.05,
-    "est_return": 9.33
+    "current_price": 375.92,
+    "est_return": 13.52
   },
   {
     "id": "c17453cd8deeb83c",
