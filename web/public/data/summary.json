@@ -125,31 +125,6 @@
     }
   },
   {
-    "name": "Sheldon Whitehouse",
-    "party": "D",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 7,
-    "trades_with_returns": 7,
-    "est_return_1y": 1.42,
-    "win_rate": 42.9,
-    "unique_tickers": 7,
-    "best_trade": {
-      "ticker": "HSY",
-      "tx_type": "purchase",
-      "tx_date": "2025-11-21",
-      "est_return": 27.03,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "MCD",
-      "tx_type": "sale_full",
-      "tx_date": "2026-01-09",
-      "est_return": -10.98,
-      "est_position": 32500
-    }
-  },
-  {
     "name": "John W Hickenlooper",
     "party": "D",
     "state": "",
@@ -179,24 +154,24 @@
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 7,
-    "trades_with_returns": 5,
-    "est_return_1y": 0.04,
-    "win_rate": 40.0,
-    "unique_tickers": 5,
+    "total_trades": 5,
+    "trades_with_returns": 3,
+    "est_return_1y": 0.05,
+    "win_rate": 33.3,
+    "unique_tickers": 3,
     "best_trade": {
-      "ticker": "VWUAX",
+      "ticker": "BSCQ",
       "tx_type": "purchase",
-      "tx_date": "2025-11-06",
-      "est_return": 2.34,
-      "est_position": 175000
+      "tx_date": "2025-12-31",
+      "est_return": 0.21,
+      "est_position": 32500
     },
     "worst_trade": {
-      "ticker": "VWUSX",
+      "ticker": "BSCP",
       "tx_type": "sale_full",
-      "tx_date": "2025-11-06",
-      "est_return": -2.29,
-      "est_position": 175000
+      "tx_date": "2025-12-17",
+      "est_return": -0.05,
+      "est_position": 32500
     }
   },
   {
@@ -349,6 +324,31 @@
       "tx_type": "sale_full",
       "tx_date": "2025-12-18",
       "est_return": -47.36,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Sheldon Whitehouse",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 4,
+    "trades_with_returns": 4,
+    "est_return_1y": -4.68,
+    "win_rate": 25.0,
+    "unique_tickers": 4,
+    "best_trade": {
+      "ticker": "NVDA",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-01-09",
+      "est_return": 4.15,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "MCD",
+      "tx_type": "sale_full",
+      "tx_date": "2026-01-09",
+      "est_return": -10.98,
       "est_position": 32500
     }
   },
