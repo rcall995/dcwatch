@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 23,
     "trades_with_returns": 23,
-    "est_return_1y": 17.14,
+    "est_return_1y": 17.48,
     "win_rate": 78.3,
     "unique_tickers": 12,
     "best_trade": {
       "ticker": "GOOG",
       "tx_type": "purchase",
       "tx_date": "2025-04-14",
-      "est_return": 93.4,
+      "est_return": 90.25,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "UNH",
-      "tx_type": "purchase",
-      "tx_date": "2025-04-14",
-      "est_return": -49.03,
+      "ticker": "XOM",
+      "tx_type": "sale_full",
+      "tx_date": "2025-04-30",
+      "est_return": -50.02,
       "est_position": 8000
     }
   },
@@ -31,21 +31,21 @@
     "chamber": "senate",
     "total_trades": 5,
     "trades_with_returns": 5,
-    "est_return_1y": 6.67,
+    "est_return_1y": 5.97,
     "win_rate": 80.0,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "VZ",
       "tx_type": "purchase",
       "tx_date": "2025-12-12",
-      "est_return": 24.76,
+      "est_return": 24.36,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "INTC",
       "tx_type": "sale_full",
       "tx_date": "2025-12-12",
-      "est_return": -20.63,
+      "est_return": -20.34,
       "est_position": 32500
     }
   },
@@ -56,21 +56,21 @@
     "chamber": "senate",
     "total_trades": 5,
     "trades_with_returns": 5,
-    "est_return_1y": 5.75,
+    "est_return_1y": 5.34,
     "win_rate": 80.0,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "XLP",
       "tx_type": "purchase",
       "tx_date": "2025-12-17",
-      "est_return": 13.91,
+      "est_return": 12.26,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "GOOGL",
       "tx_type": "sale_full",
       "tx_date": "2025-12-17",
-      "est_return": -5.07,
+      "est_return": -3.3,
       "est_position": 8000
     }
   },
@@ -81,21 +81,21 @@
     "chamber": "senate",
     "total_trades": 8,
     "trades_with_returns": 7,
-    "est_return_1y": 3.37,
-    "win_rate": 57.1,
+    "est_return_1y": 4.11,
+    "win_rate": 71.4,
     "unique_tickers": 8,
     "best_trade": {
       "ticker": "MSFT",
       "tx_type": "sale_partial",
       "tx_date": "2025-12-16",
-      "est_return": 17.56,
+      "est_return": 16.34,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "LOW",
       "tx_type": "sale_partial",
       "tx_date": "2025-11-13",
-      "est_return": -14.81,
+      "est_return": -11.6,
       "est_position": 8000
     }
   },
@@ -106,21 +106,21 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 3,
-    "est_return_1y": 3.07,
+    "est_return_1y": 2.95,
     "win_rate": 33.3,
     "unique_tickers": 3,
     "best_trade": {
       "ticker": "HON",
       "tx_type": "purchase",
       "tx_date": "2025-12-29",
-      "est_return": 23.59,
+      "est_return": 25.85,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "CMCSA",
       "tx_type": "sale_full",
       "tx_date": "2025-12-29",
-      "est_return": -11.89,
+      "est_return": -11.38,
       "est_position": 8000
     }
   },
@@ -131,21 +131,21 @@
     "chamber": "senate",
     "total_trades": 6,
     "trades_with_returns": 6,
-    "est_return_1y": 0.55,
+    "est_return_1y": 1.54,
     "win_rate": 66.7,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "ETN",
       "tx_type": "purchase",
       "tx_date": "2026-01-14",
-      "est_return": 13.52,
+      "est_return": 13.97,
       "est_position": 75000
     },
     "worst_trade": {
       "ticker": "UBER",
       "tx_type": "purchase",
       "tx_date": "2026-01-14",
-      "est_return": -10.9,
+      "est_return": -10.28,
       "est_position": 175000
     }
   },
@@ -205,7 +205,7 @@
     "party": "",
     "state": "",
     "chamber": "senate",
-    "total_trades": 1,
+    "total_trades": 2,
     "trades_with_returns": 0,
     "est_return_1y": 0.0,
     "win_rate": 0.0,
@@ -259,21 +259,21 @@
     "chamber": "senate",
     "total_trades": 79,
     "trades_with_returns": 77,
-    "est_return_1y": -2.27,
-    "win_rate": 48.1,
+    "est_return_1y": -2.07,
+    "win_rate": 46.8,
     "unique_tickers": 52,
     "best_trade": {
       "ticker": "XOM",
       "tx_type": "purchase",
       "tx_date": "2026-01-08",
-      "est_return": 24.9,
+      "est_return": 26.31,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "SLV",
+      "ticker": "MSI",
       "tx_type": "sale_partial",
-      "tx_date": "2025-12-24",
-      "est_return": -30.31,
+      "tx_date": "2025-12-17",
+      "est_return": -29.81,
       "est_position": 8000
     }
   },
@@ -284,47 +284,22 @@
     "chamber": "senate",
     "total_trades": 2,
     "trades_with_returns": 1,
-    "est_return_1y": -4.15,
+    "est_return_1y": -2.82,
     "win_rate": 0.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2025-12-01",
-      "est_return": -4.15,
+      "est_return": -2.82,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2025-12-01",
-      "est_return": -4.15,
+      "est_return": -2.82,
       "est_position": 8000
-    }
-  },
-  {
-    "name": "Markwayne Mullin",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 61,
-    "trades_with_returns": 56,
-    "est_return_1y": -4.51,
-    "win_rate": 37.5,
-    "unique_tickers": 51,
-    "best_trade": {
-      "ticker": "AMAT",
-      "tx_type": "purchase",
-      "tx_date": "2025-12-29",
-      "est_return": 41.53,
-      "est_position": 32500
-    },
-    "worst_trade": {
-      "ticker": "COHR",
-      "tx_type": "sale_full",
-      "tx_date": "2025-12-18",
-      "est_return": -47.36,
-      "est_position": 32500
     }
   },
   {
@@ -334,21 +309,46 @@
     "chamber": "senate",
     "total_trades": 4,
     "trades_with_returns": 4,
-    "est_return_1y": -4.68,
-    "win_rate": 25.0,
+    "est_return_1y": -3.88,
+    "win_rate": 50.0,
     "unique_tickers": 4,
     "best_trade": {
       "ticker": "NVDA",
       "tx_type": "sale_partial",
       "tx_date": "2026-01-09",
-      "est_return": 4.15,
+      "est_return": 1.29,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "MCD",
       "tx_type": "sale_full",
       "tx_date": "2026-01-09",
-      "est_return": -10.98,
+      "est_return": -8.95,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Markwayne Mullin",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 78,
+    "trades_with_returns": 73,
+    "est_return_1y": -4.79,
+    "win_rate": 41.1,
+    "unique_tickers": 51,
+    "best_trade": {
+      "ticker": "AMAT",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-29",
+      "est_return": 41.49,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "COHR",
+      "tx_type": "sale_full",
+      "tx_date": "2025-12-18",
+      "est_return": -70.12,
       "est_position": 32500
     }
   },
@@ -359,21 +359,21 @@
     "chamber": "senate",
     "total_trades": 18,
     "trades_with_returns": 3,
-    "est_return_1y": -16.13,
+    "est_return_1y": -13.58,
     "win_rate": 33.3,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "GS",
       "tx_type": "sale_full",
       "tx_date": "2026-01-23",
-      "est_return": 6.45,
+      "est_return": 6.22,
       "est_position": 3000000
     },
     "worst_trade": {
       "ticker": "BITB",
       "tx_type": "purchase",
       "tx_date": "2025-11-28",
-      "est_return": -27.76,
+      "est_return": -23.84,
       "est_position": 75000
     }
   }
