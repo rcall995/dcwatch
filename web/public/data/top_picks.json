@@ -1,26 +1,51 @@
 [
   {
-    "ticker": "ETN",
-    "company_name": "Eaton Corp",
-    "score": 18.2,
+    "ticker": "UBER",
+    "company_name": "Uber Technologies, Inc. Common Stock",
+    "score": 20.1,
     "num_politicians": 2,
     "bipartisan": true,
-    "avg_win_rate": 52.0,
-    "latest_trade_date": "2026-01-29",
-    "price_at_latest": 354.37,
-    "current_price": 354.79,
+    "avg_win_rate": 60.7,
+    "latest_trade_date": "2026-02-06",
+    "price_at_latest": 74.77,
+    "current_price": 75.13,
     "politicians": [
       {
         "name": "John Boozman",
         "party": "R",
-        "tx_date": "2026-01-29",
-        "win_rate": 46.8
+        "tx_date": "2026-02-06",
+        "win_rate": 50.0
       },
       {
         "name": "John W Hickenlooper",
         "party": "D",
         "tx_date": "2026-01-14",
-        "win_rate": 57.1
+        "win_rate": 71.4
+      }
+    ]
+  },
+  {
+    "ticker": "ETN",
+    "company_name": "Eaton Corp",
+    "score": 19.1,
+    "num_politicians": 2,
+    "bipartisan": true,
+    "avg_win_rate": 60.7,
+    "latest_trade_date": "2026-01-29",
+    "price_at_latest": 354.37,
+    "current_price": 347.75,
+    "politicians": [
+      {
+        "name": "John Boozman",
+        "party": "R",
+        "tx_date": "2026-01-29",
+        "win_rate": 50.0
+      },
+      {
+        "name": "John W Hickenlooper",
+        "party": "D",
+        "tx_date": "2026-01-14",
+        "win_rate": 71.4
       }
     ]
   }
