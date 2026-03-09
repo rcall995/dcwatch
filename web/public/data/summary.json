@@ -125,6 +125,31 @@
     }
   },
   {
+    "name": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 72,
+    "trades_with_returns": 71,
+    "est_return_1y": 0.4,
+    "win_rate": 52.1,
+    "unique_tickers": 56,
+    "best_trade": {
+      "ticker": "BSX",
+      "tx_type": "sale_partial",
+      "tx_date": "2025-12-17",
+      "est_return": 24.48,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "MSI",
+      "tx_type": "sale_partial",
+      "tx_date": "2025-12-17",
+      "est_return": -23.04,
+      "est_position": 8000
+    }
+  },
+  {
     "name": "Lindsey Graham",
     "party": "R",
     "state": "",
@@ -249,31 +274,6 @@
       "tx_type": "sale_full",
       "tx_date": "2026-01-09",
       "est_return": -11.37,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 98,
-    "trades_with_returns": 96,
-    "est_return_1y": -0.65,
-    "win_rate": 50.0,
-    "unique_tickers": 65,
-    "best_trade": {
-      "ticker": "BSX",
-      "tx_type": "sale_partial",
-      "tx_date": "2025-12-17",
-      "est_return": 24.48,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "MSI",
-      "tx_type": "sale_partial",
-      "tx_date": "2025-12-17",
-      "est_return": -23.04,
       "est_position": 8000
     }
   },
