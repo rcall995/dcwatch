@@ -6,7 +6,7 @@
     "chamber": "senate",
     "total_trades": 23,
     "trades_with_returns": 23,
-    "est_return_1y": 16.05,
+    "est_return_1y": 15.89,
     "win_rate": 78.3,
     "unique_tickers": 12,
     "best_trade": {
@@ -31,14 +31,14 @@
     "chamber": "senate",
     "total_trades": 11,
     "trades_with_returns": 9,
-    "est_return_1y": 4.84,
+    "est_return_1y": 5.16,
     "win_rate": 66.7,
     "unique_tickers": 10,
     "best_trade": {
-      "ticker": "BLK",
+      "ticker": "MSFT",
       "tx_type": "sale_partial",
-      "tx_date": "2026-02-10",
-      "est_return": 15.05,
+      "tx_date": "2025-12-16",
+      "est_return": 16.97,
       "est_position": 8000
     },
     "worst_trade": {
@@ -156,8 +156,8 @@
     "chamber": "senate",
     "total_trades": 72,
     "trades_with_returns": 71,
-    "est_return_1y": 0.34,
-    "win_rate": 45.1,
+    "est_return_1y": 0.25,
+    "win_rate": 43.7,
     "unique_tickers": 56,
     "best_trade": {
       "ticker": "XOM",
@@ -309,7 +309,7 @@
     "chamber": "senate",
     "total_trades": 76,
     "trades_with_returns": 72,
-    "est_return_1y": -6.01,
+    "est_return_1y": -6.05,
     "win_rate": 34.7,
     "unique_tickers": 50,
     "best_trade": {
