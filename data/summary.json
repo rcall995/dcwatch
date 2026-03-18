@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 23,
     "trades_with_returns": 23,
-    "est_return_1y": 16.43,
+    "est_return_1y": 16.53,
     "win_rate": 78.3,
     "unique_tickers": 12,
     "best_trade": {
       "ticker": "GOOG",
       "tx_type": "purchase",
       "tx_date": "2025-04-14",
-      "est_return": 89.05,
+      "est_return": 92.14,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "XOM",
       "tx_type": "sale_full",
       "tx_date": "2025-04-30",
-      "est_return": -52.95,
+      "est_return": -54.48,
       "est_position": 8000
     }
   },
@@ -31,21 +31,21 @@
     "chamber": "senate",
     "total_trades": 11,
     "trades_with_returns": 9,
-    "est_return_1y": 4.59,
-    "win_rate": 66.7,
+    "est_return_1y": 4.0,
+    "win_rate": 55.6,
     "unique_tickers": 10,
     "best_trade": {
       "ticker": "MSFT",
       "tx_type": "sale_partial",
       "tx_date": "2025-12-16",
-      "est_return": 16.05,
+      "est_return": 16.16,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "AVGO",
       "tx_type": "purchase",
       "tx_date": "2026-02-09",
-      "est_return": -5.53,
+      "est_return": -6.58,
       "est_position": 8000
     }
   },
@@ -56,21 +56,21 @@
     "chamber": "senate",
     "total_trades": 5,
     "trades_with_returns": 5,
-    "est_return_1y": 4.31,
+    "est_return_1y": 3.53,
     "win_rate": 60.0,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "XLU",
       "tx_type": "purchase",
       "tx_date": "2025-12-17",
-      "est_return": 11.36,
+      "est_return": 11.05,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "GOOGL",
       "tx_type": "sale_full",
       "tx_date": "2025-12-17",
-      "est_return": -2.98,
+      "est_return": -4.79,
       "est_position": 8000
     }
   },
@@ -81,21 +81,21 @@
     "chamber": "senate",
     "total_trades": 7,
     "trades_with_returns": 7,
-    "est_return_1y": 2.7,
+    "est_return_1y": 3.19,
     "win_rate": 57.1,
     "unique_tickers": 6,
     "best_trade": {
       "ticker": "LOW",
       "tx_type": "sale_partial",
       "tx_date": "2026-01-14",
-      "est_return": 11.55,
+      "est_return": 12.43,
       "est_position": 75000
     },
     "worst_trade": {
       "ticker": "UBER",
       "tx_type": "purchase",
       "tx_date": "2026-01-14",
-      "est_return": -11.8,
+      "est_return": -8.1,
       "est_position": 175000
     }
   },
@@ -106,72 +106,47 @@
     "chamber": "senate",
     "total_trades": 8,
     "trades_with_returns": 8,
-    "est_return_1y": 1.11,
+    "est_return_1y": 1.57,
     "win_rate": 62.5,
     "unique_tickers": 7,
     "best_trade": {
       "ticker": "HD",
       "tx_type": "sale_full",
       "tx_date": "2026-02-23",
-      "est_return": 10.38,
+      "est_return": 10.68,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "SBUX",
       "tx_type": "sale_full",
       "tx_date": "2026-01-09",
-      "est_return": -10.06,
+      "est_return": -9.78,
       "est_position": 8000
     }
   },
   {
-    "name": "Angus S King, Jr.",
-    "party": "I",
+    "name": "Gary C Peters",
+    "party": "D",
     "state": "",
     "chamber": "senate",
-    "total_trades": 3,
-    "trades_with_returns": 3,
-    "est_return_1y": 0.34,
-    "win_rate": 33.3,
-    "unique_tickers": 3,
+    "total_trades": 4,
+    "trades_with_returns": 4,
+    "est_return_1y": 0.68,
+    "win_rate": 50.0,
+    "unique_tickers": 4,
     "best_trade": {
-      "ticker": "HON",
+      "ticker": "VZ",
       "tx_type": "purchase",
-      "tx_date": "2025-12-29",
-      "est_return": 18.99,
+      "tx_date": "2025-12-12",
+      "est_return": 25.7,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "CMCSA",
+      "ticker": "INTC",
       "tx_type": "sale_full",
-      "tx_date": "2025-12-29",
-      "est_return": -9.65,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 72,
-    "trades_with_returns": 71,
-    "est_return_1y": 0.1,
-    "win_rate": 47.9,
-    "unique_tickers": 56,
-    "best_trade": {
-      "ticker": "XOM",
-      "tx_type": "purchase",
-      "tx_date": "2026-01-08",
-      "est_return": 28.77,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "MU",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-01-08",
-      "est_return": -35.1,
-      "est_position": 8000
+      "tx_date": "2025-12-12",
+      "est_return": -16.53,
+      "est_position": 32500
     }
   },
   {
@@ -181,14 +156,14 @@
     "chamber": "senate",
     "total_trades": 5,
     "trades_with_returns": 3,
-    "est_return_1y": 0.07,
+    "est_return_1y": 0.09,
     "win_rate": 33.3,
     "unique_tickers": 3,
     "best_trade": {
       "ticker": "BSCQ",
       "tx_type": "purchase",
       "tx_date": "2025-12-31",
-      "est_return": 0.26,
+      "est_return": 0.31,
       "est_position": 32500
     },
     "worst_trade": {
@@ -197,6 +172,31 @@
       "tx_date": "2025-12-17",
       "est_return": -0.05,
       "est_position": 32500
+    }
+  },
+  {
+    "name": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 72,
+    "trades_with_returns": 71,
+    "est_return_1y": 0.08,
+    "win_rate": 52.1,
+    "unique_tickers": 56,
+    "best_trade": {
+      "ticker": "XOM",
+      "tx_type": "purchase",
+      "tx_date": "2026-01-08",
+      "est_return": 30.07,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "MU",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-01-08",
+      "est_return": -41.18,
+      "est_position": 8000
     }
   },
   {
@@ -278,28 +278,28 @@
     "worst_trade": null
   },
   {
-    "name": "Gary C Peters",
-    "party": "D",
+    "name": "Angus S King, Jr.",
+    "party": "I",
     "state": "",
     "chamber": "senate",
-    "total_trades": 4,
-    "trades_with_returns": 4,
-    "est_return_1y": -0.14,
-    "win_rate": 50.0,
-    "unique_tickers": 4,
+    "total_trades": 3,
+    "trades_with_returns": 3,
+    "est_return_1y": -1.68,
+    "win_rate": 33.3,
+    "unique_tickers": 3,
     "best_trade": {
-      "ticker": "VZ",
+      "ticker": "HON",
       "tx_type": "purchase",
-      "tx_date": "2025-12-12",
-      "est_return": 26.82,
+      "tx_date": "2025-12-29",
+      "est_return": 17.42,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "INTC",
-      "tx_type": "sale_full",
-      "tx_date": "2025-12-12",
-      "est_return": -21.03,
-      "est_position": 32500
+      "ticker": "LLY",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-29",
+      "est_return": -13.76,
+      "est_position": 8000
     }
   },
   {
@@ -309,21 +309,21 @@
     "chamber": "senate",
     "total_trades": 76,
     "trades_with_returns": 72,
-    "est_return_1y": -5.58,
-    "win_rate": 38.9,
+    "est_return_1y": -4.96,
+    "win_rate": 37.5,
     "unique_tickers": 50,
     "best_trade": {
       "ticker": "AMAT",
       "tx_type": "purchase",
       "tx_date": "2025-12-29",
-      "est_return": 31.6,
+      "est_return": 33.99,
       "est_position": 32500
     },
     "worst_trade": {
-      "ticker": "COHR",
+      "ticker": "MTZ",
       "tx_type": "sale_full",
       "tx_date": "2025-12-18",
-      "est_return": -40.78,
+      "est_return": -42.4,
       "est_position": 32500
     }
   },
@@ -334,21 +334,21 @@
     "chamber": "senate",
     "total_trades": 41,
     "trades_with_returns": 3,
-    "est_return_1y": -7.6,
+    "est_return_1y": -7.59,
     "win_rate": 33.3,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "GS",
       "tx_type": "sale_full",
       "tx_date": "2026-01-23",
-      "est_return": 13.51,
+      "est_return": 12.17,
       "est_position": 3000000
     },
     "worst_trade": {
       "ticker": "BITB",
       "tx_type": "purchase",
       "tx_date": "2025-11-28",
-      "est_return": -18.53,
+      "est_return": -17.86,
       "est_position": 75000
     }
   },
@@ -359,21 +359,21 @@
     "chamber": "senate",
     "total_trades": 2,
     "trades_with_returns": 1,
-    "est_return_1y": -10.86,
+    "est_return_1y": -10.3,
     "win_rate": 0.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2025-12-01",
-      "est_return": -10.86,
+      "est_return": -10.3,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2025-12-01",
-      "est_return": -10.86,
+      "est_return": -10.3,
       "est_position": 8000
     }
   }
