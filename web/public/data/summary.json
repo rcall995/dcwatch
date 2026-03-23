@@ -6,7 +6,7 @@
     "chamber": "senate",
     "total_trades": 23,
     "trades_with_returns": 23,
-    "est_return_1y": 14.86,
+    "est_return_1y": 14.87,
     "win_rate": 73.9,
     "unique_tickers": 12,
     "best_trade": {
@@ -31,14 +31,14 @@
     "chamber": "senate",
     "total_trades": 11,
     "trades_with_returns": 9,
-    "est_return_1y": 5.9,
+    "est_return_1y": 5.91,
     "win_rate": 77.8,
     "unique_tickers": 10,
     "best_trade": {
       "ticker": "MSFT",
       "tx_type": "sale_partial",
       "tx_date": "2025-12-16",
-      "est_return": 19.84,
+      "est_return": 19.85,
       "est_position": 8000
     },
     "worst_trade": {
@@ -56,7 +56,7 @@
     "chamber": "senate",
     "total_trades": 8,
     "trades_with_returns": 8,
-    "est_return_1y": 5.84,
+    "est_return_1y": 5.82,
     "win_rate": 62.5,
     "unique_tickers": 7,
     "best_trade": {
