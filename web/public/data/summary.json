@@ -29,7 +29,7 @@
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 42,
+    "total_trades": 44,
     "trades_with_returns": 1,
     "est_return_1y": 12.62,
     "win_rate": 100.0,
@@ -181,7 +181,7 @@
     "chamber": "senate",
     "total_trades": 72,
     "trades_with_returns": 71,
-    "est_return_1y": 1.35,
+    "est_return_1y": 1.34,
     "win_rate": 47.9,
     "unique_tickers": 56,
     "best_trade": {

@@ -42,8 +42,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 99.03,
-    "current_price": 102.34,
-    "est_return": 3.34
+    "current_price": 101.3,
+    "est_return": 2.29
   },
   {
     "id": "00e898541be73fe8",
@@ -88,8 +88,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 67.18,
-    "current_price": 72.7,
-    "est_return": 8.22
+    "current_price": 73.22,
+    "est_return": 8.99
   },
   {
     "id": "36519e4b9d6a51cc",
