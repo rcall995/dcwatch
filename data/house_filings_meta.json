@@ -1,5 +1,14 @@
 [
   {
+    "name": "Hon. Mark Alford",
+    "doc_id": "20034201",
+    "filing_type": "P",
+    "filing_date": "3/31/2026",
+    "state_district": "MO04",
+    "year": "2026",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
+  },
+  {
     "name": "Hon. Richard W. Allen",
     "doc_id": "20033751",
     "filing_type": "P",
@@ -97,6 +106,24 @@
     "state_district": "NJ11",
     "year": "2026",
     "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/10073181.pdf"
+  },
+  {
+    "name": "Janice Castles Beckett",
+    "doc_id": "10074415",
+    "filing_type": "C",
+    "filing_date": "4/1/2026",
+    "state_district": "OH10",
+    "year": "2026",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/10074415.pdf"
+  },
+  {
+    "name": "Gabriella Michele Bedsworth",
+    "doc_id": "40004926",
+    "filing_type": "D",
+    "filing_date": "3/31/2026",
+    "state_district": "VA05",
+    "year": "2026",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/40004926.pdf"
   },
   {
     "name": "Hon. Donald Sternoff Beyer Jr",
@@ -1789,6 +1816,15 @@
     "state_district": "NY03",
     "year": "2026",
     "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034188.pdf"
+  },
+  {
+    "name": "Scott Edward Tabor",
+    "doc_id": "40004927",
+    "filing_type": "D",
+    "filing_date": "3/31/2026",
+    "state_district": "OH05",
+    "year": "2026",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/40004927.pdf"
   },
   {
     "name": "Hon. David J. Taylor",
