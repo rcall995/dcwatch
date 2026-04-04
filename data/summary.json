@@ -100,6 +100,31 @@
     }
   },
   {
+    "name": "John Fetterman",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 13,
+    "trades_with_returns": 8,
+    "est_return_1y": 3.61,
+    "win_rate": 100.0,
+    "unique_tickers": 6,
+    "best_trade": {
+      "ticker": "GOOG",
+      "tx_type": "purchase",
+      "tx_date": "2026-03-30",
+      "est_return": 7.56,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "ERIE",
+      "tx_type": "purchase",
+      "tx_date": "2026-03-30",
+      "est_return": 0.61,
+      "est_position": 8000
+    }
+  },
+  {
     "name": "Thomas H Tuberville",
     "party": "R",
     "state": "",
@@ -255,19 +280,6 @@
     "state": "",
     "chamber": "senate",
     "total_trades": 2,
-    "trades_with_returns": 0,
-    "est_return_1y": 0.0,
-    "win_rate": 0.0,
-    "unique_tickers": 0,
-    "best_trade": null,
-    "worst_trade": null
-  },
-  {
-    "name": "John Fetterman",
-    "party": "D",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 4,
     "trades_with_returns": 0,
     "est_return_1y": 0.0,
     "win_rate": 0.0,
