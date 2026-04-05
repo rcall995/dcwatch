@@ -50,31 +50,6 @@
     }
   },
   {
-    "name": "Shelley M Capito",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 11,
-    "trades_with_returns": 9,
-    "est_return_1y": 6.04,
-    "win_rate": 88.9,
-    "unique_tickers": 10,
-    "best_trade": {
-      "ticker": "MSFT",
-      "tx_type": "sale_partial",
-      "tx_date": "2025-12-16",
-      "est_return": 21.61,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "AVGO",
-      "tx_type": "purchase",
-      "tx_date": "2026-02-09",
-      "est_return": -8.55,
-      "est_position": 8000
-    }
-  },
-  {
     "name": "Sheldon Whitehouse",
     "party": "D",
     "state": "",
@@ -196,6 +171,31 @@
       "tx_type": "purchase",
       "tx_date": "2025-12-11",
       "est_return": -31.75,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Shelley M Capito",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 16,
+    "trades_with_returns": 14,
+    "est_return_1y": 1.39,
+    "win_rate": 64.3,
+    "unique_tickers": 13,
+    "best_trade": {
+      "ticker": "MSFT",
+      "tx_type": "sale_partial",
+      "tx_date": "2025-12-16",
+      "est_return": 21.61,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "FDS",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-03-25",
+      "est_return": -17.43,
       "est_position": 8000
     }
   },
