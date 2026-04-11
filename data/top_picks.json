@@ -2,13 +2,13 @@
   {
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation - Common Stock",
-    "score": 25.5,
+    "score": 24.5,
     "num_politicians": 2,
     "bipartisan": true,
     "avg_win_rate": 74.7,
     "latest_trade_date": "2026-03-30",
     "price_at_latest": 356.77,
-    "current_price": 373.07,
+    "current_price": 370.87,
     "politicians": [
       {
         "name": "John Boozman",
