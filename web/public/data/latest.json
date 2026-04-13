@@ -207,6 +207,29 @@
     "est_return": -2.63
   },
   {
+    "id": "cf805dfae305f786",
+    "politician": "Shelley M Capito",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "MA",
+    "asset_description": "Mastercard Incorporated Common Stock",
+    "asset_type": "stock",
+    "tx_type": "purchase",
+    "tx_date": "2026-03-28",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Spouse",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/aa38bdb0-5847-4bec-8e36-80d6ffc90837/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 484.24,
+    "current_price": 498.66,
+    "est_return": 2.98
+  },
+  {
     "id": "c6f0a20a1f0f77a7",
     "politician": "John Fetterman",
     "party": "D",
@@ -1125,28 +1148,5 @@
     "price_at_trade": 109.85,
     "current_price": 109.62,
     "est_return": 0.21
-  },
-  {
-    "id": "0c88181204620123",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "DBLEX",
-    "asset_description": "DoubleLine Emerging Markets Fixed Income Fund - Class I",
-    "asset_type": "stock",
-    "tx_type": "sale_full",
-    "tx_date": "2026-02-06",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/2b56957f-6859-43e2-a447-898509c7f142/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 9.08,
-    "current_price": 9.03,
-    "est_return": 0.55
   }
 ]
