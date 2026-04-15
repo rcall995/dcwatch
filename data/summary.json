@@ -1,102 +1,52 @@
 [
   {
-    "name": "Katie Britt",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 23,
-    "trades_with_returns": 23,
-    "est_return_1y": 18.03,
-    "win_rate": 65.2,
-    "unique_tickers": 12,
-    "best_trade": {
-      "ticker": "GOOG",
-      "tx_type": "purchase",
-      "tx_date": "2025-04-14",
-      "est_return": 98.23,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "XOM",
-      "tx_type": "sale_full",
-      "tx_date": "2025-04-30",
-      "est_return": -48.48,
-      "est_position": 8000
-    }
-  },
-  {
     "name": "John Fetterman",
     "party": "D",
     "state": "",
     "chamber": "senate",
     "total_trades": 12,
     "trades_with_returns": 8,
-    "est_return_1y": 11.87,
+    "est_return_1y": 13.72,
     "win_rate": 100.0,
     "unique_tickers": 6,
     "best_trade": {
-      "ticker": "AMZN",
+      "ticker": "MU",
       "tx_type": "purchase",
       "tx_date": "2026-03-30",
-      "est_return": 20.34,
+      "est_return": 30.36,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "MSFT",
+      "ticker": "ERIE",
       "tx_type": "purchase",
-      "tx_date": "2026-03-27",
-      "est_return": 5.03,
+      "tx_date": "2026-03-30",
+      "est_return": 0.58,
       "est_position": 8000
     }
   },
   {
-    "name": "A. Mitchell McConnell, Jr.",
+    "name": "Katie Britt",
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 1,
-    "trades_with_returns": 1,
-    "est_return_1y": 6.37,
-    "win_rate": 100.0,
-    "unique_tickers": 1,
+    "total_trades": 23,
+    "trades_with_returns": 12,
+    "est_return_1y": 7.7,
+    "win_rate": 50.0,
+    "unique_tickers": 12,
     "best_trade": {
-      "ticker": "WFC",
+      "ticker": "NVDA",
       "tx_type": "purchase",
-      "tx_date": "2026-03-01",
-      "est_return": 6.37,
+      "tx_date": "2025-04-30",
+      "est_return": 80.45,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "WFC",
-      "tx_type": "purchase",
-      "tx_date": "2026-03-01",
-      "est_return": 6.37,
+      "ticker": "XOM",
+      "tx_type": "sale_full",
+      "tx_date": "2025-04-30",
+      "est_return": -45.18,
       "est_position": 8000
-    }
-  },
-  {
-    "name": "David H McCormick",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 44,
-    "trades_with_returns": 1,
-    "est_return_1y": 3.06,
-    "win_rate": 100.0,
-    "unique_tickers": 1,
-    "best_trade": {
-      "ticker": "GS",
-      "tx_type": "sale_full",
-      "tx_date": "2026-01-23",
-      "est_return": 3.06,
-      "est_position": 3000000
-    },
-    "worst_trade": {
-      "ticker": "GS",
-      "tx_type": "sale_full",
-      "tx_date": "2026-01-23",
-      "est_return": 3.06,
-      "est_position": 3000000
     }
   },
   {
@@ -106,46 +56,21 @@
     "chamber": "senate",
     "total_trades": 9,
     "trades_with_returns": 9,
-    "est_return_1y": 2.71,
+    "est_return_1y": 2.02,
     "win_rate": 66.7,
     "unique_tickers": 7,
     "best_trade": {
       "ticker": "HD",
       "tx_type": "sale_full",
       "tx_date": "2026-02-23",
-      "est_return": 10.75,
+      "est_return": 10.34,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "SBUX",
       "tx_type": "sale_full",
       "tx_date": "2026-01-09",
-      "est_return": -9.68,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 56,
-    "trades_with_returns": 55,
-    "est_return_1y": 1.56,
-    "win_rate": 47.3,
-    "unique_tickers": 48,
-    "best_trade": {
-      "ticker": "SLV",
-      "tx_type": "sale_full",
-      "tx_date": "2026-01-23",
-      "est_return": 26.51,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "LRCX",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-01-08",
-      "est_return": -33.02,
+      "est_return": -10.79,
       "est_position": 8000
     }
   },
@@ -156,46 +81,46 @@
     "chamber": "senate",
     "total_trades": 5,
     "trades_with_returns": 5,
-    "est_return_1y": 1.44,
+    "est_return_1y": 1.42,
     "win_rate": 40.0,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "ETN",
       "tx_type": "purchase",
       "tx_date": "2026-01-14",
-      "est_return": 21.81,
+      "est_return": 21.37,
       "est_position": 75000
     },
     "worst_trade": {
       "ticker": "UBER",
       "tx_type": "purchase",
       "tx_date": "2026-01-14",
-      "est_return": -14.54,
+      "est_return": -13.87,
       "est_position": 175000
     }
   },
   {
-    "name": "Thomas H Tuberville",
+    "name": "John Boozman",
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 5,
-    "trades_with_returns": 5,
-    "est_return_1y": 1.1,
-    "win_rate": 60.0,
-    "unique_tickers": 5,
+    "total_trades": 65,
+    "trades_with_returns": 64,
+    "est_return_1y": 1.37,
+    "win_rate": 53.1,
+    "unique_tickers": 54,
     "best_trade": {
-      "ticker": "XLU",
-      "tx_type": "purchase",
-      "tx_date": "2025-12-17",
-      "est_return": 9.31,
-      "est_position": 32500
+      "ticker": "PPLT",
+      "tx_type": "sale_full",
+      "tx_date": "2026-01-23",
+      "est_return": 24.1,
+      "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "GOOGL",
-      "tx_type": "sale_full",
-      "tx_date": "2025-12-17",
-      "est_return": -8.29,
+      "ticker": "MU",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-01-08",
+      "est_return": -42.39,
       "est_position": 8000
     }
   },
@@ -206,22 +131,72 @@
     "chamber": "senate",
     "total_trades": 65,
     "trades_with_returns": 61,
-    "est_return_1y": 1.05,
+    "est_return_1y": 1.09,
     "win_rate": 57.4,
     "unique_tickers": 49,
     "best_trade": {
       "ticker": "LRCX",
       "tx_type": "purchase",
       "tx_date": "2025-12-29",
-      "est_return": 52.0,
+      "est_return": 54.89,
       "est_position": 75000
     },
     "worst_trade": {
-      "ticker": "DELL",
+      "ticker": "CRDO",
       "tx_type": "sale_full",
       "tx_date": "2026-02-04",
-      "est_return": -55.51,
+      "est_return": -64.54,
       "est_position": 32500
+    }
+  },
+  {
+    "name": "David H McCormick",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 44,
+    "trades_with_returns": 1,
+    "est_return_1y": 1.01,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "GS",
+      "tx_type": "sale_full",
+      "tx_date": "2026-01-23",
+      "est_return": 1.01,
+      "est_position": 3000000
+    },
+    "worst_trade": {
+      "ticker": "GS",
+      "tx_type": "sale_full",
+      "tx_date": "2026-01-23",
+      "est_return": 1.01,
+      "est_position": 3000000
+    }
+  },
+  {
+    "name": "Thomas H Tuberville",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 5,
+    "trades_with_returns": 5,
+    "est_return_1y": 0.48,
+    "win_rate": 60.0,
+    "unique_tickers": 5,
+    "best_trade": {
+      "ticker": "XLU",
+      "tx_type": "purchase",
+      "tx_date": "2025-12-17",
+      "est_return": 9.5,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "GOOGL",
+      "tx_type": "sale_full",
+      "tx_date": "2025-12-17",
+      "est_return": -12.2,
+      "est_position": 8000
     }
   },
   {
@@ -231,21 +206,46 @@
     "chamber": "senate",
     "total_trades": 13,
     "trades_with_returns": 12,
-    "est_return_1y": 0.11,
+    "est_return_1y": 0.4,
     "win_rate": 58.3,
     "unique_tickers": 10,
     "best_trade": {
       "ticker": "AVGO",
       "tx_type": "purchase",
       "tx_date": "2026-02-09",
-      "est_return": 10.41,
+      "est_return": 10.71,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "FDS",
       "tx_type": "sale_partial",
       "tx_date": "2026-03-25",
-      "est_return": -16.78,
+      "est_return": -15.3,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "A. Mitchell McConnell, Jr.",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 1,
+    "est_return_1y": 0.31,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "WFC",
+      "tx_type": "purchase",
+      "tx_date": "2026-03-01",
+      "est_return": 0.31,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "WFC",
+      "tx_type": "purchase",
+      "tx_date": "2026-03-01",
+      "est_return": 0.31,
       "est_position": 8000
     }
   },
@@ -295,21 +295,21 @@
     "chamber": "senate",
     "total_trades": 12,
     "trades_with_returns": 12,
-    "est_return_1y": -0.06,
-    "win_rate": 66.7,
+    "est_return_1y": -1.74,
+    "win_rate": 58.3,
     "unique_tickers": 11,
     "best_trade": {
       "ticker": "ONON",
       "tx_type": "sale_full",
       "tx_date": "2026-02-13",
-      "est_return": 24.51,
+      "est_return": 21.44,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "NFLX",
       "tx_type": "sale_full",
       "tx_date": "2026-02-13",
-      "est_return": -34.2,
+      "est_return": -38.26,
       "est_position": 8000
     }
   },
@@ -320,21 +320,21 @@
     "chamber": "senate",
     "total_trades": 2,
     "trades_with_returns": 2,
-    "est_return_1y": -2.79,
+    "est_return_1y": -2.58,
     "win_rate": 50.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "WPC",
       "tx_type": "purchase",
       "tx_date": "2026-01-12",
-      "est_return": 6.63,
+      "est_return": 7.23,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "SWK",
       "tx_type": "purchase",
       "tx_date": "2026-01-12",
-      "est_return": -12.21,
+      "est_return": -12.4,
       "est_position": 32500
     }
   },
@@ -345,21 +345,21 @@
     "chamber": "senate",
     "total_trades": 4,
     "trades_with_returns": 1,
-    "est_return_1y": -5.21,
+    "est_return_1y": -5.04,
     "win_rate": 0.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "MMM",
       "tx_type": "sale_full",
       "tx_date": "2026-03-31",
-      "est_return": -5.21,
+      "est_return": -5.04,
       "est_position": 75000
     },
     "worst_trade": {
       "ticker": "MMM",
       "tx_type": "sale_full",
       "tx_date": "2026-03-31",
-      "est_return": -5.21,
+      "est_return": -5.04,
       "est_position": 75000
     }
   }
