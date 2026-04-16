@@ -19,8 +19,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 216.99,
-    "current_price": 223.55,
-    "est_return": -3.02
+    "current_price": 230.75,
+    "est_return": -6.34
   },
   {
     "id": "c9b91d5b3d905cdf",
@@ -42,8 +42,8 @@
     "days_late": 0,
     "est_position": 75000,
     "price_at_trade": 145.23,
-    "current_price": 152.55,
-    "est_return": -5.04
+    "current_price": 151.24,
+    "est_return": -4.14
   },
   {
     "id": "00e30099112499d7",
@@ -88,8 +88,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 357.22,
-    "current_price": 465.66,
-    "est_return": 30.36
+    "current_price": 456.23,
+    "est_return": 27.72
   },
   {
     "id": "e035dddd1bcb53b1",
@@ -111,8 +111,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 356.77,
-    "current_price": 393.11,
-    "est_return": 10.19
+    "current_price": 411.22,
+    "est_return": 15.26
   },
   {
     "id": "121a55e7e87213ee",
@@ -134,8 +134,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 247.99,
-    "current_price": 249.43,
-    "est_return": 0.58
+    "current_price": 244.53,
+    "est_return": -1.4
   },
   {
     "id": "17e9a62112480043",
@@ -157,8 +157,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 273.76,
-    "current_price": 330.58,
-    "est_return": 20.76
+    "current_price": 334.47,
+    "est_return": 22.18
   },
   {
     "id": "9504cfa69e52724e",
@@ -180,8 +180,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 199.34,
-    "current_price": 249.02,
-    "est_return": 24.92
+    "current_price": 248.5,
+    "est_return": 24.66
   },
   {
     "id": "8a225bb0dd9b4fec",
@@ -203,8 +203,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 153.04,
-    "current_price": 155.72,
-    "est_return": -1.75
+    "current_price": 154.85,
+    "est_return": -1.18
   },
   {
     "id": "cf805dfae305f786",
@@ -226,8 +226,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 484.24,
-    "current_price": 513.16,
-    "est_return": 5.97
+    "current_price": 519.96,
+    "est_return": 7.38
   },
   {
     "id": "c6f0a20a1f0f77a7",
@@ -249,8 +249,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 29.1,
-    "current_price": 25.62,
-    "est_return": 11.96
+    "current_price": 25.46,
+    "est_return": 12.51
   },
   {
     "id": "ec52eb6e90f02cde",
@@ -272,8 +272,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 365.97,
-    "current_price": 393.11,
-    "est_return": 7.42
+    "current_price": 411.22,
+    "est_return": 12.36
   },
   {
     "id": "6c94d15e2073e6df",
@@ -295,8 +295,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 240.87,
-    "current_price": 249.43,
-    "est_return": 3.55
+    "current_price": 244.53,
+    "est_return": 1.52
   },
   {
     "id": "a52269041c2e0a09",
@@ -318,8 +318,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 196.27,
-    "current_price": 223.55,
-    "est_return": -13.9
+    "current_price": 230.75,
+    "est_return": -17.57
   },
   {
     "id": "0926192472112568",
@@ -341,8 +341,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 193.88,
-    "current_price": 223.55,
-    "est_return": -15.3
+    "current_price": 230.75,
+    "est_return": -19.02
   },
   {
     "id": "3c1b050e8c039b85",
@@ -364,8 +364,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 42.72,
-    "current_price": 41.19,
-    "est_return": 3.58
+    "current_price": 40.96,
+    "est_return": 4.12
   },
   {
     "id": "0c481e8f56405fe6",
@@ -387,8 +387,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 77.44,
-    "current_price": 81.74,
-    "est_return": 5.55
+    "current_price": 82.38,
+    "est_return": 6.38
   },
   {
     "id": "f2ac897f6918518c",
@@ -410,8 +410,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 237.6,
-    "current_price": 240.1,
-    "est_return": -1.05
+    "current_price": 238.67,
+    "est_return": -0.45
   },
   {
     "id": "35c3cda14bf7c378",
@@ -433,8 +433,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 71.77,
-    "current_price": 77.5,
-    "est_return": -7.98
+    "current_price": 77.19,
+    "est_return": -7.55
   },
   {
     "id": "6da56b42f7b03702",
@@ -456,8 +456,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 64.05,
-    "current_price": 68.89,
-    "est_return": 7.56
+    "current_price": 68.7,
+    "est_return": 7.26
   },
   {
     "id": "43bc62678b4150e7",
@@ -479,8 +479,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 180.4,
-    "current_price": 196.51,
-    "est_return": 8.93
+    "current_price": 198.87,
+    "est_return": 10.24
   },
   {
     "id": "1a991972936a4d3e",
@@ -502,8 +502,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 28.92,
-    "current_price": 28.61,
-    "est_return": -1.07
+    "current_price": 28.68,
+    "est_return": -0.83
   },
   {
     "id": "d83914a8af1b388b",
@@ -525,8 +525,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 100.39,
-    "current_price": 112.61,
-    "est_return": 12.17
+    "current_price": 119.28,
+    "est_return": 18.82
   },
   {
     "id": "319ef7913ad83410",
@@ -548,8 +548,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 202.69,
-    "current_price": 221.2,
-    "est_return": 9.13
+    "current_price": 222.06,
+    "est_return": 9.56
   },
   {
     "id": "7d3139899f11d3b3",
@@ -571,8 +571,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 303.15,
-    "current_price": 326.96,
-    "est_return": 7.85
+    "current_price": 329.06,
+    "est_return": 8.55
   },
   {
     "id": "44458a2163315bd4",
@@ -594,8 +594,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 405.2,
-    "current_price": 393.11,
-    "est_return": -2.98
+    "current_price": 411.22,
+    "est_return": 1.49
   },
   {
     "id": "42cfc2dbac2fba75",
@@ -617,31 +617,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 81.45,
-    "current_price": 81.7,
-    "est_return": 0.31
-  },
-  {
-    "id": "00e898541be73fe8",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "AMAT",
-    "asset_description": "Applied Materials, Inc. - Common Stock",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-02-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/2b56957f-6859-43e2-a447-898509c7f142/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 375.72,
-    "current_price": 395.64,
-    "est_return": -5.3
+    "current_price": 80.29,
+    "est_return": -1.42
   },
   {
     "id": "289c4fa2a2826a20",
@@ -663,20 +640,20 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 99.03,
-    "current_price": 98.89,
-    "est_return": -0.14
+    "current_price": 100.33,
+    "est_return": 1.31
   },
   {
-    "id": "36519e4b9d6a51cc",
+    "id": "00e898541be73fe8",
     "politician": "John Boozman",
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "ticker": "PG",
-    "asset_description": "Procter & Gamble Company (The) Common Stock",
+    "ticker": "AMAT",
+    "asset_description": "Applied Materials, Inc. - Common Stock",
     "asset_type": "stock",
     "tx_type": "sale_partial",
-    "tx_date": "2026-02-26",
+    "tx_date": "2026-02-27",
     "disclosure_date": "",
     "amount_low": 1001,
     "amount_high": 15000,
@@ -685,9 +662,9 @@
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
-    "price_at_trade": 163.75,
-    "current_price": 144.38,
-    "est_return": 11.83
+    "price_at_trade": 375.72,
+    "current_price": 394.26,
+    "est_return": -4.93
   },
   {
     "id": "c2ea4a27ea055e35",
@@ -709,8 +686,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 67.18,
-    "current_price": 67.19,
-    "est_return": 0.01
+    "current_price": 66.63,
+    "est_return": -0.82
+  },
+  {
+    "id": "36519e4b9d6a51cc",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "PG",
+    "asset_description": "Procter & Gamble Company (The) Common Stock",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-02-26",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/2b56957f-6859-43e2-a447-898509c7f142/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 163.75,
+    "current_price": 143.38,
+    "est_return": 12.44
   },
   {
     "id": "faca976e0199d766",
@@ -732,8 +732,8 @@
     "days_late": 0,
     "est_position": 75000,
     "price_at_trade": 273.95,
-    "current_price": 314.19,
-    "est_return": 14.69
+    "current_price": 314.05,
+    "est_return": 14.64
   },
   {
     "id": "4a286773c34956b3",
@@ -755,8 +755,8 @@
     "days_late": 0,
     "est_position": 75000,
     "price_at_trade": 3671.82,
-    "current_price": 3508.5,
-    "est_return": 4.45
+    "current_price": 3536.42,
+    "est_return": 3.69
   },
   {
     "id": "9a9d1045ee7ca173",
@@ -778,8 +778,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 358.71,
-    "current_price": 366.8,
-    "est_return": -2.26
+    "current_price": 389.72,
+    "est_return": -8.64
   },
   {
     "id": "8aa33b0aa64c4723",
@@ -801,8 +801,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 294.56,
-    "current_price": 272.25,
-    "est_return": 7.57
+    "current_price": 264.39,
+    "est_return": 10.24
   },
   {
     "id": "06e6be517ea18469",
@@ -824,8 +824,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 382.25,
-    "current_price": 342.71,
-    "est_return": 10.34
+    "current_price": 338.91,
+    "est_return": 11.34
   },
   {
     "id": "c866b573af2b0b32",
@@ -847,8 +847,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 166.83,
-    "current_price": 155.72,
-    "est_return": 6.66
+    "current_price": 154.85,
+    "est_return": 7.18
   },
   {
     "id": "c6a4eb1b1f24de05",
@@ -870,8 +870,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 49.25,
-    "current_price": 45.48,
-    "est_return": 7.65
+    "current_price": 45.03,
+    "est_return": 8.57
   },
   {
     "id": "75eca92719be52e6",
@@ -893,8 +893,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 526.41,
-    "current_price": 513.16,
-    "est_return": 2.52
+    "current_price": 519.96,
+    "est_return": 1.23
   },
   {
     "id": "29cc4355d7c65ef2",
@@ -916,8 +916,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 92.34,
-    "current_price": 88.85,
-    "est_return": 3.78
+    "current_price": 90.26,
+    "est_return": 2.25
   },
   {
     "id": "0f21a915e7bdb102",
@@ -939,31 +939,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 265.0,
-    "current_price": 252.04,
-    "est_return": 4.89
-  },
-  {
-    "id": "689882bebbdfd27d",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "ADBE",
-    "asset_description": "Adobe Inc. - Common Stock",
-    "asset_type": "stock",
-    "tx_type": "sale_full",
-    "tx_date": "2026-02-13",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/2b56957f-6859-43e2-a447-898509c7f142/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 262.5,
-    "current_price": 235.72,
-    "est_return": 10.2
+    "current_price": 248.03,
+    "est_return": 6.4
   },
   {
     "id": "c06db205c3423867",
@@ -985,8 +962,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 401.84,
-    "current_price": 393.11,
-    "est_return": -2.17
+    "current_price": 411.22,
+    "est_return": 2.33
+  },
+  {
+    "id": "689882bebbdfd27d",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "ADBE",
+    "asset_description": "Adobe Inc. - Common Stock",
+    "asset_type": "stock",
+    "tx_type": "sale_full",
+    "tx_date": "2026-02-13",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/2b56957f-6859-43e2-a447-898509c7f142/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 262.5,
+    "current_price": 244.66,
+    "est_return": 6.8
   },
   {
     "id": "910da8fa65dd9471",
@@ -1008,8 +1008,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 73.91,
-    "current_price": 72.91,
-    "est_return": 1.35
+    "current_price": 77.28,
+    "est_return": -4.56
   },
   {
     "id": "e9c97d027b09bf11",
@@ -1031,8 +1031,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 39.08,
-    "current_price": 47.97,
-    "est_return": -22.75
+    "current_price": 49.57,
+    "est_return": -26.84
   },
   {
     "id": "0131b2b168f79255",
@@ -1054,8 +1054,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 45.29,
-    "current_price": 35.58,
-    "est_return": 21.44
+    "current_price": 35.43,
+    "est_return": 21.77
   },
   {
     "id": "71a55ebb9687ef2a",
@@ -1077,8 +1077,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 76.87,
-    "current_price": 106.28,
-    "est_return": -38.26
+    "current_price": 107.71,
+    "est_return": -40.12
   },
   {
     "id": "de538cd3940313dc",
@@ -1100,8 +1100,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 401.84,
-    "current_price": 393.11,
-    "est_return": 2.17
+    "current_price": 411.22,
+    "est_return": -2.33
   },
   {
     "id": "034c620826a23d5d",
@@ -1123,8 +1123,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 649.81,
-    "current_price": 662.49,
-    "est_return": -1.95
+    "current_price": 671.58,
+    "est_return": -3.35
   },
   {
     "id": "8c93a8a86c59d2d5",
@@ -1146,7 +1146,7 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 1038.27,
-    "current_price": 922.5,
-    "est_return": 11.15
+    "current_price": 905.03,
+    "est_return": 12.83
   }
 ]

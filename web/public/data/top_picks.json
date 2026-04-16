@@ -2,25 +2,25 @@
   {
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation - Common Stock",
-    "score": 23.7,
+    "score": 23.1,
     "num_politicians": 2,
     "bipartisan": true,
-    "avg_win_rate": 76.5,
+    "avg_win_rate": 71.1,
     "latest_trade_date": "2026-03-30",
     "price_at_latest": 356.77,
-    "current_price": 393.11,
+    "current_price": 411.22,
     "politicians": [
       {
         "name": "John Boozman",
         "party": "R",
         "tx_date": "2026-03-05",
-        "win_rate": 53.1
+        "win_rate": 54.7
       },
       {
         "name": "John Fetterman",
         "party": "D",
         "tx_date": "2026-03-27",
-        "win_rate": 100.0
+        "win_rate": 87.5
       }
     ]
   }
