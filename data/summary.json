@@ -31,14 +31,14 @@
     "chamber": "senate",
     "total_trades": 23,
     "trades_with_returns": 12,
-    "est_return_1y": 8.0,
+    "est_return_1y": 8.17,
     "win_rate": 41.7,
     "unique_tickers": 12,
     "best_trade": {
       "ticker": "NVDA",
       "tx_type": "purchase",
       "tx_date": "2025-04-30",
-      "est_return": 80.45,
+      "est_return": 85.2,
       "est_position": 8000
     },
     "worst_trade": {
@@ -81,7 +81,7 @@
     "chamber": "senate",
     "total_trades": 65,
     "trades_with_returns": 64,
-    "est_return_1y": 1.96,
+    "est_return_1y": 1.94,
     "win_rate": 59.4,
     "unique_tickers": 54,
     "best_trade": {
@@ -131,7 +131,7 @@
     "chamber": "senate",
     "total_trades": 9,
     "trades_with_returns": 9,
-    "est_return_1y": 0.46,
+    "est_return_1y": 0.15,
     "win_rate": 55.6,
     "unique_tickers": 7,
     "best_trade": {
