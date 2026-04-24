@@ -34,38 +34,6 @@
   {
     "name": "John Boozman",
     "office": "Boozman, John (Senator)",
-    "report_type": "Periodic Transaction Report for 02/15/2026",
-    "date_filed": "02/15/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/bd886067-927f-48a8-9d43-8ab6fa713f98/",
-    "report_id": "bd886067-927f-48a8-9d43-8ab6fa713f98"
-  },
-  {
-    "name": "John Boozman",
-    "office": "Boozman, John (Senator)",
-    "report_type": "Periodic Transaction Report for 03/06/2026",
-    "date_filed": "03/06/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/2b56957f-6859-43e2-a447-898509c7f142/",
-    "report_id": "2b56957f-6859-43e2-a447-898509c7f142"
-  },
-  {
-    "name": "John Boozman",
-    "office": "Boozman, John (Senator)",
-    "report_type": "Periodic Transaction Report for 03/06/2026",
-    "date_filed": "03/06/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/141ea86c-9411-4d3f-ae9b-ce6e5e8065d1/",
-    "report_id": "141ea86c-9411-4d3f-ae9b-ce6e5e8065d1"
-  },
-  {
-    "name": "John Boozman",
-    "office": "Boozman, John (Senator)",
-    "report_type": "Periodic Transaction Report for 02/15/2026",
-    "date_filed": "02/15/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/135ebfe9-099e-4d58-ba46-f739b90d61da/",
-    "report_id": "135ebfe9-099e-4d58-ba46-f739b90d61da"
-  },
-  {
-    "name": "John Boozman",
-    "office": "Boozman, John (Senator)",
     "report_type": "Periodic Transaction Report for 04/14/2026",
     "date_filed": "04/14/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/e9d6ab5f-3a50-49bc-9f00-3ef4655045aa/",
@@ -78,6 +46,38 @@
     "date_filed": "04/14/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/88c765c5-6550-47af-a81d-2e052c1c1b7e/",
     "report_id": "88c765c5-6550-47af-a81d-2e052c1c1b7e"
+  },
+  {
+    "name": "John Boozman",
+    "office": "Boozman, John (Senator)",
+    "report_type": "Periodic Transaction Report for 03/06/2026",
+    "date_filed": "03/06/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/2b56957f-6859-43e2-a447-898509c7f142/",
+    "report_id": "2b56957f-6859-43e2-a447-898509c7f142"
+  },
+  {
+    "name": "John Boozman",
+    "office": "Boozman, John (Senator)",
+    "report_type": "Periodic Transaction Report for 02/15/2026",
+    "date_filed": "02/15/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/bd886067-927f-48a8-9d43-8ab6fa713f98/",
+    "report_id": "bd886067-927f-48a8-9d43-8ab6fa713f98"
+  },
+  {
+    "name": "John Boozman",
+    "office": "Boozman, John (Senator)",
+    "report_type": "Periodic Transaction Report for 02/15/2026",
+    "date_filed": "02/15/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/135ebfe9-099e-4d58-ba46-f739b90d61da/",
+    "report_id": "135ebfe9-099e-4d58-ba46-f739b90d61da"
+  },
+  {
+    "name": "John Boozman",
+    "office": "Boozman, John (Senator)",
+    "report_type": "Periodic Transaction Report for 03/06/2026",
+    "date_filed": "03/06/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/141ea86c-9411-4d3f-ae9b-ce6e5e8065d1/",
+    "report_id": "141ea86c-9411-4d3f-ae9b-ce6e5e8065d1"
   },
   {
     "name": "Katie Britt",
@@ -94,14 +94,6 @@
     "date_filed": "01/29/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/37900303-65bf-467d-962b-76555d510b28/",
     "report_id": "37900303-65bf-467d-962b-76555d510b28"
-  },
-  {
-    "name": "Shelley M Capito",
-    "office": "Capito, Shelley Moore (Senator)",
-    "report_type": "Periodic Transaction Report for 04/04/2026",
-    "date_filed": "04/04/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/ab712d8d-1afd-4f09-b29e-f1b65bba50b8/",
-    "report_id": "ab712d8d-1afd-4f09-b29e-f1b65bba50b8"
   },
   {
     "name": "Shelley M Capito",
@@ -128,12 +120,20 @@
     "report_id": "aa38bdb0-5847-4bec-8e36-80d6ffc90837"
   },
   {
+    "name": "Shelley M Capito",
+    "office": "Capito, Shelley Moore (Senator)",
+    "report_type": "Periodic Transaction Report for 04/04/2026",
+    "date_filed": "04/04/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/ab712d8d-1afd-4f09-b29e-f1b65bba50b8/",
+    "report_id": "ab712d8d-1afd-4f09-b29e-f1b65bba50b8"
+  },
+  {
     "name": "Susan M Collins",
     "office": "Collins, Susan M. (Senator)",
-    "report_type": "Periodic Transaction Report for 04/08/2026",
-    "date_filed": "04/08/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/e5e9e7aa-ffd0-4414-8d2e-1cb7592b9797/",
-    "report_id": "e5e9e7aa-ffd0-4414-8d2e-1cb7592b9797"
+    "report_type": "Periodic Transaction Report for 03/25/2026",
+    "date_filed": "03/25/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f6e2adb6-d995-4d21-ad04-5325892a0bf9/",
+    "report_id": "f6e2adb6-d995-4d21-ad04-5325892a0bf9"
   },
   {
     "name": "Susan M Collins",
@@ -146,18 +146,10 @@
   {
     "name": "Susan M Collins",
     "office": "Collins, Susan M. (Senator)",
-    "report_type": "Periodic Transaction Report for 03/25/2026",
-    "date_filed": "03/25/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f6e2adb6-d995-4d21-ad04-5325892a0bf9/",
-    "report_id": "f6e2adb6-d995-4d21-ad04-5325892a0bf9"
-  },
-  {
-    "name": "John Fetterman",
-    "office": "Fetterman, John (Senator)",
-    "report_type": "Periodic Transaction Report for 03/05/2026",
-    "date_filed": "03/05/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f7a22ac4-87ea-46e3-9303-c84d8b1ed6e0/",
-    "report_id": "f7a22ac4-87ea-46e3-9303-c84d8b1ed6e0"
+    "report_type": "Periodic Transaction Report for 04/08/2026",
+    "date_filed": "04/08/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/e5e9e7aa-ffd0-4414-8d2e-1cb7592b9797/",
+    "report_id": "e5e9e7aa-ffd0-4414-8d2e-1cb7592b9797"
   },
   {
     "name": "John Fetterman",
@@ -168,12 +160,12 @@
     "report_id": "8d93e30a-19a8-43a9-93d8-e95d629b1039"
   },
   {
-    "name": "William F Hagerty, IV",
-    "office": "Hagerty, Bill (Senator)",
-    "report_type": "Periodic Transaction Report for 02/23/2026",
-    "date_filed": "02/23/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f3dc67af-1a91-4d58-a98f-f5adec91ecd7/",
-    "report_id": "f3dc67af-1a91-4d58-a98f-f5adec91ecd7"
+    "name": "John Fetterman",
+    "office": "Fetterman, John (Senator)",
+    "report_type": "Periodic Transaction Report for 03/05/2026",
+    "date_filed": "03/05/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f7a22ac4-87ea-46e3-9303-c84d8b1ed6e0/",
+    "report_id": "f7a22ac4-87ea-46e3-9303-c84d8b1ed6e0"
   },
   {
     "name": "William F Hagerty, IV",
@@ -184,12 +176,12 @@
     "report_id": "12848a78-c94a-4813-9051-5b3063c718a9"
   },
   {
-    "name": "John W Hickenlooper",
-    "office": "Hickenlooper, John (Senator)",
-    "report_type": "Periodic Transaction Report for 03/04/2026",
-    "date_filed": "03/04/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/31980453-e298-4f21-9134-5d0b1a0e6491/",
-    "report_id": "31980453-e298-4f21-9134-5d0b1a0e6491"
+    "name": "William F Hagerty, IV",
+    "office": "Hagerty, Bill (Senator)",
+    "report_type": "Periodic Transaction Report for 02/23/2026",
+    "date_filed": "02/23/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f3dc67af-1a91-4d58-a98f-f5adec91ecd7/",
+    "report_id": "f3dc67af-1a91-4d58-a98f-f5adec91ecd7"
   },
   {
     "name": "John W Hickenlooper",
@@ -200,12 +192,12 @@
     "report_id": "83722654-25b1-499e-8ad5-4a1349d993a6"
   },
   {
-    "name": "Angus S King, Jr.",
-    "office": "King, Angus (Senator)",
-    "report_type": "Periodic Transaction Report for 03/24/2026",
-    "date_filed": "03/24/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/09b9c1ed-1d73-4f17-b6f8-7b2d92021c5b/",
-    "report_id": "09b9c1ed-1d73-4f17-b6f8-7b2d92021c5b"
+    "name": "John W Hickenlooper",
+    "office": "Hickenlooper, John (Senator)",
+    "report_type": "Periodic Transaction Report for 03/04/2026",
+    "date_filed": "03/04/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/31980453-e298-4f21-9134-5d0b1a0e6491/",
+    "report_id": "31980453-e298-4f21-9134-5d0b1a0e6491"
   },
   {
     "name": "Angus S King, Jr.",
@@ -216,20 +208,20 @@
     "report_id": "d7cae837-f73c-4eb1-b9fb-e510f53d65de"
   },
   {
+    "name": "Angus S King, Jr.",
+    "office": "King, Angus (Senator)",
+    "report_type": "Periodic Transaction Report for 03/24/2026",
+    "date_filed": "03/24/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/09b9c1ed-1d73-4f17-b6f8-7b2d92021c5b/",
+    "report_id": "09b9c1ed-1d73-4f17-b6f8-7b2d92021c5b"
+  },
+  {
     "name": "A. Mitchell McConnell, Jr.",
     "office": "McConnell, A. Mitchell Jr. (Senator)",
     "report_type": "Periodic Transaction Report for 03/19/2026",
     "date_filed": "03/19/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/8ee57a8c-076d-4e8b-bf04-061edaf0724e/",
     "report_id": "8ee57a8c-076d-4e8b-bf04-061edaf0724e"
-  },
-  {
-    "name": "David H McCormick",
-    "office": "McCormick, David H. (Senator)",
-    "report_type": "Periodic Transaction Report for 02/23/2026",
-    "date_filed": "02/22/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/",
-    "report_id": "f977c281-48c1-4de0-af95-6765127f4720"
   },
   {
     "name": "David H McCormick",
@@ -250,10 +242,26 @@
   {
     "name": "David H McCormick",
     "office": "McCormick, David H. (Senator)",
+    "report_type": "Periodic Transaction Report for 02/23/2026",
+    "date_filed": "02/22/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f977c281-48c1-4de0-af95-6765127f4720/",
+    "report_id": "f977c281-48c1-4de0-af95-6765127f4720"
+  },
+  {
+    "name": "David H McCormick",
+    "office": "McCormick, David H. (Senator)",
     "report_type": "Periodic Transaction Report for 03/28/2026",
     "date_filed": "03/28/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/b7c1a149-760f-4a4e-96a7-e2d689bccd2e/",
     "report_id": "b7c1a149-760f-4a4e-96a7-e2d689bccd2e"
+  },
+  {
+    "name": "Markwayne Mullin",
+    "office": "Mullin, Markwayne (Senator)",
+    "report_type": "Periodic Transaction Report for 03/02/2026",
+    "date_filed": "03/02/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/315cd41e-0e2e-492b-9fc6-32bb92100734/",
+    "report_id": "315cd41e-0e2e-492b-9fc6-32bb92100734"
   },
   {
     "name": "Markwayne Mullin",
@@ -272,12 +280,12 @@
     "report_id": "f586922d-6083-44e5-8a32-769290389416"
   },
   {
-    "name": "Markwayne Mullin",
-    "office": "Mullin, Markwayne (Senator)",
-    "report_type": "Periodic Transaction Report for 03/02/2026",
-    "date_filed": "03/02/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/315cd41e-0e2e-492b-9fc6-32bb92100734/",
-    "report_id": "315cd41e-0e2e-492b-9fc6-32bb92100734"
+    "name": "Tina Smith",
+    "office": "Smith, Tina (Senator)",
+    "report_type": "Periodic Transaction Report for 04/02/2026",
+    "date_filed": "04/02/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/5a00d807-84f1-409b-9cb0-566e59553e38/",
+    "report_id": "5a00d807-84f1-409b-9cb0-566e59553e38"
   },
   {
     "name": "Tina Smith",
@@ -286,14 +294,6 @@
     "date_filed": "01/30/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/a8f2bab8-0feb-49cf-b80f-9826cb4a7a4c/",
     "report_id": "a8f2bab8-0feb-49cf-b80f-9826cb4a7a4c"
-  },
-  {
-    "name": "Tina Smith",
-    "office": "Smith, Tina (Senator)",
-    "report_type": "Periodic Transaction Report for 04/02/2026",
-    "date_filed": "04/02/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/5a00d807-84f1-409b-9cb0-566e59553e38/",
-    "report_id": "5a00d807-84f1-409b-9cb0-566e59553e38"
   },
   {
     "name": "Sheldon Whitehouse",
