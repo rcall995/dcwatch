@@ -6,8 +6,8 @@
     "chamber": "senate",
     "total_trades": 12,
     "trades_with_returns": 8,
-    "est_return_1y": 16.59,
-    "win_rate": 75.0,
+    "est_return_1y": 18.18,
+    "win_rate": 100.0,
     "unique_tickers": 6,
     "best_trade": {
       "ticker": "MU",
@@ -20,7 +20,7 @@
       "ticker": "ERIE",
       "tx_type": "purchase",
       "tx_date": "2026-03-30",
-      "est_return": -5.79,
+      "est_return": 2.27,
       "est_position": 8000
     }
   },
@@ -106,7 +106,7 @@
     "chamber": "senate",
     "total_trades": 65,
     "trades_with_returns": 64,
-    "est_return_1y": 1.7,
+    "est_return_1y": 1.65,
     "win_rate": 54.7,
     "unique_tickers": 54,
     "best_trade": {
@@ -276,6 +276,31 @@
     }
   },
   {
+    "name": "Angus S King, Jr.",
+    "party": "I",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 12,
+    "trades_with_returns": 12,
+    "est_return_1y": -2.45,
+    "win_rate": 41.7,
+    "unique_tickers": 11,
+    "best_trade": {
+      "ticker": "ONON",
+      "tx_type": "sale_full",
+      "tx_date": "2026-02-13",
+      "est_return": 19.96,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "PYPL",
+      "tx_type": "sale_full",
+      "tx_date": "2026-02-13",
+      "est_return": -29.17,
+      "est_position": 8000
+    }
+  },
+  {
     "name": "A. Mitchell McConnell, Jr.",
     "party": "R",
     "state": "",
@@ -297,31 +322,6 @@
       "tx_type": "purchase",
       "tx_date": "2026-03-01",
       "est_return": -2.49,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "Angus S King, Jr.",
-    "party": "I",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 12,
-    "trades_with_returns": 12,
-    "est_return_1y": -2.58,
-    "win_rate": 41.7,
-    "unique_tickers": 11,
-    "best_trade": {
-      "ticker": "ONON",
-      "tx_type": "sale_full",
-      "tx_date": "2026-02-13",
-      "est_return": 19.96,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "PYPL",
-      "tx_type": "sale_full",
-      "tx_date": "2026-02-13",
-      "est_return": -29.17,
       "est_position": 8000
     }
   }
