@@ -134,8 +134,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 356.77,
-    "current_price": 418.07,
-    "est_return": 17.18
+    "current_price": 424.62,
+    "est_return": 19.02
   },
   {
     "id": "121a55e7e87213ee",
@@ -157,8 +157,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 247.99,
-    "current_price": 253.63,
-    "est_return": 2.27
+    "current_price": 233.62,
+    "est_return": -5.79
   },
   {
     "id": "17e9a62112480043",
@@ -249,8 +249,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 484.24,
-    "current_price": 504.17,
-    "est_return": 4.12
+    "current_price": 511.35,
+    "est_return": 5.6
   },
   {
     "id": "c6f0a20a1f0f77a7",
@@ -295,8 +295,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 365.97,
-    "current_price": 418.07,
-    "est_return": 14.24
+    "current_price": 424.62,
+    "est_return": 16.03
   },
   {
     "id": "6c94d15e2073e6df",
@@ -318,8 +318,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 240.87,
-    "current_price": 253.63,
-    "est_return": 5.3
+    "current_price": 233.62,
+    "est_return": -3.01
   },
   {
     "id": "a52269041c2e0a09",
@@ -368,6 +368,29 @@
     "est_return": -15.6
   },
   {
+    "id": "3c1b050e8c039b85",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "TPYP",
+    "asset_description": "Tortoise North American Pipeline Fund",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-03-20",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/e9d6ab5f-3a50-49bc-9f00-3ef4655045aa/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 42.72,
+    "current_price": 41.5,
+    "est_return": 2.86
+  },
+  {
     "id": "0c481e8f56405fe6",
     "politician": "John Boozman",
     "party": "R",
@@ -391,16 +414,16 @@
     "est_return": 8.51
   },
   {
-    "id": "3c1b050e8c039b85",
+    "id": "f2ac897f6918518c",
     "politician": "John Boozman",
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "ticker": "TPYP",
-    "asset_description": "Tortoise North American Pipeline Fund",
+    "ticker": "JNJ",
+    "asset_description": "Johnson & Johnson Common Stock",
     "asset_type": "stock",
     "tx_type": "sale_partial",
-    "tx_date": "2026-03-20",
+    "tx_date": "2026-03-19",
     "disclosure_date": "",
     "amount_low": 1001,
     "amount_high": 15000,
@@ -409,9 +432,32 @@
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
-    "price_at_trade": 42.72,
-    "current_price": 41.5,
-    "est_return": 2.86
+    "price_at_trade": 237.6,
+    "current_price": 227.5,
+    "est_return": 4.25
+  },
+  {
+    "id": "35c3cda14bf7c378",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "BBEU",
+    "asset_description": "JPMorgan BetaBuilders Europe ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_full",
+    "tx_date": "2026-03-19",
+    "disclosure_date": "",
+    "amount_low": 15001,
+    "amount_high": 50000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/e9d6ab5f-3a50-49bc-9f00-3ef4655045aa/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 32500,
+    "price_at_trade": 71.77,
+    "current_price": 76.33,
+    "est_return": -6.35
   },
   {
     "id": "6da56b42f7b03702",
@@ -481,52 +527,6 @@
     "price_at_trade": 28.92,
     "current_price": 29.07,
     "est_return": 0.52
-  },
-  {
-    "id": "f2ac897f6918518c",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "JNJ",
-    "asset_description": "Johnson & Johnson Common Stock",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-03-19",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/e9d6ab5f-3a50-49bc-9f00-3ef4655045aa/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 237.6,
-    "current_price": 227.5,
-    "est_return": 4.25
-  },
-  {
-    "id": "35c3cda14bf7c378",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "BBEU",
-    "asset_description": "JPMorgan BetaBuilders Europe ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_full",
-    "tx_date": "2026-03-19",
-    "disclosure_date": "",
-    "amount_low": 15001,
-    "amount_high": 50000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/e9d6ab5f-3a50-49bc-9f00-3ef4655045aa/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 32500,
-    "price_at_trade": 71.77,
-    "current_price": 76.33,
-    "est_return": -6.35
   },
   {
     "id": "d83914a8af1b388b",
@@ -617,8 +617,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 405.2,
-    "current_price": 418.07,
-    "est_return": 3.18
+    "current_price": 424.62,
+    "est_return": 4.79
   },
   {
     "id": "42cfc2dbac2fba75",
@@ -916,8 +916,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 526.41,
-    "current_price": 504.17,
-    "est_return": 4.22
+    "current_price": 511.35,
+    "est_return": 2.86
   },
   {
     "id": "29cc4355d7c65ef2",
@@ -1008,8 +1008,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 401.84,
-    "current_price": 418.07,
-    "est_return": 4.04
+    "current_price": 424.62,
+    "est_return": 5.67
   },
   {
     "id": "910da8fa65dd9471",
@@ -1123,8 +1123,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 401.84,
-    "current_price": 418.07,
-    "est_return": -4.04
+    "current_price": 424.62,
+    "est_return": -5.67
   },
   {
     "id": "034c620826a23d5d",
