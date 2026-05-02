@@ -6,21 +6,46 @@
     "chamber": "senate",
     "total_trades": 12,
     "trades_with_returns": 8,
-    "est_return_1y": 16.55,
+    "est_return_1y": 17.74,
     "win_rate": 75.0,
     "unique_tickers": 6,
     "best_trade": {
       "ticker": "MU",
       "tx_type": "purchase",
       "tx_date": "2026-03-30",
-      "est_return": 44.77,
+      "est_return": 51.79,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ERIE",
       "tx_type": "purchase",
       "tx_date": "2026-03-30",
-      "est_return": -11.72,
+      "est_return": -13.32,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Sheldon Whitehouse",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 9,
+    "trades_with_returns": 9,
+    "est_return_1y": 2.23,
+    "win_rate": 66.7,
+    "unique_tickers": 7,
+    "best_trade": {
+      "ticker": "HD",
+      "tx_type": "sale_full",
+      "tx_date": "2026-02-23",
+      "est_return": 15.27,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "SBUX",
+      "tx_type": "sale_full",
+      "tx_date": "2026-01-09",
+      "est_return": -19.15,
       "est_position": 8000
     }
   },
@@ -31,47 +56,47 @@
     "chamber": "senate",
     "total_trades": 65,
     "trades_with_returns": 64,
-    "est_return_1y": 2.22,
-    "win_rate": 57.8,
+    "est_return_1y": 2.07,
+    "win_rate": 59.4,
     "unique_tickers": 54,
     "best_trade": {
       "ticker": "CAT",
       "tx_type": "purchase",
       "tx_date": "2026-01-29",
-      "est_return": 33.8,
+      "est_return": 33.74,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "MU",
       "tx_type": "sale_partial",
       "tx_date": "2026-01-08",
-      "est_return": -58.14,
+      "est_return": -65.8,
       "est_position": 8000
     }
   },
   {
-    "name": "Markwayne Mullin",
-    "party": "R",
+    "name": "Tina Smith",
+    "party": "D",
     "state": "",
     "chamber": "senate",
-    "total_trades": 34,
-    "trades_with_returns": 30,
-    "est_return_1y": 2.19,
-    "win_rate": 50.0,
-    "unique_tickers": 20,
+    "total_trades": 2,
+    "trades_with_returns": 1,
+    "est_return_1y": 1.88,
+    "win_rate": 100.0,
+    "unique_tickers": 2,
     "best_trade": {
-      "ticker": "MPWR",
-      "tx_type": "purchase",
-      "tx_date": "2026-01-05",
-      "est_return": 69.04,
-      "est_position": 32500
+      "ticker": "MMM",
+      "tx_type": "sale_full",
+      "tx_date": "2026-03-31",
+      "est_return": 1.88,
+      "est_position": 75000
     },
     "worst_trade": {
-      "ticker": "CRDO",
+      "ticker": "MMM",
       "tx_type": "sale_full",
-      "tx_date": "2026-02-04",
-      "est_return": -79.48,
-      "est_position": 32500
+      "tx_date": "2026-03-31",
+      "est_return": 1.88,
+      "est_position": 75000
     }
   },
   {
@@ -81,72 +106,47 @@
     "chamber": "senate",
     "total_trades": 5,
     "trades_with_returns": 5,
-    "est_return_1y": 1.97,
+    "est_return_1y": 1.78,
     "win_rate": 40.0,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "ETN",
       "tx_type": "purchase",
       "tx_date": "2026-01-14",
-      "est_return": 30.76,
+      "est_return": 28.51,
       "est_position": 75000
     },
     "worst_trade": {
       "ticker": "SIRI",
       "tx_type": "sale_partial",
       "tx_date": "2026-02-05",
-      "est_return": -20.75,
+      "est_return": -22.01,
       "est_position": 75000
     }
   },
   {
-    "name": "Sheldon Whitehouse",
-    "party": "D",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 9,
-    "trades_with_returns": 9,
-    "est_return_1y": 1.4,
-    "win_rate": 66.7,
-    "unique_tickers": 7,
-    "best_trade": {
-      "ticker": "HD",
-      "tx_type": "sale_full",
-      "tx_date": "2026-02-23",
-      "est_return": 13.98,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "SBUX",
-      "tx_type": "sale_full",
-      "tx_date": "2026-01-09",
-      "est_return": -18.51,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "A. Mitchell McConnell, Jr.",
+    "name": "Markwayne Mullin",
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 1,
-    "trades_with_returns": 1,
-    "est_return_1y": 0.96,
-    "win_rate": 100.0,
-    "unique_tickers": 1,
+    "total_trades": 34,
+    "trades_with_returns": 30,
+    "est_return_1y": 1.09,
+    "win_rate": 53.3,
+    "unique_tickers": 20,
     "best_trade": {
-      "ticker": "WFC",
+      "ticker": "MPWR",
       "tx_type": "purchase",
-      "tx_date": "2026-03-01",
-      "est_return": 0.96,
-      "est_position": 8000
+      "tx_date": "2026-01-05",
+      "est_return": 65.8,
+      "est_position": 32500
     },
     "worst_trade": {
-      "ticker": "WFC",
-      "tx_type": "purchase",
-      "tx_date": "2026-03-01",
-      "est_return": 0.96,
-      "est_position": 8000
+      "ticker": "CRDO",
+      "tx_type": "sale_full",
+      "tx_date": "2026-02-04",
+      "est_return": -90.18,
+      "est_position": 32500
     }
   },
   {
@@ -180,7 +180,7 @@
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 44,
+    "total_trades": 53,
     "trades_with_returns": 1,
     "est_return_1y": -0.53,
     "win_rate": 0.0,
@@ -201,28 +201,28 @@
     }
   },
   {
-    "name": "Tina Smith",
-    "party": "D",
+    "name": "A. Mitchell McConnell, Jr.",
+    "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 2,
+    "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": -0.89,
+    "est_return_1y": -0.79,
     "win_rate": 0.0,
-    "unique_tickers": 2,
+    "unique_tickers": 1,
     "best_trade": {
-      "ticker": "MMM",
-      "tx_type": "sale_full",
-      "tx_date": "2026-03-31",
-      "est_return": -0.89,
-      "est_position": 75000
+      "ticker": "WFC",
+      "tx_type": "purchase",
+      "tx_date": "2026-03-01",
+      "est_return": -0.79,
+      "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "MMM",
-      "tx_type": "sale_full",
-      "tx_date": "2026-03-31",
-      "est_return": -0.89,
-      "est_position": 75000
+      "ticker": "WFC",
+      "tx_type": "purchase",
+      "tx_date": "2026-03-01",
+      "est_return": -0.79,
+      "est_position": 8000
     }
   },
   {
@@ -232,21 +232,21 @@
     "chamber": "senate",
     "total_trades": 13,
     "trades_with_returns": 12,
-    "est_return_1y": -1.42,
+    "est_return_1y": -1.51,
     "win_rate": 50.0,
     "unique_tickers": 10,
     "best_trade": {
       "ticker": "AVGO",
       "tx_type": "purchase",
       "tx_date": "2026-02-09",
-      "est_return": 21.37,
+      "est_return": 22.49,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ADI",
       "tx_type": "sale_partial",
       "tx_date": "2026-02-10",
-      "est_return": -24.1,
+      "est_return": -22.69,
       "est_position": 8000
     }
   },
@@ -257,21 +257,21 @@
     "chamber": "senate",
     "total_trades": 9,
     "trades_with_returns": 9,
-    "est_return_1y": -1.61,
+    "est_return_1y": -2.15,
     "win_rate": 44.4,
     "unique_tickers": 9,
     "best_trade": {
       "ticker": "ONON",
       "tx_type": "sale_full",
       "tx_date": "2026-02-13",
-      "est_return": 21.37,
+      "est_return": 23.74,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "PYPL",
       "tx_type": "sale_full",
       "tx_date": "2026-02-13",
-      "est_return": -28.3,
+      "est_return": -29.07,
       "est_position": 8000
     }
   },
@@ -282,21 +282,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": -6.97,
+    "est_return_1y": -7.55,
     "win_rate": 0.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "SBUX",
       "tx_type": "sale_full",
       "tx_date": "2026-04-15",
-      "est_return": -6.97,
+      "est_return": -7.55,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "SBUX",
       "tx_type": "sale_full",
       "tx_date": "2026-04-15",
-      "est_return": -6.97,
+      "est_return": -7.55,
       "est_position": 8000
     }
   }
