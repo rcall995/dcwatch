@@ -1,5 +1,51 @@
 [
   {
+    "id": "c3fa3712f2c0bb38",
+    "politician": "Shelley M Capito",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "CEG",
+    "asset_description": "Constellation Energy Corporation - Common Stock When-Issued",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-04-17",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Spouse",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/029f67f3-121a-406c-bddf-a9a7e7d6267b/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 296.21,
+    "current_price": 311.28,
+    "est_return": -5.09
+  },
+  {
+    "id": "6ba14a534c8a5a50",
+    "politician": "Shelley M Capito",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "AAPL",
+    "asset_description": "Apple Inc. - Common Stock",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-04-17",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Spouse",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/029f67f3-121a-406c-bddf-a9a7e7d6267b/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 263.4,
+    "current_price": 287.44,
+    "est_return": -9.13
+  },
+  {
     "id": "3ad556d30f825a20",
     "politician": "James Banks",
     "party": "",
@@ -19,8 +65,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 98.47,
-    "current_price": 106.44,
-    "est_return": -8.09
+    "current_price": 104.26,
+    "est_return": -5.88
+  },
+  {
+    "id": "d4ddf651661ec4ba",
+    "politician": "Shelley M Capito",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "AVGO",
+    "asset_description": "Broadcom Inc. - Common Stock",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-04-13",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Spouse",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/029f67f3-121a-406c-bddf-a9a7e7d6267b/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 371.55,
+    "current_price": 412.56,
+    "est_return": -11.04
   },
   {
     "id": "df5730a6757bc869",
@@ -42,8 +111,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 309.87,
-    "current_price": 314.9,
-    "est_return": -1.62
+    "current_price": 306.27,
+    "est_return": 1.16
   },
   {
     "id": "1522643031ff7601",
@@ -65,8 +134,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 216.99,
-    "current_price": 211.79,
-    "est_return": 2.4
+    "current_price": 223.98,
+    "est_return": -3.22
   },
   {
     "id": "c9b91d5b3d905cdf",
@@ -88,8 +157,8 @@
     "days_late": 0,
     "est_position": 75000,
     "price_at_trade": 145.23,
-    "current_price": 146.54,
-    "est_return": -0.9
+    "current_price": 143.75,
+    "est_return": 1.02
   },
   {
     "id": "00e30099112499d7",
@@ -134,8 +203,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 357.22,
-    "current_price": 666.59,
-    "est_return": 86.6
+    "current_price": 646.63,
+    "est_return": 81.02
   },
   {
     "id": "e035dddd1bcb53b1",
@@ -157,8 +226,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 356.77,
-    "current_price": 413.96,
-    "est_return": 16.03
+    "current_price": 420.77,
+    "est_return": 17.94
   },
   {
     "id": "121a55e7e87213ee",
@@ -180,8 +249,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 247.99,
-    "current_price": 213.56,
-    "est_return": -13.88
+    "current_price": 216.75,
+    "est_return": -12.6
   },
   {
     "id": "17e9a62112480043",
@@ -203,8 +272,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 273.76,
-    "current_price": 395.14,
-    "est_return": 44.34
+    "current_price": 395.3,
+    "est_return": 44.4
   },
   {
     "id": "9504cfa69e52724e",
@@ -226,8 +295,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 199.34,
-    "current_price": 274.99,
-    "est_return": 37.95
+    "current_price": 271.17,
+    "est_return": 36.03
   },
   {
     "id": "8a225bb0dd9b4fec",
@@ -249,8 +318,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 153.04,
-    "current_price": 155.96,
-    "est_return": -1.91
+    "current_price": 156.29,
+    "est_return": -2.12
   },
   {
     "id": "cf805dfae305f786",
@@ -272,8 +341,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 484.24,
-    "current_price": 491.89,
-    "est_return": 1.58
+    "current_price": 500.94,
+    "est_return": 3.45
   },
   {
     "id": "c6f0a20a1f0f77a7",
@@ -295,8 +364,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 29.1,
-    "current_price": 25.57,
-    "est_return": 12.13
+    "current_price": 25.26,
+    "est_return": 13.2
   },
   {
     "id": "ec52eb6e90f02cde",
@@ -318,8 +387,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 365.97,
-    "current_price": 413.96,
-    "est_return": 13.11
+    "current_price": 420.77,
+    "est_return": 14.97
   },
   {
     "id": "6c94d15e2073e6df",
@@ -341,8 +410,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 240.87,
-    "current_price": 213.56,
-    "est_return": -11.34
+    "current_price": 216.75,
+    "est_return": -10.01
   },
   {
     "id": "a52269041c2e0a09",
@@ -364,8 +433,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 196.27,
-    "current_price": 211.79,
-    "est_return": -7.91
+    "current_price": 223.98,
+    "est_return": -14.12
   },
   {
     "id": "0926192472112568",
@@ -387,8 +456,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 193.88,
-    "current_price": 211.79,
-    "est_return": -9.24
+    "current_price": 223.98,
+    "est_return": -15.53
   },
   {
     "id": "0c481e8f56405fe6",
@@ -410,8 +479,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 77.44,
-    "current_price": 86.37,
-    "est_return": 11.53
+    "current_price": 86.1,
+    "est_return": 11.18
   },
   {
     "id": "3c1b050e8c039b85",
@@ -433,8 +502,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 42.72,
-    "current_price": 42.14,
-    "est_return": 1.36
+    "current_price": 41.83,
+    "est_return": 2.08
   },
   {
     "id": "6da56b42f7b03702",
@@ -456,8 +525,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 64.05,
-    "current_price": 70.87,
-    "est_return": 10.65
+    "current_price": 69.67,
+    "est_return": 8.77
   },
   {
     "id": "43bc62678b4150e7",
@@ -479,8 +548,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 180.4,
-    "current_price": 207.83,
-    "est_return": 15.21
+    "current_price": 211.5,
+    "est_return": 17.24
   },
   {
     "id": "1a991972936a4d3e",
@@ -502,8 +571,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 28.92,
-    "current_price": 29.4,
-    "est_return": 1.66
+    "current_price": 29.36,
+    "est_return": 1.52
   },
   {
     "id": "f2ac897f6918518c",
@@ -525,8 +594,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 237.6,
-    "current_price": 224.62,
-    "est_return": 5.46
+    "current_price": 222.51,
+    "est_return": 6.35
   },
   {
     "id": "35c3cda14bf7c378",
@@ -548,8 +617,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 71.77,
-    "current_price": 78.2,
-    "est_return": -8.96
+    "current_price": 76.48,
+    "est_return": -6.56
   },
   {
     "id": "d83914a8af1b388b",
@@ -571,8 +640,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 100.39,
-    "current_price": 123.86,
-    "est_return": 23.38
+    "current_price": 123.15,
+    "est_return": 22.67
   },
   {
     "id": "319ef7913ad83410",
@@ -594,8 +663,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 202.69,
-    "current_price": 222.42,
-    "est_return": 9.73
+    "current_price": 219.29,
+    "est_return": 8.19
   },
   {
     "id": "7d3139899f11d3b3",
@@ -617,8 +686,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 303.15,
-    "current_price": 321.9,
-    "est_return": 6.19
+    "current_price": 318.69,
+    "est_return": 5.13
   },
   {
     "id": "44458a2163315bd4",
@@ -640,8 +709,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 405.2,
-    "current_price": 413.96,
-    "est_return": 2.16
+    "current_price": 420.77,
+    "est_return": 3.84
   },
   {
     "id": "42cfc2dbac2fba75",
@@ -663,8 +732,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 81.45,
-    "current_price": 80.42,
-    "est_return": -1.26
+    "current_price": 79.16,
+    "est_return": -2.81
   },
   {
     "id": "00e898541be73fe8",
@@ -686,8 +755,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 375.72,
-    "current_price": 428.62,
-    "est_return": -14.08
+    "current_price": 410.64,
+    "est_return": -9.29
   },
   {
     "id": "289c4fa2a2826a20",
@@ -709,8 +778,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 99.03,
-    "current_price": 111.74,
-    "est_return": 12.83
+    "current_price": 113.0,
+    "est_return": 14.11
   },
   {
     "id": "36519e4b9d6a51cc",
@@ -732,8 +801,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 163.75,
-    "current_price": 147.9,
-    "est_return": 9.68
+    "current_price": 146.06,
+    "est_return": 10.8
   },
   {
     "id": "c2ea4a27ea055e35",
@@ -755,8 +824,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 67.18,
-    "current_price": 66.01,
-    "est_return": -1.74
+    "current_price": 66.41,
+    "est_return": -1.15
   },
   {
     "id": "faca976e0199d766",
@@ -778,8 +847,8 @@
     "days_late": 0,
     "est_position": 75000,
     "price_at_trade": 273.95,
-    "current_price": 367.28,
-    "est_return": 34.07
+    "current_price": 369.74,
+    "est_return": 34.97
   },
   {
     "id": "4a286773c34956b3",
@@ -801,8 +870,8 @@
     "days_late": 0,
     "est_position": 75000,
     "price_at_trade": 3671.82,
-    "current_price": 3541.79,
-    "est_return": 3.54
+    "current_price": 3554.88,
+    "est_return": 3.18
   },
   {
     "id": "9a9d1045ee7ca173",
@@ -824,8 +893,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 358.71,
-    "current_price": 388.55,
-    "est_return": -8.32
+    "current_price": 406.78,
+    "est_return": -13.4
   },
   {
     "id": "8aa33b0aa64c4723",
@@ -847,8 +916,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 294.56,
-    "current_price": 260.52,
-    "est_return": 11.56
+    "current_price": 255.53,
+    "est_return": 13.25
   },
   {
     "id": "06e6be517ea18469",
@@ -870,8 +939,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 382.25,
-    "current_price": 323.05,
-    "est_return": 15.49
+    "current_price": 322.64,
+    "est_return": 15.59
   },
   {
     "id": "c866b573af2b0b32",
@@ -893,8 +962,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 166.83,
-    "current_price": 155.96,
-    "est_return": 6.52
+    "current_price": 156.29,
+    "est_return": 6.32
   },
   {
     "id": "c6a4eb1b1f24de05",
@@ -916,8 +985,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 49.25,
-    "current_price": 47.44,
-    "est_return": 3.68
+    "current_price": 47.09,
+    "est_return": 4.39
   },
   {
     "id": "75eca92719be52e6",
@@ -939,8 +1008,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 526.41,
-    "current_price": 491.89,
-    "est_return": 6.56
+    "current_price": 500.94,
+    "est_return": 4.84
   },
   {
     "id": "29cc4355d7c65ef2",
@@ -962,8 +1031,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 92.34,
-    "current_price": 91.38,
-    "est_return": 1.04
+    "current_price": 94.26,
+    "est_return": -2.08
   },
   {
     "id": "0f21a915e7bdb102",
@@ -985,8 +1054,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 265.0,
-    "current_price": 268.23,
-    "est_return": -1.22
+    "current_price": 264.89,
+    "est_return": 0.04
   },
   {
     "id": "689882bebbdfd27d",
@@ -1008,8 +1077,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 262.5,
-    "current_price": 250.17,
-    "est_return": 4.7
+    "current_price": 256.51,
+    "est_return": 2.28
   },
   {
     "id": "c06db205c3423867",
@@ -1031,8 +1100,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 401.84,
-    "current_price": 413.96,
-    "est_return": 3.02
+    "current_price": 420.77,
+    "est_return": 4.71
   },
   {
     "id": "910da8fa65dd9471",
@@ -1054,8 +1123,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 73.91,
-    "current_price": 79.17,
-    "est_return": -7.12
+    "current_price": 76.73,
+    "est_return": -3.82
   },
   {
     "id": "e9c97d027b09bf11",
@@ -1077,76 +1146,7 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 39.08,
-    "current_price": 46.27,
-    "est_return": -18.4
-  },
-  {
-    "id": "0131b2b168f79255",
-    "politician": "Angus S King, Jr.",
-    "party": "I",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "ONON",
-    "asset_description": "On Holding AG Class A Ordinary Shares",
-    "asset_type": "stock",
-    "tx_type": "sale_full",
-    "tx_date": "2026-02-13",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Spouse",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/09b9c1ed-1d73-4f17-b6f8-7b2d92021c5b/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 45.29,
-    "current_price": 36.06,
-    "est_return": 20.38
-  },
-  {
-    "id": "71a55ebb9687ef2a",
-    "politician": "Angus S King, Jr.",
-    "party": "I",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "NFLX",
-    "asset_description": "Netflix, Inc. - Common Stock",
-    "asset_type": "stock",
-    "tx_type": "sale_full",
-    "tx_date": "2026-02-13",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Spouse",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/09b9c1ed-1d73-4f17-b6f8-7b2d92021c5b/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 76.87,
-    "current_price": 88.27,
-    "est_return": -14.83
-  },
-  {
-    "id": "de538cd3940313dc",
-    "politician": "Angus S King, Jr.",
-    "party": "I",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "MSFT",
-    "asset_description": "Microsoft Corporation - Common Stock",
-    "asset_type": "stock",
-    "tx_type": "sale_full",
-    "tx_date": "2026-02-13",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Spouse",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/09b9c1ed-1d73-4f17-b6f8-7b2d92021c5b/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 401.84,
-    "current_price": 413.96,
-    "est_return": -3.02
+    "current_price": 46.22,
+    "est_return": -18.27
   }
 ]
