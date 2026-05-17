@@ -75,6 +75,31 @@
     }
   },
   {
+    "name": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 40,
+    "trades_with_returns": 38,
+    "est_return_1y": 3.46,
+    "win_rate": 55.3,
+    "unique_tickers": 36,
+    "best_trade": {
+      "ticker": "GOOGL",
+      "tx_type": "purchase",
+      "tx_date": "2025-09-17",
+      "est_return": 59.11,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "ADBE",
+      "tx_type": "purchase",
+      "tx_date": "2025-09-04",
+      "est_return": -28.09,
+      "est_position": 8000
+    }
+  },
+  {
     "name": "Tina Smith",
     "party": "D",
     "state": "",
@@ -97,31 +122,6 @@
       "tx_date": "2026-04-29",
       "est_return": -3.89,
       "est_position": 175000
-    }
-  },
-  {
-    "name": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 77,
-    "trades_with_returns": 74,
-    "est_return_1y": 1.32,
-    "win_rate": 52.7,
-    "unique_tickers": 60,
-    "best_trade": {
-      "ticker": "GOOGL",
-      "tx_type": "purchase",
-      "tx_date": "2025-09-17",
-      "est_return": 59.11,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "MU",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-01-08",
-      "est_return": -121.6,
-      "est_position": 8000
     }
   },
   {
