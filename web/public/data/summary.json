@@ -126,6 +126,19 @@
     "worst_trade": null
   },
   {
+    "name": "David H McCormick",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 44,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
     "name": "M. Michael Rounds",
     "party": "",
     "state": "",
@@ -286,31 +299,6 @@
       "tx_date": "2026-04-29",
       "est_return": -21.54,
       "est_position": 175000
-    }
-  },
-  {
-    "name": "David H McCormick",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 53,
-    "trades_with_returns": 1,
-    "est_return_1y": -8.47,
-    "win_rate": 0.0,
-    "unique_tickers": 1,
-    "best_trade": {
-      "ticker": "GS",
-      "tx_type": "sale_full",
-      "tx_date": "2026-01-23",
-      "est_return": -8.47,
-      "est_position": 3000000
-    },
-    "worst_trade": {
-      "ticker": "GS",
-      "tx_type": "sale_full",
-      "tx_date": "2026-01-23",
-      "est_return": -8.47,
-      "est_position": 3000000
     }
   },
   {
