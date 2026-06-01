@@ -25,6 +25,31 @@
     }
   },
   {
+    "name": "Markwayne Mullin",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 3,
+    "trades_with_returns": 3,
+    "est_return_1y": 22.15,
+    "win_rate": 100.0,
+    "unique_tickers": 3,
+    "best_trade": {
+      "ticker": "UNH",
+      "tx_type": "purchase",
+      "tx_date": "2026-02-25",
+      "est_return": 38.82,
+      "est_position": 75000
+    },
+    "worst_trade": {
+      "ticker": "INTU",
+      "tx_type": "sale_full",
+      "tx_date": "2026-02-25",
+      "est_return": 7.58,
+      "est_position": 32500
+    }
+  },
+  {
     "name": "Sheldon Whitehouse",
     "party": "D",
     "state": "",
@@ -105,19 +130,6 @@
     "state": "",
     "chamber": "senate",
     "total_trades": 2,
-    "trades_with_returns": 0,
-    "est_return_1y": 0.0,
-    "win_rate": 0.0,
-    "unique_tickers": 0,
-    "best_trade": null,
-    "worst_trade": null
-  },
-  {
-    "name": "William F Hagerty, IV",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 1,
     "trades_with_returns": 0,
     "est_return_1y": 0.0,
     "win_rate": 0.0,
@@ -299,31 +311,6 @@
       "tx_date": "2026-05-06",
       "est_return": -8.73,
       "est_position": 175000
-    }
-  },
-  {
-    "name": "Markwayne Mullin",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 20,
-    "trades_with_returns": 20,
-    "est_return_1y": -17.99,
-    "win_rate": 45.0,
-    "unique_tickers": 20,
-    "best_trade": {
-      "ticker": "AMKR",
-      "tx_type": "purchase",
-      "tx_date": "2026-02-04",
-      "est_return": 58.56,
-      "est_position": 32500
-    },
-    "worst_trade": {
-      "ticker": "DELL",
-      "tx_type": "sale_full",
-      "tx_date": "2026-02-04",
-      "est_return": -244.9,
-      "est_position": 32500
     }
   },
   {
