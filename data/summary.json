@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 14,
     "trades_with_returns": 8,
-    "est_return_1y": 34.92,
+    "est_return_1y": 29.66,
     "win_rate": 75.0,
     "unique_tickers": 6,
     "best_trade": {
       "ticker": "MU",
       "tx_type": "purchase",
       "tx_date": "2026-03-30",
-      "est_return": 178.82,
+      "est_return": 141.87,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ERIE",
       "tx_type": "purchase",
       "tx_date": "2026-03-30",
-      "est_return": -11.48,
+      "est_return": -8.38,
       "est_position": 8000
     }
   },
@@ -31,22 +31,22 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 3,
-    "est_return_1y": 25.54,
+    "est_return_1y": 26.07,
     "win_rate": 100.0,
     "unique_tickers": 3,
     "best_trade": {
       "ticker": "UNH",
       "tx_type": "purchase",
       "tx_date": "2026-02-25",
-      "est_return": 44.72,
+      "est_return": 45.82,
       "est_position": 75000
     },
     "worst_trade": {
-      "ticker": "INTU",
+      "ticker": "AZO",
       "tx_type": "sale_full",
       "tx_date": "2026-02-25",
-      "est_return": 15.82,
-      "est_position": 32500
+      "est_return": 15.13,
+      "est_position": 75000
     }
   },
   {
@@ -56,46 +56,21 @@
     "chamber": "senate",
     "total_trades": 21,
     "trades_with_returns": 19,
-    "est_return_1y": 5.73,
+    "est_return_1y": 3.5,
     "win_rate": 52.6,
     "unique_tickers": 21,
     "best_trade": {
       "ticker": "GOOGL",
       "tx_type": "purchase",
       "tx_date": "2025-09-17",
-      "est_return": 49.25,
+      "est_return": 47.78,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ADBE",
       "tx_type": "purchase",
       "tx_date": "2025-09-04",
-      "est_return": -24.95,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "James Banks",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 1,
-    "trades_with_returns": 1,
-    "est_return_1y": 4.4,
-    "win_rate": 100.0,
-    "unique_tickers": 1,
-    "best_trade": {
-      "ticker": "SBUX",
-      "tx_type": "sale_full",
-      "tx_date": "2026-04-15",
-      "est_return": 4.4,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "SBUX",
-      "tx_type": "sale_full",
-      "tx_date": "2026-04-15",
-      "est_return": 4.4,
+      "est_return": -26.97,
       "est_position": 8000
     }
   },
@@ -106,46 +81,46 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 1,
-    "est_return_1y": 2.73,
+    "est_return_1y": 3.27,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "CTVA",
       "tx_type": "sale_full",
       "tx_date": "2026-04-23",
-      "est_return": 2.73,
+      "est_return": 3.27,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "CTVA",
       "tx_type": "sale_full",
       "tx_date": "2026-04-23",
-      "est_return": 2.73,
+      "est_return": 3.27,
       "est_position": 32500
     }
   },
   {
-    "name": "A. Mitchell McConnell, Jr.",
-    "party": "R",
+    "name": "James Banks",
+    "party": "",
     "state": "",
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": 0.21,
+    "est_return_1y": 3.23,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
-      "ticker": "WFC",
-      "tx_type": "purchase",
-      "tx_date": "2026-03-01",
-      "est_return": 0.21,
+      "ticker": "SBUX",
+      "tx_type": "sale_full",
+      "tx_date": "2026-04-15",
+      "est_return": 3.23,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "WFC",
-      "tx_type": "purchase",
-      "tx_date": "2026-03-01",
-      "est_return": 0.21,
+      "ticker": "SBUX",
+      "tx_type": "sale_full",
+      "tx_date": "2026-04-15",
+      "est_return": 3.23,
       "est_position": 8000
     }
   },
@@ -156,21 +131,71 @@
     "chamber": "senate",
     "total_trades": 9,
     "trades_with_returns": 9,
-    "est_return_1y": 0.03,
-    "win_rate": 44.4,
+    "est_return_1y": 1.96,
+    "win_rate": 55.6,
     "unique_tickers": 9,
     "best_trade": {
       "ticker": "ONON",
       "tx_type": "sale_full",
       "tx_date": "2026-02-13",
-      "est_return": 17.27,
+      "est_return": 18.13,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "PYPL",
+      "ticker": "LLY",
       "tx_type": "sale_full",
       "tx_date": "2026-02-13",
-      "est_return": -9.39,
+      "est_return": -8.97,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Bernie Moreno",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 1,
+    "est_return_1y": 0.98,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "ETOR",
+      "tx_type": "sale_full",
+      "tx_date": "2026-05-06",
+      "est_return": 0.98,
+      "est_position": 175000
+    },
+    "worst_trade": {
+      "ticker": "ETOR",
+      "tx_type": "sale_full",
+      "tx_date": "2026-05-06",
+      "est_return": 0.98,
+      "est_position": 175000
+    }
+  },
+  {
+    "name": "A. Mitchell McConnell, Jr.",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 1,
+    "est_return_1y": 0.6,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "WFC",
+      "tx_type": "purchase",
+      "tx_date": "2026-03-01",
+      "est_return": 0.6,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "WFC",
+      "tx_type": "purchase",
+      "tx_date": "2026-03-01",
+      "est_return": 0.6,
       "est_position": 8000
     }
   },
@@ -227,78 +252,28 @@
     "worst_trade": null
   },
   {
-    "name": "Bernie Moreno",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 1,
-    "trades_with_returns": 1,
-    "est_return_1y": -2.75,
-    "win_rate": 0.0,
-    "unique_tickers": 1,
-    "best_trade": {
-      "ticker": "ETOR",
-      "tx_type": "sale_full",
-      "tx_date": "2026-05-06",
-      "est_return": -2.75,
-      "est_position": 175000
-    },
-    "worst_trade": {
-      "ticker": "ETOR",
-      "tx_type": "sale_full",
-      "tx_date": "2026-05-06",
-      "est_return": -2.75,
-      "est_position": 175000
-    }
-  },
-  {
     "name": "Sheldon Whitehouse",
     "party": "D",
     "state": "",
     "chamber": "senate",
     "total_trades": 4,
     "trades_with_returns": 4,
-    "est_return_1y": -4.52,
-    "win_rate": 25.0,
+    "est_return_1y": -0.08,
+    "win_rate": 50.0,
     "unique_tickers": 4,
     "best_trade": {
       "ticker": "PEP",
       "tx_type": "sale_full",
       "tx_date": "2026-03-30",
-      "est_return": 7.12,
+      "est_return": 7.27,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ORCL",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-07",
-      "est_return": -21.46,
+      "est_return": -9.81,
       "est_position": 32500
-    }
-  },
-  {
-    "name": "Tina Smith",
-    "party": "D",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 6,
-    "trades_with_returns": 5,
-    "est_return_1y": -6.12,
-    "win_rate": 40.0,
-    "unique_tickers": 4,
-    "best_trade": {
-      "ticker": "PODD",
-      "tx_type": "sale_full",
-      "tx_date": "2026-05-07",
-      "est_return": 8.72,
-      "est_position": 175000
-    },
-    "worst_trade": {
-      "ticker": "DXCM",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-04-29",
-      "est_return": -22.37,
-      "est_position": 175000
     }
   },
   {
@@ -308,22 +283,47 @@
     "chamber": "senate",
     "total_trades": 9,
     "trades_with_returns": 9,
-    "est_return_1y": -9.4,
-    "win_rate": 33.3,
+    "est_return_1y": -7.76,
+    "win_rate": 44.4,
     "unique_tickers": 7,
     "best_trade": {
-      "ticker": "PNC",
-      "tx_type": "purchase",
-      "tx_date": "2026-03-12",
-      "est_return": 12.03,
+      "ticker": "CEG",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-04-17",
+      "est_return": 13.97,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "FDS",
       "tx_type": "sale_partial",
       "tx_date": "2026-03-25",
-      "est_return": -31.53,
+      "est_return": -31.84,
       "est_position": 8000
+    }
+  },
+  {
+    "name": "Tina Smith",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 6,
+    "trades_with_returns": 5,
+    "est_return_1y": -8.14,
+    "win_rate": 40.0,
+    "unique_tickers": 4,
+    "best_trade": {
+      "ticker": "PODD",
+      "tx_type": "sale_full",
+      "tx_date": "2026-05-07",
+      "est_return": 4.48,
+      "est_position": 175000
+    },
+    "worst_trade": {
+      "ticker": "DXCM",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-04-29",
+      "est_return": -22.83,
+      "est_position": 175000
     }
   }
 ]
