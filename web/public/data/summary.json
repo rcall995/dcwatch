@@ -100,31 +100,6 @@
     }
   },
   {
-    "name": "James Banks",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 1,
-    "trades_with_returns": 1,
-    "est_return_1y": 3.23,
-    "win_rate": 100.0,
-    "unique_tickers": 1,
-    "best_trade": {
-      "ticker": "SBUX",
-      "tx_type": "sale_full",
-      "tx_date": "2026-04-15",
-      "est_return": 3.23,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "SBUX",
-      "tx_type": "sale_full",
-      "tx_date": "2026-04-15",
-      "est_return": 3.23,
-      "est_position": 8000
-    }
-  },
-  {
     "name": "Angus S King, Jr.",
     "party": "I",
     "state": "",
@@ -146,6 +121,31 @@
       "tx_type": "sale_full",
       "tx_date": "2026-02-13",
       "est_return": -8.97,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "James Banks",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 2,
+    "trades_with_returns": 2,
+    "est_return_1y": 1.61,
+    "win_rate": 50.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "SBUX",
+      "tx_type": "sale_full",
+      "tx_date": "2026-04-15",
+      "est_return": 3.23,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "PTON",
+      "tx_type": "sale_full",
+      "tx_date": "2026-06-05",
+      "est_return": -0.0,
       "est_position": 8000
     }
   },

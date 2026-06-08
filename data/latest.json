@@ -1,5 +1,28 @@
 [
   {
+    "id": "58242c64b2a5f2e3",
+    "politician": "James Banks",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "PTON",
+    "asset_description": "Peloton Interactive, Inc. - Common Stock",
+    "asset_type": "stock",
+    "tx_type": "sale_full",
+    "tx_date": "2026-06-05",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Self",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/59c6f909-ad10-429d-8a8c-df81b00cf5fd/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 5.77,
+    "current_price": 5.77,
+    "est_return": -0.0
+  },
+  {
     "id": "f4cae1ae85474fe3",
     "politician": "Sheldon Whitehouse",
     "party": "D",
@@ -1125,28 +1148,5 @@
     "price_at_trade": 45.29,
     "current_price": 37.08,
     "est_return": 18.13
-  },
-  {
-    "id": "71a55ebb9687ef2a",
-    "politician": "Angus S King, Jr.",
-    "party": "I",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "NFLX",
-    "asset_description": "Netflix, Inc. - Common Stock",
-    "asset_type": "stock",
-    "tx_type": "sale_full",
-    "tx_date": "2026-02-13",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Spouse",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/09b9c1ed-1d73-4f17-b6f8-7b2d92021c5b/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 76.87,
-    "current_price": 82.18,
-    "est_return": -6.91
   }
 ]
