@@ -19,8 +19,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 5.77,
-    "current_price": 5.65,
-    "est_return": 2.08
+    "current_price": 5.55,
+    "est_return": 3.81
   },
   {
     "id": "6c986cf49ba20859",
@@ -42,8 +42,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 23.12,
-    "current_price": 24.22,
-    "est_return": 4.76
+    "current_price": 24.39,
+    "est_return": 5.49
   },
   {
     "id": "f4cae1ae85474fe3",
@@ -65,8 +65,8 @@
     "days_late": 0,
     "est_position": 175000,
     "price_at_trade": 211.5,
-    "current_price": 204.87,
-    "est_return": 3.13
+    "current_price": 205.19,
+    "est_return": 2.98
   },
   {
     "id": "4c4fa715ad737000",
@@ -88,8 +88,8 @@
     "days_late": 0,
     "est_position": 175000,
     "price_at_trade": 160.4,
-    "current_price": 149.19,
-    "est_return": 6.99
+    "current_price": 149.7,
+    "est_return": 6.67
   },
   {
     "id": "666ff6ff10bcaca0",
@@ -111,8 +111,8 @@
     "days_late": 0,
     "est_position": 175000,
     "price_at_trade": 60.36,
-    "current_price": 75.25,
-    "est_return": -24.67
+    "current_price": 75.37,
+    "est_return": -24.87
   },
   {
     "id": "422323bbb4180c99",
@@ -134,8 +134,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 194.59,
-    "current_price": 184.1,
-    "est_return": 5.39
+    "current_price": 184.13,
+    "est_return": 5.38
   },
   {
     "id": "8dce9032d04d3f34",
@@ -157,8 +157,8 @@
     "days_late": 0,
     "est_position": 175000,
     "price_at_trade": 38.61,
-    "current_price": 39.03,
-    "est_return": -1.09
+    "current_price": 38.52,
+    "est_return": 0.23
   },
   {
     "id": "21d749058d0031f3",
@@ -180,8 +180,8 @@
     "days_late": 0,
     "est_position": 175000,
     "price_at_trade": 160.02,
-    "current_price": 149.19,
-    "est_return": 6.77
+    "current_price": 149.7,
+    "est_return": 6.45
   },
   {
     "id": "680b42326ad2f5aa",
@@ -203,8 +203,8 @@
     "days_late": 0,
     "est_position": 175000,
     "price_at_trade": 59.32,
-    "current_price": 75.25,
-    "est_return": -26.85
+    "current_price": 75.37,
+    "est_return": -27.06
   },
   {
     "id": "76f0e752f427f9bb",
@@ -226,8 +226,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 79.63,
-    "current_price": 74.86,
-    "est_return": 5.99
+    "current_price": 76.14,
+    "est_return": 4.38
   },
   {
     "id": "c3fa3712f2c0bb38",
@@ -249,8 +249,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 296.21,
-    "current_price": 246.71,
-    "est_return": 16.71
+    "current_price": 253.76,
+    "est_return": 14.33
   },
   {
     "id": "6ba14a534c8a5a50",
@@ -272,8 +272,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 263.4,
-    "current_price": 295.63,
-    "est_return": -12.24
+    "current_price": 291.13,
+    "est_return": -10.53
   },
   {
     "id": "3ad556d30f825a20",
@@ -295,8 +295,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 98.47,
-    "current_price": 102.28,
-    "est_return": -3.87
+    "current_price": 103.04,
+    "est_return": -4.64
   },
   {
     "id": "d4ddf651661ec4ba",
@@ -318,8 +318,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 371.55,
-    "current_price": 385.57,
-    "est_return": -3.77
+    "current_price": 382.07,
+    "est_return": -2.83
   },
   {
     "id": "df5730a6757bc869",
@@ -341,8 +341,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 309.87,
-    "current_price": 313.49,
-    "est_return": -1.17
+    "current_price": 320.72,
+    "est_return": -3.5
   },
   {
     "id": "f0378f9cb75694a8",
@@ -364,31 +364,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 47.88,
-    "current_price": 44.61,
-    "est_return": -6.83
-  },
-  {
-    "id": "79da15268eefdad3",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "CEG",
-    "asset_description": "Constellation Energy Corporation - Common Stock When-Issued",
-    "asset_type": "stock",
-    "tx_type": "purchase",
-    "tx_date": "2026-04-02",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/f148dc2e-d440-4759-be4d-f000c1cd6e89/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 272.82,
-    "current_price": 246.71,
-    "est_return": -9.57
+    "current_price": 45.31,
+    "est_return": -5.37
   },
   {
     "id": "914090c5a839760c",
@@ -410,8 +387,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 105.57,
-    "current_price": 105.72,
-    "est_return": -0.14
+    "current_price": 105.74,
+    "est_return": -0.16
+  },
+  {
+    "id": "79da15268eefdad3",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "CEG",
+    "asset_description": "Constellation Energy Corporation - Common Stock When-Issued",
+    "asset_type": "stock",
+    "tx_type": "purchase",
+    "tx_date": "2026-04-02",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/f148dc2e-d440-4759-be4d-f000c1cd6e89/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 272.82,
+    "current_price": 253.76,
+    "est_return": -6.99
   },
   {
     "id": "1522643031ff7601",
@@ -433,8 +433,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 216.99,
-    "current_price": 236.64,
-    "est_return": -9.06
+    "current_price": 241.16,
+    "est_return": -11.14
   },
   {
     "id": "c9b91d5b3d905cdf",
@@ -456,8 +456,8 @@
     "days_late": 0,
     "est_position": 75000,
     "price_at_trade": 145.23,
-    "current_price": 157.91,
-    "est_return": -8.73
+    "current_price": 158.32,
+    "est_return": -9.01
   },
   {
     "id": "00e30099112499d7",
@@ -502,8 +502,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 357.22,
-    "current_price": 995.87,
-    "est_return": 178.78
+    "current_price": 981.61,
+    "est_return": 174.79
   },
   {
     "id": "e035dddd1bcb53b1",
@@ -525,8 +525,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 356.77,
-    "current_price": 390.34,
-    "est_return": 9.41
+    "current_price": 390.74,
+    "est_return": 9.52
   },
   {
     "id": "121a55e7e87213ee",
@@ -548,8 +548,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 247.99,
-    "current_price": 226.01,
-    "est_return": -8.86
+    "current_price": 226.67,
+    "est_return": -8.6
   },
   {
     "id": "17e9a62112480043",
@@ -571,8 +571,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 273.76,
-    "current_price": 356.56,
-    "est_return": 30.25
+    "current_price": 358.16,
+    "est_return": 30.83
   },
   {
     "id": "9504cfa69e52724e",
@@ -594,8 +594,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 199.34,
-    "current_price": 241.51,
-    "est_return": 21.15
+    "current_price": 238.55,
+    "est_return": 19.67
   },
   {
     "id": "8a225bb0dd9b4fec",
@@ -617,8 +617,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 153.04,
-    "current_price": 143.73,
-    "est_return": 6.08
+    "current_price": 144.27,
+    "est_return": 5.73
   },
   {
     "id": "cf805dfae305f786",
@@ -640,8 +640,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 484.24,
-    "current_price": 486.51,
-    "est_return": 0.47
+    "current_price": 489.98,
+    "est_return": 1.19
   },
   {
     "id": "c6f0a20a1f0f77a7",
@@ -663,8 +663,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 29.1,
-    "current_price": 23.0,
-    "est_return": 20.96
+    "current_price": 23.58,
+    "est_return": 18.97
   },
   {
     "id": "ec52eb6e90f02cde",
@@ -686,8 +686,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 365.97,
-    "current_price": 390.34,
-    "est_return": 6.66
+    "current_price": 390.74,
+    "est_return": 6.77
   },
   {
     "id": "6c94d15e2073e6df",
@@ -709,8 +709,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 240.87,
-    "current_price": 226.01,
-    "est_return": -6.17
+    "current_price": 226.67,
+    "est_return": -5.9
   },
   {
     "id": "a52269041c2e0a09",
@@ -732,8 +732,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 196.27,
-    "current_price": 236.64,
-    "est_return": -20.57
+    "current_price": 241.16,
+    "est_return": -22.87
   },
   {
     "id": "0926192472112568",
@@ -755,8 +755,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 193.88,
-    "current_price": 236.64,
-    "est_return": -22.05
+    "current_price": 241.16,
+    "est_return": -24.39
   },
   {
     "id": "0c481e8f56405fe6",
@@ -778,8 +778,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 77.44,
-    "current_price": 86.84,
-    "est_return": 12.14
+    "current_price": 87.06,
+    "est_return": 12.42
   },
   {
     "id": "3c1b050e8c039b85",
@@ -801,8 +801,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 42.72,
-    "current_price": 42.37,
-    "est_return": 0.82
+    "current_price": 42.73,
+    "est_return": -0.02
   },
   {
     "id": "6da56b42f7b03702",
@@ -824,8 +824,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 64.05,
-    "current_price": 71.31,
-    "est_return": 11.33
+    "current_price": 71.55,
+    "est_return": 11.71
   },
   {
     "id": "43bc62678b4150e7",
@@ -847,8 +847,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 180.4,
-    "current_price": 204.87,
-    "est_return": 13.56
+    "current_price": 205.19,
+    "est_return": 13.74
   },
   {
     "id": "1a991972936a4d3e",
@@ -870,8 +870,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 28.92,
-    "current_price": 27.92,
-    "est_return": -3.46
+    "current_price": 27.9,
+    "est_return": -3.53
   },
   {
     "id": "f2ac897f6918518c",
@@ -893,8 +893,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 237.6,
-    "current_price": 238.33,
-    "est_return": -0.31
+    "current_price": 240.87,
+    "est_return": -1.38
   },
   {
     "id": "35c3cda14bf7c378",
@@ -916,8 +916,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 71.77,
-    "current_price": 78.39,
-    "est_return": -9.22
+    "current_price": 78.62,
+    "est_return": -9.54
   },
   {
     "id": "d83914a8af1b388b",
@@ -939,8 +939,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 100.39,
-    "current_price": 132.82,
-    "est_return": 32.3
+    "current_price": 134.9,
+    "est_return": 34.38
   },
   {
     "id": "319ef7913ad83410",
@@ -962,8 +962,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 202.69,
-    "current_price": 233.94,
-    "est_return": 15.42
+    "current_price": 237.66,
+    "est_return": 17.25
   },
   {
     "id": "7d3139899f11d3b3",
@@ -985,8 +985,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 303.15,
-    "current_price": 318.49,
-    "est_return": 5.06
+    "current_price": 325.44,
+    "est_return": 7.35
   },
   {
     "id": "44458a2163315bd4",
@@ -1008,8 +1008,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 405.2,
-    "current_price": 390.34,
-    "est_return": -3.67
+    "current_price": 390.74,
+    "est_return": -3.57
   },
   {
     "id": "42cfc2dbac2fba75",
@@ -1031,8 +1031,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 81.45,
-    "current_price": 82.4,
-    "est_return": 1.17
+    "current_price": 83.73,
+    "est_return": 2.8
   },
   {
     "id": "910da8fa65dd9471",
@@ -1054,8 +1054,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 73.91,
-    "current_price": 69.55,
-    "est_return": 5.9
+    "current_price": 68.85,
+    "est_return": 6.85
   },
   {
     "id": "e9c97d027b09bf11",
@@ -1077,8 +1077,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 39.08,
-    "current_price": 41.24,
-    "est_return": -5.53
+    "current_price": 41.53,
+    "est_return": -6.27
   },
   {
     "id": "0131b2b168f79255",
@@ -1100,8 +1100,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 45.29,
-    "current_price": 39.21,
-    "est_return": 13.42
+    "current_price": 38.58,
+    "est_return": 14.82
   },
   {
     "id": "71a55ebb9687ef2a",
@@ -1123,8 +1123,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 76.87,
-    "current_price": 81.27,
-    "est_return": -5.72
+    "current_price": 80.34,
+    "est_return": -4.51
   },
   {
     "id": "de538cd3940313dc",
@@ -1146,7 +1146,7 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 401.84,
-    "current_price": 390.34,
-    "est_return": 2.86
+    "current_price": 390.74,
+    "est_return": 2.76
   }
 ]
