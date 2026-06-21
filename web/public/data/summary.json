@@ -50,31 +50,6 @@
     }
   },
   {
-    "name": "Gary C Peters",
-    "party": "D",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 4,
-    "trades_with_returns": 2,
-    "est_return_1y": 2.54,
-    "win_rate": 100.0,
-    "unique_tickers": 2,
-    "best_trade": {
-      "ticker": "KHC",
-      "tx_type": "purchase",
-      "tx_date": "2026-05-21",
-      "est_return": 3.76,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "CTVA",
-      "tx_type": "sale_full",
-      "tx_date": "2026-04-23",
-      "est_return": 1.31,
-      "est_position": 32500
-    }
-  },
-  {
     "name": "Sheldon Whitehouse",
     "party": "D",
     "state": "",
@@ -121,6 +96,31 @@
       "tx_type": "purchase",
       "tx_date": "2025-09-04",
       "est_return": -43.32,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Gary C Peters",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 4,
+    "trades_with_returns": 2,
+    "est_return_1y": 0.01,
+    "win_rate": 50.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "CTVA",
+      "tx_type": "sale_full",
+      "tx_date": "2026-04-23",
+      "est_return": 1.31,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "KHC",
+      "tx_type": "purchase",
+      "tx_date": "2026-05-21",
+      "est_return": -1.3,
       "est_position": 8000
     }
   },
