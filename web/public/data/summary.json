@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": 10.28,
+    "est_return_1y": 12.78,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 10.28,
+      "est_return": 12.78,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 10.28,
+      "est_return": 12.78,
       "est_position": 8000
     }
   },
@@ -31,21 +31,21 @@
     "chamber": "senate",
     "total_trades": 4,
     "trades_with_returns": 4,
-    "est_return_1y": 8.41,
+    "est_return_1y": 7.76,
     "win_rate": 75.0,
     "unique_tickers": 4,
     "best_trade": {
       "ticker": "ORCL",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-07",
-      "est_return": 27.92,
+      "est_return": 26.12,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "JPM",
       "tx_type": "sale_partial",
       "tx_date": "2026-04-13",
-      "est_return": -7.94,
+      "est_return": -8.99,
       "est_position": 32500
     }
   },
@@ -56,21 +56,21 @@
     "chamber": "senate",
     "total_trades": 2,
     "trades_with_returns": 1,
-    "est_return_1y": 7.45,
+    "est_return_1y": 5.18,
     "win_rate": 100.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "GOOG",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-27",
-      "est_return": 7.45,
+      "est_return": 5.18,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "GOOG",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-27",
-      "est_return": 7.45,
+      "est_return": 5.18,
       "est_position": 8000
     }
   },
@@ -79,23 +79,23 @@
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 4,
+    "total_trades": 5,
     "trades_with_returns": 4,
-    "est_return_1y": 4.11,
-    "win_rate": 75.0,
+    "est_return_1y": 1.94,
+    "win_rate": 50.0,
     "unique_tickers": 4,
     "best_trade": {
       "ticker": "CEG",
       "tx_type": "sale_partial",
       "tx_date": "2026-04-17",
-      "est_return": 19.23,
+      "est_return": 16.99,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "AAPL",
       "tx_type": "sale_partial",
       "tx_date": "2026-04-17",
-      "est_return": -17.17,
+      "est_return": -18.7,
       "est_position": 8000
     }
   },
@@ -106,21 +106,21 @@
     "chamber": "senate",
     "total_trades": 56,
     "trades_with_returns": 52,
-    "est_return_1y": 0.31,
-    "win_rate": 50.0,
+    "est_return_1y": 0.47,
+    "win_rate": 44.2,
     "unique_tickers": 42,
     "best_trade": {
       "ticker": "GOOGL",
       "tx_type": "purchase",
       "tx_date": "2025-09-17",
-      "est_return": 44.33,
+      "est_return": 46.95,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ADBE",
       "tx_type": "purchase",
       "tx_date": "2025-09-04",
-      "est_return": -36.19,
+      "est_return": -36.66,
       "est_position": 8000
     }
   },
@@ -203,20 +203,45 @@
     "worst_trade": null
   },
   {
+    "name": "James Banks",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 2,
+    "trades_with_returns": 2,
+    "est_return_1y": -2.71,
+    "win_rate": 0.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "PTON",
+      "tx_type": "sale_full",
+      "tx_date": "2026-06-05",
+      "est_return": -1.73,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "SBUX",
+      "tx_type": "sale_full",
+      "tx_date": "2026-04-15",
+      "est_return": -3.7,
+      "est_position": 8000
+    }
+  },
+  {
     "name": "Gary C Peters",
     "party": "D",
     "state": "",
     "chamber": "senate",
     "total_trades": 5,
     "trades_with_returns": 3,
-    "est_return_1y": -2.48,
+    "est_return_1y": -3.52,
     "win_rate": 33.3,
     "unique_tickers": 3,
     "best_trade": {
       "ticker": "KHC",
       "tx_type": "purchase",
       "tx_date": "2026-05-21",
-      "est_return": 9.73,
+      "est_return": 7.35,
       "est_position": 8000
     },
     "worst_trade": {
@@ -228,52 +253,27 @@
     }
   },
   {
-    "name": "James Banks",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 2,
-    "trades_with_returns": 2,
-    "est_return_1y": -2.77,
-    "win_rate": 50.0,
-    "unique_tickers": 2,
-    "best_trade": {
-      "ticker": "PTON",
-      "tx_type": "sale_full",
-      "tx_date": "2026-06-05",
-      "est_return": 0.35,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "SBUX",
-      "tx_type": "sale_full",
-      "tx_date": "2026-04-15",
-      "est_return": -5.89,
-      "est_position": 8000
-    }
-  },
-  {
     "name": "Bernie Moreno",
     "party": "R",
     "state": "",
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": -4.82,
+    "est_return_1y": -6.99,
     "win_rate": 0.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "ETOR",
       "tx_type": "sale_full",
       "tx_date": "2026-05-06",
-      "est_return": -4.82,
+      "est_return": -6.99,
       "est_position": 175000
     },
     "worst_trade": {
       "ticker": "ETOR",
       "tx_type": "sale_full",
       "tx_date": "2026-05-06",
-      "est_return": -4.82,
+      "est_return": -6.99,
       "est_position": 175000
     }
   },
@@ -284,21 +284,21 @@
     "chamber": "senate",
     "total_trades": 4,
     "trades_with_returns": 4,
-    "est_return_1y": -10.87,
-    "win_rate": 0.0,
+    "est_return_1y": -10.35,
+    "win_rate": 50.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "PODD",
       "tx_type": "sale_full",
       "tx_date": "2026-05-07",
-      "est_return": -2.54,
+      "est_return": 0.39,
       "est_position": 175000
     },
     "worst_trade": {
       "ticker": "DXCM",
       "tx_type": "sale_partial",
       "tx_date": "2026-04-29",
-      "est_return": -20.11,
+      "est_return": -22.02,
       "est_position": 175000
     }
   }
