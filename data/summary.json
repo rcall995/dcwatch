@@ -140,31 +140,6 @@
     "worst_trade": null
   },
   {
-    "name": "Shelley M Capito",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 5,
-    "trades_with_returns": 4,
-    "est_return_1y": -0.86,
-    "win_rate": 50.0,
-    "unique_tickers": 4,
-    "best_trade": {
-      "ticker": "CEG",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-04-17",
-      "est_return": 15.13,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "AAPL",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-04-17",
-      "est_return": -19.71,
-      "est_position": 8000
-    }
-  },
-  {
     "name": "Bernie Moreno",
     "party": "R",
     "state": "",
@@ -237,6 +212,31 @@
       "tx_date": "2026-06-25",
       "est_return": -20.32,
       "est_position": 32500
+    }
+  },
+  {
+    "name": "Shelley M Capito",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 4,
+    "trades_with_returns": 3,
+    "est_return_1y": -4.08,
+    "win_rate": 33.3,
+    "unique_tickers": 3,
+    "best_trade": {
+      "ticker": "CEG",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-04-17",
+      "est_return": 15.13,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "AAPL",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-04-17",
+      "est_return": -19.71,
+      "est_position": 8000
     }
   },
   {
