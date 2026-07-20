@@ -269,11 +269,11 @@
     "party": "",
     "state": "",
     "chamber": "senate",
-    "total_trades": 2,
-    "trades_with_returns": 2,
-    "est_return_1y": -6.6,
+    "total_trades": 1,
+    "trades_with_returns": 1,
+    "est_return_1y": -6.07,
     "win_rate": 0.0,
-    "unique_tickers": 2,
+    "unique_tickers": 1,
     "best_trade": {
       "ticker": "PTON",
       "tx_type": "sale_full",
@@ -282,10 +282,10 @@
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "SBUX",
+      "ticker": "PTON",
       "tx_type": "sale_full",
-      "tx_date": "2026-04-15",
-      "est_return": -7.13,
+      "tx_date": "2026-06-05",
+      "est_return": -6.07,
       "est_position": 8000
     }
   },
