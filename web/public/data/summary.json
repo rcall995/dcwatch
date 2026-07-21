@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": 12.86,
+    "est_return_1y": 11.34,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 12.86,
+      "est_return": 11.34,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 12.86,
+      "est_return": 11.34,
       "est_position": 8000
     }
   },
@@ -31,21 +31,21 @@
     "chamber": "senate",
     "total_trades": 2,
     "trades_with_returns": 1,
-    "est_return_1y": 10.06,
+    "est_return_1y": 8.7,
     "win_rate": 100.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "GOOG",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-27",
-      "est_return": 10.06,
+      "est_return": 8.7,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "GOOG",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-27",
-      "est_return": 10.06,
+      "est_return": 8.7,
       "est_position": 8000
     }
   },
@@ -56,21 +56,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": 6.81,
+    "est_return_1y": 5.0,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "ETOR",
       "tx_type": "sale_full",
       "tx_date": "2026-05-06",
-      "est_return": 6.81,
+      "est_return": 5.0,
       "est_position": 175000
     },
     "worst_trade": {
       "ticker": "ETOR",
       "tx_type": "sale_full",
       "tx_date": "2026-05-06",
-      "est_return": 6.81,
+      "est_return": 5.0,
       "est_position": 175000
     }
   },
@@ -81,21 +81,21 @@
     "chamber": "senate",
     "total_trades": 57,
     "trades_with_returns": 51,
-    "est_return_1y": 0.68,
-    "win_rate": 45.1,
+    "est_return_1y": 0.8,
+    "win_rate": 51.0,
     "unique_tickers": 42,
     "best_trade": {
       "ticker": "GOOGL",
       "tx_type": "purchase",
       "tx_date": "2025-09-17",
-      "est_return": 39.06,
+      "est_return": 41.15,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ALB",
       "tx_type": "purchase",
       "tx_date": "2026-05-15",
-      "est_return": -32.87,
+      "est_return": -34.3,
       "est_position": 8000
     }
   },
@@ -171,21 +171,21 @@
     "chamber": "senate",
     "total_trades": 5,
     "trades_with_returns": 3,
-    "est_return_1y": -0.57,
+    "est_return_1y": -0.17,
     "win_rate": 33.3,
     "unique_tickers": 3,
     "best_trade": {
       "ticker": "KHC",
       "tx_type": "purchase",
       "tx_date": "2026-05-21",
-      "est_return": 11.94,
+      "est_return": 11.85,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "CTVA",
       "tx_type": "sale_full",
       "tx_date": "2026-04-23",
-      "est_return": -9.63,
+      "est_return": -8.98,
       "est_position": 32500
     }
   },
@@ -196,21 +196,46 @@
     "chamber": "senate",
     "total_trades": 11,
     "trades_with_returns": 10,
-    "est_return_1y": -3.57,
+    "est_return_1y": -2.97,
     "win_rate": 30.0,
     "unique_tickers": 10,
     "best_trade": {
       "ticker": "PFE",
       "tx_type": "sale_full",
       "tx_date": "2026-06-08",
-      "est_return": 2.22,
+      "est_return": 3.4,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "MA",
       "tx_type": "sale_full",
       "tx_date": "2026-06-08",
-      "est_return": -10.69,
+      "est_return": -11.48,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Sheldon Whitehouse",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 8,
+    "trades_with_returns": 8,
+    "est_return_1y": -3.6,
+    "win_rate": 37.5,
+    "unique_tickers": 7,
+    "best_trade": {
+      "ticker": "ORCL",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-05-07",
+      "est_return": 37.62,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "COHR",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-25",
+      "est_return": -29.92,
       "est_position": 32500
     }
   },
@@ -221,47 +246,22 @@
     "chamber": "senate",
     "total_trades": 4,
     "trades_with_returns": 3,
-    "est_return_1y": -3.91,
-    "win_rate": 66.7,
+    "est_return_1y": -3.78,
+    "win_rate": 33.3,
     "unique_tickers": 3,
     "best_trade": {
       "ticker": "CEG",
       "tx_type": "sale_partial",
       "tx_date": "2026-04-17",
-      "est_return": 14.79,
+      "est_return": 14.42,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "AAPL",
       "tx_type": "sale_partial",
       "tx_date": "2026-04-17",
-      "est_return": -26.7,
+      "est_return": -23.99,
       "est_position": 8000
-    }
-  },
-  {
-    "name": "Sheldon Whitehouse",
-    "party": "D",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 8,
-    "trades_with_returns": 8,
-    "est_return_1y": -4.85,
-    "win_rate": 37.5,
-    "unique_tickers": 7,
-    "best_trade": {
-      "ticker": "ORCL",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-05-07",
-      "est_return": 35.04,
-      "est_position": 32500
-    },
-    "worst_trade": {
-      "ticker": "COHR",
-      "tx_type": "purchase",
-      "tx_date": "2026-06-25",
-      "est_return": -31.84,
-      "est_position": 32500
     }
   },
   {
@@ -271,21 +271,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": -6.07,
+    "est_return_1y": -13.0,
     "win_rate": 0.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "PTON",
       "tx_type": "sale_full",
       "tx_date": "2026-06-05",
-      "est_return": -6.07,
+      "est_return": -13.0,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "PTON",
       "tx_type": "sale_full",
       "tx_date": "2026-06-05",
-      "est_return": -6.07,
+      "est_return": -13.0,
       "est_position": 8000
     }
   },
@@ -296,21 +296,21 @@
     "chamber": "senate",
     "total_trades": 4,
     "trades_with_returns": 4,
-    "est_return_1y": -15.25,
+    "est_return_1y": -15.48,
     "win_rate": 0.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "PODD",
       "tx_type": "sale_full",
       "tx_date": "2026-05-07",
-      "est_return": -2.28,
+      "est_return": -4.35,
       "est_position": 175000
     },
     "worst_trade": {
       "ticker": "DXCM",
       "tx_type": "sale_partial",
       "tx_date": "2026-04-29",
-      "est_return": -29.21,
+      "est_return": -27.6,
       "est_position": 175000
     }
   }
