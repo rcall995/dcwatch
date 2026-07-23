@@ -19,8 +19,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 194.97,
-    "current_price": 207.29,
-    "est_return": -6.32
+    "current_price": 212.06,
+    "est_return": -8.77
   },
   {
     "id": "1bcd9d89d882693e",
@@ -42,8 +42,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 22.72,
-    "current_price": 22.26,
-    "est_return": -2.02
+    "current_price": 23.04,
+    "est_return": 1.41
   },
   {
     "id": "4721ff44b631eabb",
@@ -65,8 +65,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 42.32,
-    "current_price": 43.38,
-    "est_return": -2.5
+    "current_price": 43.95,
+    "est_return": -3.85
   },
   {
     "id": "be101d37ee60db4b",
@@ -88,8 +88,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 26.76,
-    "current_price": 29.21,
-    "est_return": -9.16
+    "current_price": 29.5,
+    "est_return": -10.24
   },
   {
     "id": "38428cf3b3e76949",
@@ -111,8 +111,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 84.76,
-    "current_price": 91.82,
-    "est_return": 8.33
+    "current_price": 89.02,
+    "est_return": 5.03
   },
   {
     "id": "dfa5374289fbb615",
@@ -134,8 +134,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 21.52,
-    "current_price": 23.28,
-    "est_return": 8.18
+    "current_price": 23.52,
+    "est_return": 9.29
   },
   {
     "id": "6c45dc0ad5fa638c",
@@ -157,8 +157,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 79.53,
-    "current_price": 76.2,
-    "est_return": 4.19
+    "current_price": 77.5,
+    "est_return": 2.55
   },
   {
     "id": "9b2721c32c4657a5",
@@ -180,8 +180,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 407.25,
-    "current_price": 317.22,
-    "est_return": -22.11
+    "current_price": 312.19,
+    "est_return": -23.34
   },
   {
     "id": "81f4bea454c0acca",
@@ -203,8 +203,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 1048.51,
-    "current_price": 970.82,
-    "est_return": -7.41
+    "current_price": 959.48,
+    "est_return": -8.49
   },
   {
     "id": "4b8780c192a3fb8a",
@@ -226,8 +226,8 @@
     "days_late": 0,
     "est_position": 15000000,
     "price_at_trade": 75.87,
-    "current_price": 73.36,
-    "est_return": 3.31
+    "current_price": 74.49,
+    "est_return": 1.82
   },
   {
     "id": "f6affb4894c3b2d8",
@@ -249,8 +249,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 294.3,
-    "current_price": 327.74,
-    "est_return": -11.36
+    "current_price": 325.89,
+    "est_return": -10.73
   },
   {
     "id": "25762a5819391c85",
@@ -318,8 +318,8 @@
     "days_late": 0,
     "est_position": 375000,
     "price_at_trade": 74.95,
-    "current_price": 73.36,
-    "est_return": 2.12
+    "current_price": 74.49,
+    "est_return": 0.61
   },
   {
     "id": "2b9ebd57dc21d03b",
@@ -341,8 +341,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 94.52,
-    "current_price": 93.31,
-    "est_return": 1.28
+    "current_price": 93.1,
+    "est_return": 1.5
   },
   {
     "id": "1d82d3fdf570e170",
@@ -364,8 +364,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 169.96,
-    "current_price": 175.05,
-    "est_return": -2.99
+    "current_price": 178.47,
+    "est_return": -5.01
   },
   {
     "id": "85122de2a5fae3c3",
@@ -387,8 +387,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 265.77,
-    "current_price": 263.53,
-    "est_return": 0.84
+    "current_price": 290.0,
+    "est_return": -9.12
   },
   {
     "id": "ad917bffcd4851c0",
@@ -410,8 +410,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 122.49,
-    "current_price": 131.53,
-    "est_return": -7.38
+    "current_price": 133.83,
+    "est_return": -9.26
   },
   {
     "id": "f7250dd8050a4c4b",
@@ -433,8 +433,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 47.11,
-    "current_price": 49.89,
-    "est_return": -5.9
+    "current_price": 49.93,
+    "est_return": -5.99
   },
   {
     "id": "26e45097eb1fd9d2",
@@ -456,8 +456,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 122.05,
-    "current_price": 125.91,
-    "est_return": -3.16
+    "current_price": 127.95,
+    "est_return": -4.83
   },
   {
     "id": "8c5d4e07e9b7f3de",
@@ -479,8 +479,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 520.07,
-    "current_price": 507.09,
-    "est_return": 2.5
+    "current_price": 514.36,
+    "est_return": 1.1
   },
   {
     "id": "00c5229a4ea062ba",
@@ -502,8 +502,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 491.08,
-    "current_price": 538.3,
-    "est_return": -9.62
+    "current_price": 531.98,
+    "est_return": -8.33
   },
   {
     "id": "3d795ed1275d9ff8",
@@ -525,8 +525,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 84.01,
-    "current_price": 87.93,
-    "est_return": -4.67
+    "current_price": 89.41,
+    "est_return": -6.43
   },
   {
     "id": "baef04ec426d6453",
@@ -548,8 +548,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 25.62,
-    "current_price": 24.94,
-    "est_return": 2.65
+    "current_price": 24.82,
+    "est_return": 3.12
   },
   {
     "id": "35f4f5aa06547329",
@@ -571,8 +571,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 145.1,
-    "current_price": 148.1,
-    "est_return": -2.07
+    "current_price": 149.13,
+    "est_return": -2.78
   },
   {
     "id": "f153923f255c086c",
@@ -594,8 +594,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 30.14,
-    "current_price": 29.64,
-    "est_return": 1.66
+    "current_price": 29.36,
+    "est_return": 2.59
   },
   {
     "id": "58242c64b2a5f2e3",
@@ -617,8 +617,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 5.77,
-    "current_price": 6.36,
-    "est_return": -10.23
+    "current_price": 6.26,
+    "est_return": -8.49
   },
   {
     "id": "074d1376dca3973d",
@@ -640,8 +640,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 48.85,
-    "current_price": 43.19,
-    "est_return": 11.59
+    "current_price": 42.97,
+    "est_return": 12.04
   },
   {
     "id": "ad3957443a8253ae",
@@ -663,8 +663,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 377.0,
-    "current_price": 436.35,
-    "est_return": 15.74
+    "current_price": 431.31,
+    "est_return": 14.41
   },
   {
     "id": "0c989d601fdc70c3",
@@ -686,261 +686,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 77.54,
-    "current_price": 87.74,
-    "est_return": 13.15
-  },
-  {
-    "id": "778bf3c69d8188d6",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "VEA",
-    "asset_description": "Vanguard Developed Markets Index Fund - ETF Shares",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/a9754ff5-901a-4877-b7be-a647bd361c52/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 71.78,
-    "current_price": 70.47,
-    "est_return": 1.83
-  },
-  {
-    "id": "769a558c5bcb68e3",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "VNQI",
-    "asset_description": "Vanguard Global ex-U.S. Real Estate Index Fund - ETF Shares",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/a9754ff5-901a-4877-b7be-a647bd361c52/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 45.89,
-    "current_price": 45.69,
-    "est_return": 0.44
-  },
-  {
-    "id": "d90686e4d331cda7",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "LITP",
-    "asset_description": "Sprott Lithium Miners ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/a9754ff5-901a-4877-b7be-a647bd361c52/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 15.68,
-    "current_price": 10.3,
-    "est_return": 34.31
-  },
-  {
-    "id": "cb9e519b93e30b7b",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "IVV",
-    "asset_description": "iShares Core S&P 500 ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/a9754ff5-901a-4877-b7be-a647bd361c52/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 752.15,
-    "current_price": 751.95,
-    "est_return": 0.03
-  },
-  {
-    "id": "f9305bc6e605aae1",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "RNWGX",
-    "asset_description": "NEW WORLD FUND INC - Class R-6",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/a9754ff5-901a-4877-b7be-a647bd361c52/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 107.57,
-    "current_price": 105.44,
-    "est_return": 1.98
-  },
-  {
-    "id": "1c935be9f4051413",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "IWM",
-    "asset_description": "iShares Russell 2000 ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/a9754ff5-901a-4877-b7be-a647bd361c52/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 289.68,
-    "current_price": 296.54,
-    "est_return": -2.37
-  },
-  {
-    "id": "1cadd6a0389ad92a",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "EFA",
-    "asset_description": "iShares MSCI EAFE ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/a9754ff5-901a-4877-b7be-a647bd361c52/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 103.14,
-    "current_price": 104.06,
-    "est_return": -0.89
-  },
-  {
-    "id": "d7f0cf8689c839a3",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "GEM",
-    "asset_description": "Goldman Sachs ActiveBeta(R) Emerging Markets Equity ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/a9754ff5-901a-4877-b7be-a647bd361c52/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 51.77,
-    "current_price": 49.96,
-    "est_return": 3.5
-  },
-  {
-    "id": "dc906ad1b85c27ed",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "EIPI",
-    "asset_description": "FT Energy Income Partners Enhanced Income ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/a9754ff5-901a-4877-b7be-a647bd361c52/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 22.26,
-    "current_price": 22.28,
-    "est_return": -0.09
-  },
-  {
-    "id": "1c91540fe5d217f3",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "SPYM",
-    "asset_description": "Tradr 2X Long SPY Monthly ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 88.34,
-    "current_price": 88.08,
-    "est_return": 0.29
-  },
-  {
-    "id": "30b97b03b49339a4",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "FTGC",
-    "asset_description": "First Trust Global Tactical Commodity Strategy Fund",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-05-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 29.11,
-    "current_price": 29.21,
-    "est_return": -0.34
+    "current_price": 86.42,
+    "est_return": 11.45
   },
   {
     "id": "5f823b47998ac850",
@@ -962,8 +709,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 26.72,
-    "current_price": 26.18,
-    "est_return": -2.02
+    "current_price": 26.14,
+    "est_return": -2.17
   },
   {
     "id": "212ed6576b8ec51d",
@@ -985,8 +732,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 45.15,
-    "current_price": 44.6,
-    "est_return": -1.22
+    "current_price": 44.48,
+    "est_return": -1.48
   },
   {
     "id": "e923198c5ae97e69",
@@ -1008,8 +755,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 94.28,
-    "current_price": 93.31,
-    "est_return": -1.03
+    "current_price": 93.1,
+    "est_return": -1.25
   },
   {
     "id": "dea7e5ba9e0a7a82",
@@ -1031,8 +778,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 99.24,
-    "current_price": 97.8,
-    "est_return": -1.45
+    "current_price": 97.48,
+    "est_return": -1.77
   },
   {
     "id": "0cac2ec556783e75",
@@ -1054,8 +801,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 48.66,
-    "current_price": 48.26,
-    "est_return": -0.82
+    "current_price": 48.31,
+    "est_return": -0.72
   },
   {
     "id": "57bb3f414e49348d",
@@ -1077,8 +824,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 94.33,
-    "current_price": 93.41,
-    "est_return": -0.98
+    "current_price": 93.15,
+    "est_return": -1.25
   },
   {
     "id": "10eaf7e87af1fa06",
@@ -1100,8 +847,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 109.11,
-    "current_price": 108.52,
-    "est_return": -0.54
+    "current_price": 108.47,
+    "est_return": -0.59
   },
   {
     "id": "f1d783754bc8e6a4",
@@ -1146,7 +893,260 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 45.78,
-    "current_price": 45.18,
-    "est_return": -1.31
+    "current_price": 45.1,
+    "est_return": -1.49
+  },
+  {
+    "id": "3f6ba74a2acbe87f",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "XFIV",
+    "asset_description": "BondBloxx Bloomberg Five Year Target Duration US Treasury ETF",
+    "asset_type": "stock",
+    "tx_type": "purchase",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/2e076759-19df-458d-a3be-53610b8be5d0/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 48.5,
+    "current_price": 48.12,
+    "est_return": -0.78
+  },
+  {
+    "id": "86bb9cd9ff56856e",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "XTWO",
+    "asset_description": "BondBloxx Bloomberg Two Year Target Duration US Treasury ETF",
+    "asset_type": "stock",
+    "tx_type": "purchase",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/2e076759-19df-458d-a3be-53610b8be5d0/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 49.02,
+    "current_price": 48.78,
+    "est_return": -0.49
+  },
+  {
+    "id": "778bf3c69d8188d6",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "VEA",
+    "asset_description": "Vanguard Developed Markets Index Fund - ETF Shares",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 71.78,
+    "current_price": 70.49,
+    "est_return": 1.8
+  },
+  {
+    "id": "769a558c5bcb68e3",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "VNQI",
+    "asset_description": "Vanguard Global ex-U.S. Real Estate Index Fund - ETF Shares",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 45.89,
+    "current_price": 45.5,
+    "est_return": 0.85
+  },
+  {
+    "id": "d90686e4d331cda7",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "LITP",
+    "asset_description": "Sprott Lithium Miners ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 15.68,
+    "current_price": 10.43,
+    "est_return": 33.48
+  },
+  {
+    "id": "cb9e519b93e30b7b",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "IVV",
+    "asset_description": "iShares Core S&P 500 ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 752.15,
+    "current_price": 750.93,
+    "est_return": 0.16
+  },
+  {
+    "id": "f9305bc6e605aae1",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "RNWGX",
+    "asset_description": "NEW WORLD FUND INC - Class R-6",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 107.57,
+    "current_price": 105.42,
+    "est_return": 2.0
+  },
+  {
+    "id": "1c91540fe5d217f3",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "SPYM",
+    "asset_description": "Tradr 2X Long SPY Monthly ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 88.34,
+    "current_price": 87.97,
+    "est_return": 0.42
+  },
+  {
+    "id": "1c935be9f4051413",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "IWM",
+    "asset_description": "iShares Russell 2000 ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 289.68,
+    "current_price": 293.79,
+    "est_return": -1.42
+  },
+  {
+    "id": "1cadd6a0389ad92a",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "EFA",
+    "asset_description": "iShares MSCI EAFE ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 103.14,
+    "current_price": 104.25,
+    "est_return": -1.08
+  },
+  {
+    "id": "d7f0cf8689c839a3",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "GEM",
+    "asset_description": "Goldman Sachs ActiveBeta(R) Emerging Markets Equity ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-05-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/727b4eb6-d8c7-4792-aa5b-c651c2d72f9c/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 51.77,
+    "current_price": 49.64,
+    "est_return": 4.11
   }
 ]
