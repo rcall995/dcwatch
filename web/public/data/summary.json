@@ -6,14 +6,14 @@
     "chamber": "senate",
     "total_trades": 373,
     "trades_with_returns": 366,
-    "est_return_1y": 13.08,
+    "est_return_1y": 13.13,
     "win_rate": 69.7,
     "unique_tickers": 345,
     "best_trade": {
-      "ticker": "AMD",
+      "ticker": "MU",
       "tx_type": "purchase",
       "tx_date": "2026-03-27",
-      "est_return": 158.4,
+      "est_return": 159.09,
       "est_position": 32500
     },
     "worst_trade": {
@@ -131,7 +131,7 @@
     "chamber": "senate",
     "total_trades": 57,
     "trades_with_returns": 51,
-    "est_return_1y": 0.22,
+    "est_return_1y": 0.08,
     "win_rate": 47.1,
     "unique_tickers": 42,
     "best_trade": {
@@ -221,7 +221,7 @@
     "chamber": "senate",
     "total_trades": 8,
     "trades_with_returns": 8,
-    "est_return_1y": -3.96,
+    "est_return_1y": -3.39,
     "win_rate": 37.5,
     "unique_tickers": 7,
     "best_trade": {
@@ -235,7 +235,7 @@
       "ticker": "COHR",
       "tx_type": "purchase",
       "tx_date": "2026-06-25",
-      "est_return": -29.92,
+      "est_return": -30.66,
       "est_position": 32500
     }
   },
