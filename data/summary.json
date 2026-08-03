@@ -215,6 +215,31 @@
     "worst_trade": null
   },
   {
+    "name": "Sheldon Whitehouse",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 7,
+    "trades_with_returns": 7,
+    "est_return_1y": -3.21,
+    "win_rate": 42.9,
+    "unique_tickers": 6,
+    "best_trade": {
+      "ticker": "ORCL",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-05-07",
+      "est_return": 33.26,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "COHR",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-25",
+      "est_return": -35.45,
+      "est_position": 32500
+    }
+  },
+  {
     "name": "Shelley M Capito",
     "party": "R",
     "state": "",
@@ -237,31 +262,6 @@
       "tx_date": "2026-04-17",
       "est_return": -17.28,
       "est_position": 8000
-    }
-  },
-  {
-    "name": "Sheldon Whitehouse",
-    "party": "D",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 8,
-    "trades_with_returns": 8,
-    "est_return_1y": -4.5,
-    "win_rate": 37.5,
-    "unique_tickers": 7,
-    "best_trade": {
-      "ticker": "ORCL",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-05-07",
-      "est_return": 33.26,
-      "est_position": 32500
-    },
-    "worst_trade": {
-      "ticker": "COHR",
-      "tx_type": "purchase",
-      "tx_date": "2026-06-25",
-      "est_return": -35.45,
-      "est_position": 32500
     }
   },
   {
