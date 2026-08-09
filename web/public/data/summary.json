@@ -227,6 +227,19 @@
     "worst_trade": null
   },
   {
+    "name": "Ron L Wyden",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 1,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
     "name": "Sheldon Whitehouse",
     "party": "D",
     "state": "",
@@ -299,31 +312,6 @@
       "tx_date": "2026-07-21",
       "est_return": -25.7,
       "est_position": 32500
-    }
-  },
-  {
-    "name": "Tina Smith",
-    "party": "D",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 4,
-    "trades_with_returns": 4,
-    "est_return_1y": -14.88,
-    "win_rate": 50.0,
-    "unique_tickers": 2,
-    "best_trade": {
-      "ticker": "PODD",
-      "tx_type": "sale_full",
-      "tx_date": "2026-05-07",
-      "est_return": 11.99,
-      "est_position": 175000
-    },
-    "worst_trade": {
-      "ticker": "DXCM",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-04-29",
-      "est_return": -42.87,
-      "est_position": 175000
     }
   }
 ]
