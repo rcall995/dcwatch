@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 1,
-    "est_return_1y": 28.08,
+    "est_return_1y": 26.18,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "ETOR",
       "tx_type": "sale_full",
       "tx_date": "2026-05-06",
-      "est_return": 28.08,
+      "est_return": 26.18,
       "est_position": 175000
     },
     "worst_trade": {
       "ticker": "ETOR",
       "tx_type": "sale_full",
       "tx_date": "2026-05-06",
-      "est_return": 28.08,
+      "est_return": 26.18,
       "est_position": 175000
     }
   },
@@ -31,21 +31,21 @@
     "chamber": "senate",
     "total_trades": 373,
     "trades_with_returns": 366,
-    "est_return_1y": 15.82,
-    "win_rate": 73.8,
+    "est_return_1y": 15.81,
+    "win_rate": 74.6,
     "unique_tickers": 345,
     "best_trade": {
-      "ticker": "NBIS",
+      "ticker": "MU",
       "tx_type": "purchase",
-      "tx_date": "2026-03-30",
-      "est_return": 169.27,
-      "est_position": 8000
+      "tx_date": "2026-03-27",
+      "est_return": 163.63,
+      "est_position": 32500
     },
     "worst_trade": {
       "ticker": "CRWD",
       "tx_type": "sale_full",
       "tx_date": "2026-03-27",
-      "est_return": -130.46,
+      "est_return": -118.24,
       "est_position": 32500
     }
   },
@@ -56,71 +56,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": 12.72,
+    "est_return_1y": 10.83,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 12.72,
+      "est_return": 10.83,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 12.72,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "James Banks",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 1,
-    "trades_with_returns": 1,
-    "est_return_1y": 7.97,
-    "win_rate": 100.0,
-    "unique_tickers": 1,
-    "best_trade": {
-      "ticker": "PTON",
-      "tx_type": "sale_full",
-      "tx_date": "2026-06-05",
-      "est_return": 7.97,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "PTON",
-      "tx_type": "sale_full",
-      "tx_date": "2026-06-05",
-      "est_return": 7.97,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "Jerry Moran,",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 4,
-    "trades_with_returns": 2,
-    "est_return_1y": 4.58,
-    "win_rate": 50.0,
-    "unique_tickers": 2,
-    "best_trade": {
-      "ticker": "GOOG",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-05-27",
-      "est_return": 11.32,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "GOOG",
-      "tx_type": "purchase",
-      "tx_date": "2026-06-23",
-      "est_return": -2.15,
+      "est_return": 10.83,
       "est_position": 8000
     }
   },
@@ -131,21 +81,71 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 3,
-    "est_return_1y": 4.2,
+    "est_return_1y": 6.14,
     "win_rate": 66.7,
     "unique_tickers": 3,
     "best_trade": {
-      "ticker": "T",
+      "ticker": "KHC",
       "tx_type": "purchase",
-      "tx_date": "2026-06-29",
-      "est_return": 9.6,
+      "tx_date": "2026-05-21",
+      "est_return": 11.07,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "O",
       "tx_type": "purchase",
       "tx_date": "2026-07-23",
-      "est_return": -4.34,
+      "est_return": -3.2,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "James Banks",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 1,
+    "est_return_1y": 5.2,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "PTON",
+      "tx_type": "sale_full",
+      "tx_date": "2026-06-05",
+      "est_return": 5.2,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "PTON",
+      "tx_type": "sale_full",
+      "tx_date": "2026-06-05",
+      "est_return": 5.2,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Jerry Moran,",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 4,
+    "trades_with_returns": 2,
+    "est_return_1y": 4.59,
+    "win_rate": 50.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "GOOG",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-05-27",
+      "est_return": 11.21,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "GOOG",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-23",
+      "est_return": -2.03,
       "est_position": 8000
     }
   },
@@ -156,21 +156,21 @@
     "chamber": "senate",
     "total_trades": 56,
     "trades_with_returns": 51,
-    "est_return_1y": 0.21,
-    "win_rate": 43.1,
+    "est_return_1y": 0.57,
+    "win_rate": 41.2,
     "unique_tickers": 41,
     "best_trade": {
-      "ticker": "LITP",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-05-27",
-      "est_return": 28.32,
+      "ticker": "PLTR",
+      "tx_type": "purchase",
+      "tx_date": "2026-05-15",
+      "est_return": 31.0,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ALB",
       "tx_type": "purchase",
       "tx_date": "2026-05-15",
-      "est_return": -26.24,
+      "est_return": -25.37,
       "est_position": 8000
     }
   },
@@ -279,14 +279,14 @@
       "ticker": "INTC",
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
-      "est_return": 8.31,
+      "est_return": 12.0,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "MSFT",
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
-      "est_return": -21.09,
+      "est_return": -21.76,
       "est_position": 32500
     }
   },
@@ -297,21 +297,21 @@
     "chamber": "senate",
     "total_trades": 8,
     "trades_with_returns": 8,
-    "est_return_1y": -3.68,
+    "est_return_1y": -4.75,
     "win_rate": 25.0,
     "unique_tickers": 7,
     "best_trade": {
       "ticker": "ORCL",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-07",
-      "est_return": 26.62,
+      "est_return": 26.1,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "COHR",
       "tx_type": "purchase",
       "tx_date": "2026-06-25",
-      "est_return": -24.76,
+      "est_return": -29.41,
       "est_position": 32500
     }
   },
@@ -322,21 +322,21 @@
     "chamber": "senate",
     "total_trades": 159,
     "trades_with_returns": 21,
-    "est_return_1y": -5.37,
+    "est_return_1y": -5.76,
     "win_rate": 28.6,
     "unique_tickers": 102,
     "best_trade": {
       "ticker": "ORCL",
       "tx_type": "sale_full",
       "tx_date": "2025-10-07",
-      "est_return": 49.54,
+      "est_return": 49.18,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "GOOGL",
       "tx_type": "sale_partial",
       "tx_date": "2025-10-07",
-      "est_return": -40.15,
+      "est_return": -40.36,
       "est_position": 32500
     }
   }
