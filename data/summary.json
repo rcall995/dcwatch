@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 373,
     "trades_with_returns": 366,
-    "est_return_1y": 15.42,
-    "win_rate": 74.0,
+    "est_return_1y": 16.07,
+    "win_rate": 75.7,
     "unique_tickers": 345,
     "best_trade": {
       "ticker": "MU",
       "tx_type": "purchase",
       "tx_date": "2026-03-27",
-      "est_return": 174.1,
+      "est_return": 171.98,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "CRWD",
       "tx_type": "sale_full",
       "tx_date": "2026-03-27",
-      "est_return": -106.02,
+      "est_return": -107.76,
       "est_position": 32500
     }
   },
@@ -31,71 +31,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": 7.94,
+    "est_return_1y": 8.12,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 7.94,
+      "est_return": 8.12,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 7.94,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "Gary C Peters",
-    "party": "D",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 3,
-    "trades_with_returns": 3,
-    "est_return_1y": 6.15,
-    "win_rate": 66.7,
-    "unique_tickers": 3,
-    "best_trade": {
-      "ticker": "T",
-      "tx_type": "purchase",
-      "tx_date": "2026-06-29",
-      "est_return": 10.7,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "O",
-      "tx_type": "purchase",
-      "tx_date": "2026-07-23",
-      "est_return": -2.86,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "Jerry Moran,",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 4,
-    "trades_with_returns": 2,
-    "est_return_1y": 4.54,
-    "win_rate": 50.0,
-    "unique_tickers": 2,
-    "best_trade": {
-      "ticker": "GOOG",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-05-27",
-      "est_return": 12.12,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "GOOG",
-      "tx_type": "purchase",
-      "tx_date": "2026-06-23",
-      "est_return": -3.03,
+      "est_return": 8.12,
       "est_position": 8000
     }
   },
@@ -106,21 +56,71 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": 3.29,
+    "est_return_1y": 6.24,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "PTON",
       "tx_type": "sale_full",
       "tx_date": "2026-06-05",
-      "est_return": 3.29,
+      "est_return": 6.24,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "PTON",
       "tx_type": "sale_full",
       "tx_date": "2026-06-05",
-      "est_return": 3.29,
+      "est_return": 6.24,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Gary C Peters",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 3,
+    "trades_with_returns": 3,
+    "est_return_1y": 5.97,
+    "win_rate": 66.7,
+    "unique_tickers": 3,
+    "best_trade": {
+      "ticker": "T",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-29",
+      "est_return": 11.31,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "O",
+      "tx_type": "purchase",
+      "tx_date": "2026-07-23",
+      "est_return": -4.04,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Jerry Moran,",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 4,
+    "trades_with_returns": 2,
+    "est_return_1y": 4.59,
+    "win_rate": 50.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "GOOG",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-05-27",
+      "est_return": 11.2,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "GOOG",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-23",
+      "est_return": -2.02,
       "est_position": 8000
     }
   },
@@ -131,21 +131,21 @@
     "chamber": "senate",
     "total_trades": 65,
     "trades_with_returns": 51,
-    "est_return_1y": 0.51,
-    "win_rate": 43.1,
+    "est_return_1y": 0.66,
+    "win_rate": 41.2,
     "unique_tickers": 47,
     "best_trade": {
       "ticker": "PLTR",
       "tx_type": "purchase",
       "tx_date": "2026-05-15",
-      "est_return": 30.08,
+      "est_return": 34.55,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ALB",
       "tx_type": "purchase",
       "tx_date": "2026-05-15",
-      "est_return": -25.42,
+      "est_return": -20.38,
       "est_position": 8000
     }
   },
@@ -267,14 +267,14 @@
       "ticker": "INTC",
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
-      "est_return": 12.63,
+      "est_return": 14.59,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "MSFT",
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
-      "est_return": -20.97,
+      "est_return": -21.49,
       "est_position": 32500
     }
   },
@@ -285,21 +285,21 @@
     "chamber": "senate",
     "total_trades": 8,
     "trades_with_returns": 8,
-    "est_return_1y": -3.75,
+    "est_return_1y": -3.74,
     "win_rate": 25.0,
     "unique_tickers": 7,
     "best_trade": {
       "ticker": "ORCL",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-07",
-      "est_return": 26.99,
+      "est_return": 24.73,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "COHR",
       "tx_type": "purchase",
       "tx_date": "2026-06-25",
-      "est_return": -28.78,
+      "est_return": -28.91,
       "est_position": 32500
     }
   },
@@ -310,21 +310,21 @@
     "chamber": "senate",
     "total_trades": 159,
     "trades_with_returns": 21,
-    "est_return_1y": -4.93,
-    "win_rate": 28.6,
+    "est_return_1y": -5.17,
+    "win_rate": 38.1,
     "unique_tickers": 102,
     "best_trade": {
       "ticker": "ORCL",
       "tx_type": "sale_full",
       "tx_date": "2025-10-07",
-      "est_return": 49.8,
+      "est_return": 48.24,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "GOOGL",
       "tx_type": "sale_partial",
       "tx_date": "2025-10-07",
-      "est_return": -38.71,
+      "est_return": -40.4,
       "est_position": 32500
     }
   }
