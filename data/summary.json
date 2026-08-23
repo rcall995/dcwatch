@@ -81,7 +81,7 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 3,
-    "est_return_1y": 5.97,
+    "est_return_1y": 6.07,
     "win_rate": 66.7,
     "unique_tickers": 3,
     "best_trade": {
@@ -95,7 +95,7 @@
       "ticker": "O",
       "tx_type": "purchase",
       "tx_date": "2026-07-23",
-      "est_return": -4.04,
+      "est_return": -3.74,
       "est_position": 8000
     }
   },
@@ -131,7 +131,7 @@
     "chamber": "senate",
     "total_trades": 65,
     "trades_with_returns": 51,
-    "est_return_1y": 0.66,
+    "est_return_1y": 0.65,
     "win_rate": 41.2,
     "unique_tickers": 47,
     "best_trade": {
