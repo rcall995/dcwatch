@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 373,
     "trades_with_returns": 366,
-    "est_return_1y": 16.37,
-    "win_rate": 75.4,
+    "est_return_1y": 15.93,
+    "win_rate": 76.0,
     "unique_tickers": 345,
     "best_trade": {
-      "ticker": "DELL",
+      "ticker": "MU",
       "tx_type": "purchase",
       "tx_date": "2026-03-27",
-      "est_return": 168.6,
-      "est_position": 8000
+      "est_return": 162.44,
+      "est_position": 32500
     },
     "worst_trade": {
       "ticker": "CRWD",
       "tx_type": "sale_full",
       "tx_date": "2026-03-27",
-      "est_return": -146.74,
+      "est_return": -136.39,
       "est_position": 32500
     }
   },
@@ -31,46 +31,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": 9.58,
+    "est_return_1y": 11.8,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 9.58,
+      "est_return": 11.8,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 9.58,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "James Banks",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 1,
-    "trades_with_returns": 1,
-    "est_return_1y": 8.15,
-    "win_rate": 100.0,
-    "unique_tickers": 1,
-    "best_trade": {
-      "ticker": "PTON",
-      "tx_type": "sale_full",
-      "tx_date": "2026-06-05",
-      "est_return": 8.15,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "PTON",
-      "tx_type": "sale_full",
-      "tx_date": "2026-06-05",
-      "est_return": 8.15,
+      "est_return": 11.8,
       "est_position": 8000
     }
   },
@@ -81,21 +56,46 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 3,
-    "est_return_1y": 5.22,
+    "est_return_1y": 6.98,
     "win_rate": 66.7,
     "unique_tickers": 3,
     "best_trade": {
       "ticker": "T",
       "tx_type": "purchase",
       "tx_date": "2026-06-29",
-      "est_return": 11.93,
+      "est_return": 14.48,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "O",
       "tx_type": "purchase",
       "tx_date": "2026-07-23",
-      "est_return": -4.97,
+      "est_return": -4.69,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "James Banks",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 1,
+    "est_return_1y": 5.55,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "PTON",
+      "tx_type": "sale_full",
+      "tx_date": "2026-06-05",
+      "est_return": 5.55,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "PTON",
+      "tx_type": "sale_full",
+      "tx_date": "2026-06-05",
+      "est_return": 5.55,
       "est_position": 8000
     }
   },
@@ -106,23 +106,36 @@
     "chamber": "senate",
     "total_trades": 4,
     "trades_with_returns": 2,
-    "est_return_1y": 4.54,
+    "est_return_1y": 4.61,
     "win_rate": 50.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "GOOG",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-27",
-      "est_return": 12.25,
+      "est_return": 10.9,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "GOOG",
       "tx_type": "purchase",
       "tx_date": "2026-06-23",
-      "est_return": -3.17,
+      "est_return": -1.69,
       "est_position": 8000
     }
+  },
+  {
+    "name": "Christopher A Coons",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
   },
   {
     "name": "John R Curtis",
@@ -235,21 +248,21 @@
     "chamber": "senate",
     "total_trades": 79,
     "trades_with_returns": 65,
-    "est_return_1y": -3.13,
+    "est_return_1y": -3.01,
     "win_rate": 35.4,
     "unique_tickers": 51,
     "best_trade": {
       "ticker": "PLTR",
       "tx_type": "purchase",
       "tx_date": "2026-05-15",
-      "est_return": 39.03,
+      "est_return": 39.3,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "FTGC",
       "tx_type": "sale_partial",
       "tx_date": "2025-11-21",
-      "est_return": -33.9,
+      "est_return": -34.21,
       "est_position": 8000
     }
   },
@@ -260,46 +273,21 @@
     "chamber": "senate",
     "total_trades": 6,
     "trades_with_returns": 5,
-    "est_return_1y": -3.85,
+    "est_return_1y": -3.84,
     "win_rate": 60.0,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "INTC",
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
-      "est_return": 12.67,
+      "est_return": 15.15,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "MSFT",
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
-      "est_return": -26.98,
-      "est_position": 32500
-    }
-  },
-  {
-    "name": "Thomas H Tuberville",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 159,
-    "trades_with_returns": 21,
-    "est_return_1y": -5.42,
-    "win_rate": 38.1,
-    "unique_tickers": 102,
-    "best_trade": {
-      "ticker": "ORCL",
-      "tx_type": "sale_full",
-      "tx_date": "2025-10-07",
-      "est_return": 46.31,
-      "est_position": 32500
-    },
-    "worst_trade": {
-      "ticker": "GOOGL",
-      "tx_type": "sale_partial",
-      "tx_date": "2025-10-07",
-      "est_return": -38.7,
+      "est_return": -29.11,
       "est_position": 32500
     }
   },
@@ -310,21 +298,46 @@
     "chamber": "senate",
     "total_trades": 8,
     "trades_with_returns": 8,
-    "est_return_1y": -5.49,
+    "est_return_1y": -5.13,
     "win_rate": 25.0,
     "unique_tickers": 7,
     "best_trade": {
       "ticker": "ORCL",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-07",
-      "est_return": 21.92,
+      "est_return": 22.48,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "COHR",
       "tx_type": "purchase",
       "tx_date": "2026-06-25",
-      "est_return": -27.47,
+      "est_return": -31.44,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Thomas H Tuberville",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 159,
+    "trades_with_returns": 21,
+    "est_return_1y": -5.8,
+    "win_rate": 38.1,
+    "unique_tickers": 102,
+    "best_trade": {
+      "ticker": "ORCL",
+      "tx_type": "sale_full",
+      "tx_date": "2025-10-07",
+      "est_return": 46.7,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "GOOGL",
+      "tx_type": "sale_partial",
+      "tx_date": "2025-10-07",
+      "est_return": -41.12,
       "est_position": 32500
     }
   }
