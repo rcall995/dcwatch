@@ -50,27 +50,27 @@
     }
   },
   {
-    "name": "Jerry Moran,",
-    "party": "",
+    "name": "Gary C Peters",
+    "party": "D",
     "state": "",
     "chamber": "senate",
-    "total_trades": 2,
-    "trades_with_returns": 1,
-    "est_return_1y": 10.9,
-    "win_rate": 100.0,
-    "unique_tickers": 2,
+    "total_trades": 3,
+    "trades_with_returns": 3,
+    "est_return_1y": 6.98,
+    "win_rate": 66.7,
+    "unique_tickers": 3,
     "best_trade": {
-      "ticker": "GOOG",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-05-27",
-      "est_return": 10.9,
+      "ticker": "T",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-29",
+      "est_return": 14.48,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "GOOG",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-05-27",
-      "est_return": 10.9,
+      "ticker": "O",
+      "tx_type": "purchase",
+      "tx_date": "2026-07-23",
+      "est_return": -4.69,
       "est_position": 8000
     }
   },
@@ -96,6 +96,31 @@
       "tx_type": "sale_full",
       "tx_date": "2026-06-05",
       "est_return": 5.55,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Jerry Moran,",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 4,
+    "trades_with_returns": 2,
+    "est_return_1y": 4.61,
+    "win_rate": 50.0,
+    "unique_tickers": 2,
+    "best_trade": {
+      "ticker": "GOOG",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-05-27",
+      "est_return": 10.9,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "GOOG",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-23",
+      "est_return": -1.69,
       "est_position": 8000
     }
   },
@@ -152,6 +177,71 @@
     "worst_trade": null
   },
   {
+    "name": "Bernie Moreno",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 2,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Rick Scott",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 15,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Timothy P Sheehy",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 5,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Mark R Warner",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 3,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 0,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
+    "name": "Ron L Wyden",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 0,
+    "est_return_1y": 0.0,
+    "win_rate": 0.0,
+    "unique_tickers": 1,
+    "best_trade": null,
+    "worst_trade": null
+  },
+  {
     "name": "John Boozman",
     "party": "R",
     "state": "",
@@ -198,6 +288,56 @@
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
       "est_return": -29.11,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Sheldon Whitehouse",
+    "party": "D",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 8,
+    "trades_with_returns": 8,
+    "est_return_1y": -5.13,
+    "win_rate": 25.0,
+    "unique_tickers": 7,
+    "best_trade": {
+      "ticker": "ORCL",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-05-07",
+      "est_return": 22.48,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "COHR",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-25",
+      "est_return": -31.44,
+      "est_position": 32500
+    }
+  },
+  {
+    "name": "Thomas H Tuberville",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 159,
+    "trades_with_returns": 21,
+    "est_return_1y": -5.8,
+    "win_rate": 38.1,
+    "unique_tickers": 102,
+    "best_trade": {
+      "ticker": "ORCL",
+      "tx_type": "sale_full",
+      "tx_date": "2025-10-07",
+      "est_return": 46.7,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "GOOGL",
+      "tx_type": "sale_partial",
+      "tx_date": "2025-10-07",
+      "est_return": -41.12,
       "est_position": 32500
     }
   }
