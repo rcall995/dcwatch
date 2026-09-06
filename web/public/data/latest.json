@@ -1081,29 +1081,6 @@
     "est_return": -16.09
   },
   {
-    "id": "58242c64b2a5f2e3",
-    "politician": "James Banks",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "PTON",
-    "asset_description": "Peloton Interactive, Inc. - Common Stock",
-    "asset_type": "stock",
-    "tx_type": "sale_full",
-    "tx_date": "2026-06-05",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Self",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/59c6f909-ad10-429d-8a8c-df81b00cf5fd/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 5.77,
-    "current_price": 5.4,
-    "est_return": 6.41
-  },
-  {
     "id": "074d1376dca3973d",
     "politician": "John Boozman",
     "party": "R",
@@ -1148,5 +1125,28 @@
     "price_at_trade": 377.0,
     "current_price": 397.14,
     "est_return": 5.34
+  },
+  {
+    "id": "0c989d601fdc70c3",
+    "politician": "A. Mitchell McConnell, Jr.",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "WFC",
+    "asset_description": "Wells Fargo & Company Common Stock",
+    "asset_type": "stock",
+    "tx_type": "purchase",
+    "tx_date": "2026-06-01",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Spouse",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/36b2e868-6789-43e3-91eb-ebe85aad5699/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 77.54,
+    "current_price": 89.97,
+    "est_return": 16.03
   }
 ]

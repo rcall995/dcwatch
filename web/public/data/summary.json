@@ -50,31 +50,6 @@
     }
   },
   {
-    "name": "James Banks",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 1,
-    "trades_with_returns": 1,
-    "est_return_1y": 6.41,
-    "win_rate": 100.0,
-    "unique_tickers": 1,
-    "best_trade": {
-      "ticker": "PTON",
-      "tx_type": "sale_full",
-      "tx_date": "2026-06-05",
-      "est_return": 6.41,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "PTON",
-      "tx_type": "sale_full",
-      "tx_date": "2026-06-05",
-      "est_return": 6.41,
-      "est_position": 8000
-    }
-  },
-  {
     "name": "Gary C Peters",
     "party": "D",
     "state": "",
