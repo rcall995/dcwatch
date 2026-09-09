@@ -1,52 +1,52 @@
 [
   {
-    "name": "A. Mitchell McConnell, Jr.",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 1,
-    "trades_with_returns": 1,
-    "est_return_1y": 16.03,
-    "win_rate": 100.0,
-    "unique_tickers": 1,
-    "best_trade": {
-      "ticker": "WFC",
-      "tx_type": "purchase",
-      "tx_date": "2026-06-01",
-      "est_return": 16.03,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "WFC",
-      "tx_type": "purchase",
-      "tx_date": "2026-06-01",
-      "est_return": 16.03,
-      "est_position": 8000
-    }
-  },
-  {
     "name": "Alan Armstrong",
     "party": "",
     "state": "",
     "chamber": "senate",
     "total_trades": 373,
     "trades_with_returns": 366,
-    "est_return_1y": 15.58,
-    "win_rate": 73.5,
+    "est_return_1y": 14.85,
+    "win_rate": 72.4,
     "unique_tickers": 345,
     "best_trade": {
       "ticker": "DELL",
       "tx_type": "purchase",
       "tx_date": "2026-03-27",
-      "est_return": 198.11,
+      "est_return": 203.65,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "CRWD",
       "tx_type": "sale_full",
       "tx_date": "2026-03-27",
-      "est_return": -130.65,
+      "est_return": -127.32,
       "est_position": 32500
+    }
+  },
+  {
+    "name": "A. Mitchell McConnell, Jr.",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 1,
+    "trades_with_returns": 1,
+    "est_return_1y": 13.44,
+    "win_rate": 100.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "WFC",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-01",
+      "est_return": 13.44,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "WFC",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-01",
+      "est_return": 13.44,
+      "est_position": 8000
     }
   },
   {
@@ -56,21 +56,21 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 3,
-    "est_return_1y": 4.9,
+    "est_return_1y": 4.74,
     "win_rate": 66.7,
     "unique_tickers": 3,
     "best_trade": {
       "ticker": "T",
       "tx_type": "purchase",
       "tx_date": "2026-06-29",
-      "est_return": 13.03,
+      "est_return": 12.68,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "O",
       "tx_type": "purchase",
       "tx_date": "2026-07-23",
-      "est_return": -5.81,
+      "est_return": -6.17,
       "est_position": 8000
     }
   },
@@ -88,14 +88,14 @@
       "ticker": "GOOG",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-27",
-      "est_return": 12.87,
+      "est_return": 12.85,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "GOOG",
       "tx_type": "purchase",
       "tx_date": "2026-06-23",
-      "est_return": -3.86,
+      "est_return": -3.84,
       "est_position": 8000
     }
   },
@@ -223,46 +223,46 @@
     "chamber": "senate",
     "total_trades": 79,
     "trades_with_returns": 65,
-    "est_return_1y": -3.55,
-    "win_rate": 32.3,
+    "est_return_1y": -3.41,
+    "win_rate": 33.8,
     "unique_tickers": 51,
     "best_trade": {
-      "ticker": "PLTR",
-      "tx_type": "purchase",
-      "tx_date": "2026-05-15",
-      "est_return": 30.36,
+      "ticker": "LITP",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-05-27",
+      "est_return": 27.61,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "FTGC",
       "tx_type": "sale_partial",
       "tx_date": "2025-11-21",
-      "est_return": -35.52,
+      "est_return": -36.44,
       "est_position": 8000
     }
   },
   {
-    "name": "Shelley M Capito",
-    "party": "R",
+    "name": "Sheldon Whitehouse",
+    "party": "D",
     "state": "",
     "chamber": "senate",
-    "total_trades": 6,
-    "trades_with_returns": 5,
-    "est_return_1y": -3.85,
-    "win_rate": 60.0,
-    "unique_tickers": 5,
+    "total_trades": 11,
+    "trades_with_returns": 10,
+    "est_return_1y": -4.25,
+    "win_rate": 40.0,
+    "unique_tickers": 8,
     "best_trade": {
-      "ticker": "INTC",
+      "ticker": "AMGN",
       "tx_type": "sale_partial",
-      "tx_date": "2026-07-21",
-      "est_return": 9.15,
+      "tx_date": "2026-08-12",
+      "est_return": 5.1,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "MSFT",
-      "tx_type": "sale_partial",
-      "tx_date": "2026-07-21",
-      "est_return": -25.63,
+      "ticker": "COHR",
+      "tx_type": "purchase",
+      "tx_date": "2026-06-25",
+      "est_return": -25.87,
       "est_position": 32500
     }
   },
@@ -273,46 +273,46 @@
     "chamber": "senate",
     "total_trades": 159,
     "trades_with_returns": 21,
-    "est_return_1y": -4.79,
-    "win_rate": 38.1,
+    "est_return_1y": -4.46,
+    "win_rate": 42.9,
     "unique_tickers": 102,
     "best_trade": {
       "ticker": "ORCL",
       "tx_type": "sale_full",
       "tx_date": "2025-10-07",
-      "est_return": 43.89,
+      "est_return": 42.57,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "GOOGL",
       "tx_type": "sale_partial",
       "tx_date": "2025-10-07",
-      "est_return": -37.81,
+      "est_return": -37.77,
       "est_position": 32500
     }
   },
   {
-    "name": "Sheldon Whitehouse",
-    "party": "D",
+    "name": "Shelley M Capito",
+    "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 11,
-    "trades_with_returns": 10,
-    "est_return_1y": -6.2,
-    "win_rate": 20.0,
-    "unique_tickers": 8,
+    "total_trades": 6,
+    "trades_with_returns": 5,
+    "est_return_1y": -5.04,
+    "win_rate": 60.0,
+    "unique_tickers": 5,
     "best_trade": {
-      "ticker": "LRCX",
+      "ticker": "AAPL",
       "tx_type": "sale_partial",
-      "tx_date": "2026-08-13",
-      "est_return": 5.66,
+      "tx_date": "2026-07-21",
+      "est_return": 3.18,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "COHR",
-      "tx_type": "purchase",
-      "tx_date": "2026-06-25",
-      "est_return": -30.79,
+      "ticker": "MSFT",
+      "tx_type": "sale_partial",
+      "tx_date": "2026-07-21",
+      "est_return": -24.19,
       "est_position": 32500
     }
   }
