@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": 15.36,
+    "est_return_1y": 16.44,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 15.36,
+      "est_return": 16.44,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-06-01",
-      "est_return": 15.36,
+      "est_return": 16.44,
       "est_position": 8000
     }
   },
@@ -31,21 +31,21 @@
     "chamber": "senate",
     "total_trades": 373,
     "trades_with_returns": 366,
-    "est_return_1y": 13.54,
-    "win_rate": 69.4,
+    "est_return_1y": 14.37,
+    "win_rate": 70.8,
     "unique_tickers": 345,
     "best_trade": {
       "ticker": "DELL",
       "tx_type": "purchase",
       "tx_date": "2026-03-27",
-      "est_return": 188.15,
+      "est_return": 222.65,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "CRWD",
       "tx_type": "sale_full",
       "tx_date": "2026-03-27",
-      "est_return": -126.06,
+      "est_return": -123.77,
       "est_position": 32500
     }
   },
@@ -56,46 +56,21 @@
     "chamber": "senate",
     "total_trades": 4,
     "trades_with_returns": 2,
-    "est_return_1y": 4.44,
+    "est_return_1y": 4.5,
     "win_rate": 50.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "GOOG",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-27",
-      "est_return": 14.15,
+      "est_return": 12.83,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "GOOG",
       "tx_type": "purchase",
       "tx_date": "2026-06-23",
-      "est_return": -5.27,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "Cory A Booker",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 7,
-    "trades_with_returns": 6,
-    "est_return_1y": 3.4,
-    "win_rate": 66.7,
-    "unique_tickers": 6,
-    "best_trade": {
-      "ticker": "JD",
-      "tx_type": "sale_full",
-      "tx_date": "2026-08-11",
-      "est_return": 15.35,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "ALNY",
-      "tx_type": "sale_full",
-      "tx_date": "2026-08-11",
-      "est_return": -11.89,
+      "est_return": -3.82,
       "est_position": 8000
     }
   },
@@ -106,21 +81,46 @@
     "chamber": "senate",
     "total_trades": 2,
     "trades_with_returns": 2,
-    "est_return_1y": 2.03,
+    "est_return_1y": 3.1,
     "win_rate": 50.0,
     "unique_tickers": 2,
     "best_trade": {
       "ticker": "T",
       "tx_type": "purchase",
       "tx_date": "2026-06-29",
-      "est_return": 12.46,
+      "est_return": 14.7,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "O",
       "tx_type": "purchase",
       "tx_date": "2026-07-23",
-      "est_return": -8.4,
+      "est_return": -8.5,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "Cory A Booker",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 7,
+    "trades_with_returns": 6,
+    "est_return_1y": 2.74,
+    "win_rate": 50.0,
+    "unique_tickers": 6,
+    "best_trade": {
+      "ticker": "JD",
+      "tx_type": "sale_full",
+      "tx_date": "2026-08-11",
+      "est_return": 15.23,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "ALNY",
+      "tx_type": "sale_full",
+      "tx_date": "2026-08-11",
+      "est_return": -12.42,
       "est_position": 8000
     }
   },
@@ -248,21 +248,21 @@
     "chamber": "senate",
     "total_trades": 11,
     "trades_with_returns": 10,
-    "est_return_1y": -2.58,
+    "est_return_1y": -2.6,
     "win_rate": 60.0,
     "unique_tickers": 8,
     "best_trade": {
-      "ticker": "LRCX",
+      "ticker": "AMGN",
       "tx_type": "sale_partial",
-      "tx_date": "2026-08-13",
-      "est_return": 8.62,
+      "tx_date": "2026-08-12",
+      "est_return": 8.92,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "COHR",
       "tx_type": "purchase",
       "tx_date": "2026-06-25",
-      "est_return": -28.01,
+      "est_return": -25.02,
       "est_position": 32500
     }
   },
@@ -271,23 +271,23 @@
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "total_trades": 79,
-    "trades_with_returns": 65,
+    "total_trades": 88,
+    "trades_with_returns": 74,
     "est_return_1y": -3.01,
-    "win_rate": 38.5,
-    "unique_tickers": 51,
+    "win_rate": 36.5,
+    "unique_tickers": 58,
     "best_trade": {
       "ticker": "LITP",
       "tx_type": "sale_partial",
       "tx_date": "2026-05-27",
-      "est_return": 30.42,
+      "est_return": 33.42,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "FTGC",
       "tx_type": "sale_partial",
       "tx_date": "2025-11-21",
-      "est_return": -38.23,
+      "est_return": -36.96,
       "est_position": 8000
     }
   },
@@ -298,21 +298,21 @@
     "chamber": "senate",
     "total_trades": 159,
     "trades_with_returns": 21,
-    "est_return_1y": -3.76,
-    "win_rate": 47.6,
+    "est_return_1y": -4.26,
+    "win_rate": 33.3,
     "unique_tickers": 102,
     "best_trade": {
       "ticker": "ORCL",
       "tx_type": "sale_full",
       "tx_date": "2025-10-07",
-      "est_return": 45.96,
+      "est_return": 46.9,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "GOOGL",
       "tx_type": "sale_partial",
       "tx_date": "2025-10-07",
-      "est_return": -35.42,
+      "est_return": -37.83,
       "est_position": 32500
     }
   },
@@ -323,21 +323,21 @@
     "chamber": "senate",
     "total_trades": 6,
     "trades_with_returns": 5,
-    "est_return_1y": -4.37,
-    "win_rate": 60.0,
+    "est_return_1y": -6.33,
+    "win_rate": 40.0,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "INTC",
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
-      "est_return": 4.86,
+      "est_return": 2.38,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "MSFT",
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
-      "est_return": -23.81,
+      "est_return": -24.61,
       "est_position": 32500
     }
   }
