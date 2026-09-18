@@ -8,6 +8,14 @@
     "report_id": "fda235b3-bad7-4637-8fa1-053f354d929c"
   },
   {
+    "name": "Alan Armstrong",
+    "office": "Armstrong, Alan (Senator)",
+    "report_type": "Periodic Transaction Report for 09/17/2026",
+    "date_filed": "09/17/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/b999bc0e-3eb0-4ca9-ab07-8e8f2e04b41f/",
+    "report_id": "b999bc0e-3eb0-4ca9-ab07-8e8f2e04b41f"
+  },
+  {
     "name": "RICHARD BLUMENTHAL",
     "office": "Senator",
     "report_type": "Periodic Transaction Report for 07/17/2026",
@@ -18,18 +26,18 @@
   {
     "name": "RICHARD BLUMENTHAL",
     "office": "Senator",
-    "report_type": "Periodic Transaction Report for 08/31/2026",
-    "date_filed": "08/31/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/",
-    "report_id": "929216d5-5dbd-429c-858c-1e9332924627"
-  },
-  {
-    "name": "RICHARD BLUMENTHAL",
-    "office": "Senator",
     "report_type": "Periodic Transaction Report for 08/21/2026",
     "date_filed": "08/21/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/",
     "report_id": "ec20cd93-6702-4a29-b3a6-983f4b17f365"
+  },
+  {
+    "name": "RICHARD BLUMENTHAL",
+    "office": "Senator",
+    "report_type": "Periodic Transaction Report for 08/31/2026",
+    "date_filed": "08/31/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/",
+    "report_id": "929216d5-5dbd-429c-858c-1e9332924627"
   },
   {
     "name": "Cory A Booker",
@@ -42,26 +50,10 @@
   {
     "name": "John Boozman",
     "office": "Boozman, John (Senator)",
-    "report_type": "Periodic Transaction Report for 09/11/2026",
-    "date_filed": "09/11/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/0632f542-7ac2-46e4-bd9c-603e3673f0cd/",
-    "report_id": "0632f542-7ac2-46e4-bd9c-603e3673f0cd"
-  },
-  {
-    "name": "John Boozman",
-    "office": "Boozman, John (Senator)",
     "report_type": "Periodic Transaction Report for 08/17/2026 (Amendment 1)",
     "date_filed": "08/17/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
     "report_id": "4184cc9a-78e0-45f3-84f7-642011e6ff98"
-  },
-  {
-    "name": "John Boozman",
-    "office": "Boozman, John (Senator)",
-    "report_type": "Periodic Transaction Report for 07/13/2026",
-    "date_filed": "07/13/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/9c0b720d-7e27-4b02-8cf5-a85ba88c9543/",
-    "report_id": "9c0b720d-7e27-4b02-8cf5-a85ba88c9543"
   },
   {
     "name": "John Boozman",
@@ -92,6 +84,22 @@
     "office": "Boozman, John (Senator)",
     "report_type": "Periodic Transaction Report for 07/13/2026",
     "date_filed": "07/13/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/9c0b720d-7e27-4b02-8cf5-a85ba88c9543/",
+    "report_id": "9c0b720d-7e27-4b02-8cf5-a85ba88c9543"
+  },
+  {
+    "name": "John Boozman",
+    "office": "Boozman, John (Senator)",
+    "report_type": "Periodic Transaction Report for 08/17/2026",
+    "date_filed": "08/17/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
+    "report_id": "4a558db2-e492-4e8f-8a28-7b703a5c8e08"
+  },
+  {
+    "name": "John Boozman",
+    "office": "Boozman, John (Senator)",
+    "report_type": "Periodic Transaction Report for 07/13/2026",
+    "date_filed": "07/13/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/c52854ed-a778-483a-883c-0ba2bba17877/",
     "report_id": "c52854ed-a778-483a-883c-0ba2bba17877"
   },
@@ -106,10 +114,10 @@
   {
     "name": "John Boozman",
     "office": "Boozman, John (Senator)",
-    "report_type": "Periodic Transaction Report for 08/17/2026",
-    "date_filed": "08/17/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
-    "report_id": "4a558db2-e492-4e8f-8a28-7b703a5c8e08"
+    "report_type": "Periodic Transaction Report for 09/11/2026",
+    "date_filed": "09/11/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/0632f542-7ac2-46e4-bd9c-603e3673f0cd/",
+    "report_id": "0632f542-7ac2-46e4-bd9c-603e3673f0cd"
   },
   {
     "name": "Shelley M Capito",
@@ -186,6 +194,14 @@
   {
     "name": "David H McCormick",
     "office": "McCormick, David H. (Senator)",
+    "report_type": "Periodic Transaction Report for 07/29/2026",
+    "date_filed": "07/29/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/19fb5a84-b9f8-4847-841e-84c67a0edfe0/",
+    "report_id": "19fb5a84-b9f8-4847-841e-84c67a0edfe0"
+  },
+  {
+    "name": "David H McCormick",
+    "office": "McCormick, David H. (Senator)",
     "report_type": "Periodic Transaction Report for 08/27/2026",
     "date_filed": "08/27/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/",
@@ -198,14 +214,6 @@
     "date_filed": "06/26/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/ff0b0573-2809-40ae-8197-4b26648e9027/",
     "report_id": "ff0b0573-2809-40ae-8197-4b26648e9027"
-  },
-  {
-    "name": "David H McCormick",
-    "office": "McCormick, David H. (Senator)",
-    "report_type": "Periodic Transaction Report for 07/29/2026",
-    "date_filed": "07/29/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/19fb5a84-b9f8-4847-841e-84c67a0edfe0/",
-    "report_id": "19fb5a84-b9f8-4847-841e-84c67a0edfe0"
   },
   {
     "name": "Jerry Moran,",
@@ -250,18 +258,18 @@
   {
     "name": "Rick Scott",
     "office": "Scott, Rick (Senator)",
-    "report_type": "Periodic Transaction Report for 03/03/2025 (Amendment 1)",
-    "date_filed": "08/13/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f0a05c3b-66e0-4287-a388-454e2b4c823d/",
-    "report_id": "f0a05c3b-66e0-4287-a388-454e2b4c823d"
-  },
-  {
-    "name": "Rick Scott",
-    "office": "Scott, Rick (Senator)",
     "report_type": "Periodic Transaction Report for 08/03/2026",
     "date_filed": "08/03/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/d20def77-73a7-44e0-8be0-b9b05492deed/",
     "report_id": "d20def77-73a7-44e0-8be0-b9b05492deed"
+  },
+  {
+    "name": "Rick Scott",
+    "office": "Scott, Rick (Senator)",
+    "report_type": "Periodic Transaction Report for 03/03/2025 (Amendment 1)",
+    "date_filed": "08/13/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f0a05c3b-66e0-4287-a388-454e2b4c823d/",
+    "report_id": "f0a05c3b-66e0-4287-a388-454e2b4c823d"
   },
   {
     "name": "Timothy P Sheehy",
@@ -274,18 +282,10 @@
   {
     "name": "Thomas H Tuberville",
     "office": "Tuberville, Tommy (Senator)",
-    "report_type": "Periodic Transaction Report for 07/16/2026",
-    "date_filed": "07/16/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/392ac3e5-07f6-4f8c-840f-84e9066ffb29/",
-    "report_id": "392ac3e5-07f6-4f8c-840f-84e9066ffb29"
-  },
-  {
-    "name": "Thomas H Tuberville",
-    "office": "Tuberville, Tommy (Senator)",
-    "report_type": "Periodic Transaction Report for 06/14/2024 (Amendment 1)",
+    "report_type": "Periodic Transaction Report for 01/15/2026 (Amendment 1)",
     "date_filed": "08/05/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/0a25588d-a3f8-4ed6-971a-706097f78e3a/",
-    "report_id": "0a25588d-a3f8-4ed6-971a-706097f78e3a"
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/57cf1745-e3dd-4afd-8685-228153848631/",
+    "report_id": "57cf1745-e3dd-4afd-8685-228153848631"
   },
   {
     "name": "Thomas H Tuberville",
@@ -314,22 +314,6 @@
   {
     "name": "Thomas H Tuberville",
     "office": "Tuberville, Tommy (Senator)",
-    "report_type": "Periodic Transaction Report for 01/15/2026 (Amendment 1)",
-    "date_filed": "08/05/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/57cf1745-e3dd-4afd-8685-228153848631/",
-    "report_id": "57cf1745-e3dd-4afd-8685-228153848631"
-  },
-  {
-    "name": "Thomas H Tuberville",
-    "office": "Tuberville, Tommy (Senator)",
-    "report_type": "Periodic Transaction Report for 09/13/2024 (Amendment 1)",
-    "date_filed": "08/05/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/2758f09a-fda9-4fb4-a465-270173a8125d/",
-    "report_id": "2758f09a-fda9-4fb4-a465-270173a8125d"
-  },
-  {
-    "name": "Thomas H Tuberville",
-    "office": "Tuberville, Tommy (Senator)",
     "report_type": "Periodic Transaction Report for 02/14/2025 (Amendment 1)",
     "date_filed": "08/05/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/d1afafd0-a78f-44ef-ae47-da99dfb01317/",
@@ -352,20 +336,36 @@
     "report_id": "548cacbf-7cf2-42cb-9f23-71250938caae"
   },
   {
+    "name": "Thomas H Tuberville",
+    "office": "Tuberville, Tommy (Senator)",
+    "report_type": "Periodic Transaction Report for 06/14/2024 (Amendment 1)",
+    "date_filed": "08/05/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/0a25588d-a3f8-4ed6-971a-706097f78e3a/",
+    "report_id": "0a25588d-a3f8-4ed6-971a-706097f78e3a"
+  },
+  {
+    "name": "Thomas H Tuberville",
+    "office": "Tuberville, Tommy (Senator)",
+    "report_type": "Periodic Transaction Report for 07/16/2026",
+    "date_filed": "07/16/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/392ac3e5-07f6-4f8c-840f-84e9066ffb29/",
+    "report_id": "392ac3e5-07f6-4f8c-840f-84e9066ffb29"
+  },
+  {
+    "name": "Thomas H Tuberville",
+    "office": "Tuberville, Tommy (Senator)",
+    "report_type": "Periodic Transaction Report for 09/13/2024 (Amendment 1)",
+    "date_filed": "08/05/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/2758f09a-fda9-4fb4-a465-270173a8125d/",
+    "report_id": "2758f09a-fda9-4fb4-a465-270173a8125d"
+  },
+  {
     "name": "Mark R Warner",
     "office": "Warner, Mark (Senator)",
     "report_type": "Periodic Transaction Report for 08/14/2026",
     "date_filed": "08/14/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/047c4167-e0a9-44d4-a2bf-5477eb6b20ab/",
     "report_id": "047c4167-e0a9-44d4-a2bf-5477eb6b20ab"
-  },
-  {
-    "name": "Sheldon Whitehouse",
-    "office": "Whitehouse, Sheldon (Senator)",
-    "report_type": "Periodic Transaction Report for 09/02/2026",
-    "date_filed": "09/02/2026",
-    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f8d003c0-ca1e-4c39-9d66-632d220180e1/",
-    "report_id": "f8d003c0-ca1e-4c39-9d66-632d220180e1"
   },
   {
     "name": "Sheldon Whitehouse",
@@ -382,6 +382,14 @@
     "date_filed": "08/03/2026",
     "report_url": "https://efdsearch.senate.gov/search/view/ptr/96db6e64-f7c3-4483-b0aa-af10ba2bdbbd/",
     "report_id": "96db6e64-f7c3-4483-b0aa-af10ba2bdbbd"
+  },
+  {
+    "name": "Sheldon Whitehouse",
+    "office": "Whitehouse, Sheldon (Senator)",
+    "report_type": "Periodic Transaction Report for 09/02/2026",
+    "date_filed": "09/02/2026",
+    "report_url": "https://efdsearch.senate.gov/search/view/ptr/f8d003c0-ca1e-4c39-9d66-632d220180e1/",
+    "report_id": "f8d003c0-ca1e-4c39-9d66-632d220180e1"
   },
   {
     "name": "Ron L Wyden",
