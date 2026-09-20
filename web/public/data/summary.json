@@ -311,7 +311,7 @@
     "chamber": "senate",
     "total_trades": 53,
     "trades_with_returns": 41,
-    "est_return_1y": -4.1,
+    "est_return_1y": -4.07,
     "win_rate": 43.9,
     "unique_tickers": 42,
     "best_trade": {

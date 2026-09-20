@@ -65,8 +65,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 73.24,
-    "current_price": 71.81,
-    "est_return": -1.95
+    "current_price": 72.05,
+    "est_return": -1.62
   },
   {
     "id": "d5674887719777c6",
@@ -88,8 +88,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 90.54,
-    "current_price": 89.32,
-    "est_return": -1.35
+    "current_price": 89.64,
+    "est_return": -0.99
   },
   {
     "id": "64b63ee04b43360a",
@@ -134,8 +134,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 75.13,
-    "current_price": 71.81,
-    "est_return": -4.42
+    "current_price": 72.05,
+    "est_return": -4.1
   },
   {
     "id": "ded12584ebb30cbe",
@@ -520,7 +520,7 @@
     "amount_low": 1001,
     "amount_high": 15000,
     "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
@@ -543,13 +543,13 @@
     "amount_low": 1001,
     "amount_high": 15000,
     "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 87.97,
-    "current_price": 89.32,
-    "est_return": 1.53
+    "current_price": 89.64,
+    "est_return": 1.9
   },
   {
     "id": "00c0889e5e87e300",
@@ -750,7 +750,7 @@
     "amount_low": 1001,
     "amount_high": 15000,
     "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
@@ -796,7 +796,7 @@
     "amount_low": 1001,
     "amount_high": 15000,
     "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
@@ -819,7 +819,7 @@
     "amount_low": 1001,
     "amount_high": 15000,
     "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
@@ -847,8 +847,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 87.77,
-    "current_price": 89.32,
-    "est_return": 1.77
+    "current_price": 89.64,
+    "est_return": 2.13
   },
   {
     "id": "f37e00890108e0cc",
@@ -1100,8 +1100,8 @@
     "days_late": 0,
     "est_position": 15000000,
     "price_at_trade": 75.87,
-    "current_price": 71.81,
-    "est_return": 5.35
+    "current_price": 72.05,
+    "est_return": 5.03
   },
   {
     "id": "f6affb4894c3b2d8",
