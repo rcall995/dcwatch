@@ -19,8 +19,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 86.39,
-    "current_price": 80.81,
-    "est_return": -6.46
+    "current_price": 80.48,
+    "est_return": -6.84
   },
   {
     "id": "b398afdcc4c3b686",
@@ -42,8 +42,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 769.65,
-    "current_price": 768.93,
-    "est_return": 0.09
+    "current_price": 767.52,
+    "est_return": 0.28
   },
   {
     "id": "5e92aea56720dda1",
@@ -65,8 +65,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 72.36,
-    "current_price": 66.33,
-    "est_return": -8.33
+    "current_price": 65.63,
+    "est_return": -9.3
   },
   {
     "id": "2c295405a20a8ab1",
@@ -88,8 +88,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 73.24,
-    "current_price": 68.98,
-    "est_return": -5.82
+    "current_price": 68.63,
+    "est_return": -6.29
   },
   {
     "id": "64b63ee04b43360a",
@@ -111,8 +111,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 273.41,
-    "current_price": 271.95,
-    "est_return": 0.53
+    "current_price": 267.57,
+    "est_return": 2.14
   },
   {
     "id": "d5674887719777c6",
@@ -134,8 +134,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 90.54,
-    "current_price": 90.08,
-    "est_return": -0.51
+    "current_price": 89.94,
+    "est_return": -0.66
   },
   {
     "id": "900cce8005e09645",
@@ -157,8 +157,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 75.13,
-    "current_price": 68.98,
-    "est_return": -8.19
+    "current_price": 68.63,
+    "est_return": -8.65
   },
   {
     "id": "d6c607e21faa6e3c",
@@ -180,8 +180,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 22.16,
-    "current_price": 20.34,
-    "est_return": 8.21
+    "current_price": 20.2,
+    "est_return": 8.84
   },
   {
     "id": "ded12584ebb30cbe",
@@ -203,8 +203,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 147.92,
-    "current_price": 137.37,
-    "est_return": -7.13
+    "current_price": 136.91,
+    "est_return": -7.44
   },
   {
     "id": "6a6dcc0cdc2d026c",
@@ -226,8 +226,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 126.06,
-    "current_price": 119.55,
-    "est_return": -5.16
+    "current_price": 118.78,
+    "est_return": -5.78
   },
   {
     "id": "2ddc86418cf81c91",
@@ -249,8 +249,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 278.21,
-    "current_price": 260.43,
-    "est_return": 6.39
+    "current_price": 264.58,
+    "est_return": 4.9
   },
   {
     "id": "2d26111aa4bf56ad",
@@ -272,8 +272,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 226.77,
-    "current_price": 172.97,
-    "est_return": -23.72
+    "current_price": 176.93,
+    "est_return": -21.98
   },
   {
     "id": "703c7ed258a9af05",
@@ -295,8 +295,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 224.09,
-    "current_price": 228.86,
-    "est_return": -2.13
+    "current_price": 227.21,
+    "est_return": -1.39
   },
   {
     "id": "7c812a21071373f3",
@@ -318,8 +318,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 224.09,
-    "current_price": 228.86,
-    "est_return": -2.13
+    "current_price": 227.21,
+    "est_return": -1.39
   },
   {
     "id": "43c8cfebdb01763b",
@@ -341,8 +341,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 326.11,
-    "current_price": 314.47,
-    "est_return": 3.57
+    "current_price": 323.86,
+    "est_return": 0.69
   },
   {
     "id": "ab3828626b0ea3fd",
@@ -364,8 +364,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 414.3,
-    "current_price": 418.13,
-    "est_return": -0.92
+    "current_price": 423.64,
+    "est_return": -2.25
   },
   {
     "id": "281b2b93720cf9b0",
@@ -387,8 +387,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 217.55,
-    "current_price": 228.86,
-    "est_return": -5.2
+    "current_price": 227.21,
+    "est_return": -4.44
   },
   {
     "id": "67ea657fd8ea68d8",
@@ -410,8 +410,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 76.29,
-    "current_price": 69.23,
-    "est_return": 9.25
+    "current_price": 70.3,
+    "est_return": 7.85
   },
   {
     "id": "3e47742348452373",
@@ -433,8 +433,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 273.72,
-    "current_price": 233.6,
-    "est_return": 14.66
+    "current_price": 233.98,
+    "est_return": 14.52
   },
   {
     "id": "d09e65d1a9b7f5fe",
@@ -456,8 +456,8 @@
     "days_late": 0,
     "est_position": 175000,
     "price_at_trade": 278.09,
-    "current_price": 246.15,
-    "est_return": 11.49
+    "current_price": 246.67,
+    "est_return": 11.3
   },
   {
     "id": "2462861085bf0874",
@@ -479,8 +479,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 221.2,
-    "current_price": 255.36,
-    "est_return": -15.44
+    "current_price": 254.07,
+    "est_return": -14.86
   },
   {
     "id": "d63cfb5072733957",
@@ -502,8 +502,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 31.92,
-    "current_price": 26.61,
-    "est_return": 16.64
+    "current_price": 26.3,
+    "est_return": 17.61
   },
   {
     "id": "9f47d4b20d5be30d",
@@ -525,8 +525,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 296.52,
-    "current_price": 253.26,
-    "est_return": 14.59
+    "current_price": 261.75,
+    "est_return": 11.73
   },
   {
     "id": "fbd32080e55975c0",
@@ -543,13 +543,13 @@
     "amount_low": 1001,
     "amount_high": 15000,
     "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 58.35,
-    "current_price": 54.28,
-    "est_return": -6.98
+    "current_price": 53.89,
+    "est_return": -7.64
   },
   {
     "id": "f0f511be9296b89c",
@@ -566,13 +566,13 @@
     "amount_low": 1001,
     "amount_high": 15000,
     "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 87.97,
-    "current_price": 90.08,
-    "est_return": 2.4
+    "current_price": 89.94,
+    "est_return": 2.24
   },
   {
     "id": "00c0889e5e87e300",
@@ -594,8 +594,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 348.21,
-    "current_price": 336.59,
-    "est_return": 3.34
+    "current_price": 334.98,
+    "est_return": 3.8
   },
   {
     "id": "9ab717b99614858c",
@@ -617,8 +617,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 65.03,
-    "current_price": 55.35,
-    "est_return": -14.89
+    "current_price": 55.14,
+    "est_return": -15.21
   },
   {
     "id": "f41200d171439113",
@@ -640,8 +640,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 397.75,
-    "current_price": 509.22,
-    "est_return": -28.03
+    "current_price": 508.96,
+    "est_return": -27.96
   },
   {
     "id": "6077c486f7dd545b",
@@ -663,8 +663,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 326.59,
-    "current_price": 338.4,
-    "est_return": -3.62
+    "current_price": 329.4,
+    "est_return": -0.86
   },
   {
     "id": "233626dad56290f2",
@@ -686,8 +686,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 105.45,
-    "current_price": 116.03,
-    "est_return": -10.03
+    "current_price": 115.93,
+    "est_return": -9.94
   },
   {
     "id": "f280b810ffa7910d",
@@ -709,8 +709,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 81.97,
-    "current_price": 87.18,
-    "est_return": -6.36
+    "current_price": 86.84,
+    "est_return": -5.94
   },
   {
     "id": "116a3f4c492ccfbc",
@@ -732,8 +732,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 112.18,
-    "current_price": 106.74,
-    "est_return": 4.85
+    "current_price": 106.94,
+    "est_return": 4.67
   },
   {
     "id": "6858ee4781b02252",
@@ -755,8 +755,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 203.45,
-    "current_price": 187.66,
-    "est_return": 7.76
+    "current_price": 187.26,
+    "est_return": 7.96
   },
   {
     "id": "94c7c02a6924be02",
@@ -773,13 +773,13 @@
     "amount_low": 1001,
     "amount_high": 15000,
     "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 59.86,
-    "current_price": 43.64,
-    "est_return": -27.1
+    "current_price": 43.37,
+    "est_return": -27.55
   },
   {
     "id": "7a299ba72a951f86",
@@ -801,8 +801,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 338.73,
-    "current_price": 289.89,
-    "est_return": 14.42
+    "current_price": 288.04,
+    "est_return": 14.96
   },
   {
     "id": "9658aed5786c03ca",
@@ -819,13 +819,13 @@
     "amount_low": 1001,
     "amount_high": 15000,
     "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 83.71,
-    "current_price": 95.57,
-    "est_return": 14.17
+    "current_price": 94.37,
+    "est_return": 12.73
   },
   {
     "id": "449637609791d8bd",
@@ -842,13 +842,13 @@
     "amount_low": 1001,
     "amount_high": 15000,
     "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/",
     "is_amended": false,
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 169.2,
-    "current_price": 206.37,
-    "est_return": 21.97
+    "current_price": 204.38,
+    "est_return": 20.79
   },
   {
     "id": "a3d912092e279fca",
@@ -870,8 +870,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 87.77,
-    "current_price": 90.08,
-    "est_return": 2.63
+    "current_price": 89.94,
+    "est_return": 2.47
   },
   {
     "id": "f37e00890108e0cc",
@@ -893,8 +893,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 342.31,
-    "current_price": 363.16,
-    "est_return": -6.09
+    "current_price": 363.21,
+    "est_return": -6.11
   },
   {
     "id": "b9d46fc868763a15",
@@ -916,8 +916,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 194.97,
-    "current_price": 228.86,
-    "est_return": -17.38
+    "current_price": 227.21,
+    "est_return": -16.54
   },
   {
     "id": "1bcd9d89d882693e",
@@ -939,8 +939,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 22.72,
-    "current_price": 24.9,
-    "est_return": 9.6
+    "current_price": 24.48,
+    "est_return": 7.75
   },
   {
     "id": "4721ff44b631eabb",
@@ -962,8 +962,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 42.32,
-    "current_price": 40.46,
-    "est_return": 4.4
+    "current_price": 40.12,
+    "est_return": 5.2
   },
   {
     "id": "be101d37ee60db4b",
@@ -985,8 +985,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 26.76,
-    "current_price": 30.69,
-    "est_return": -14.69
+    "current_price": 30.47,
+    "est_return": -13.86
   },
   {
     "id": "38428cf3b3e76949",
@@ -1008,8 +1008,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 84.76,
-    "current_price": 105.43,
-    "est_return": 24.39
+    "current_price": 105.22,
+    "est_return": 24.14
   },
   {
     "id": "dfa5374289fbb615",
@@ -1031,8 +1031,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 21.52,
-    "current_price": 22.01,
-    "est_return": 2.28
+    "current_price": 22.14,
+    "est_return": 2.88
   },
   {
     "id": "6c45dc0ad5fa638c",
@@ -1054,8 +1054,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 79.53,
-    "current_price": 67.1,
-    "est_return": 15.63
+    "current_price": 67.07,
+    "est_return": 15.67
   },
   {
     "id": "9b2721c32c4657a5",
@@ -1077,8 +1077,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 407.25,
-    "current_price": 282.45,
-    "est_return": -30.64
+    "current_price": 292.21,
+    "est_return": -28.25
   },
   {
     "id": "81f4bea454c0acca",
@@ -1100,8 +1100,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 1048.51,
-    "current_price": 1053.98,
-    "est_return": 0.52
+    "current_price": 1065.08,
+    "est_return": 1.58
   },
   {
     "id": "4b8780c192a3fb8a",
@@ -1123,8 +1123,8 @@
     "days_late": 0,
     "est_position": 15000000,
     "price_at_trade": 75.87,
-    "current_price": 68.98,
-    "est_return": 9.08
+    "current_price": 68.63,
+    "est_return": 9.54
   },
   {
     "id": "f6affb4894c3b2d8",
@@ -1146,7 +1146,7 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 294.3,
-    "current_price": 338.4,
-    "est_return": -14.98
+    "current_price": 329.4,
+    "est_return": -11.93
   }
 ]
