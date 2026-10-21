@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 7,
     "trades_with_returns": 6,
-    "est_return_1y": 6.04,
+    "est_return_1y": 6.3,
     "win_rate": 83.3,
     "unique_tickers": 6,
     "best_trade": {
       "ticker": "JD",
       "tx_type": "sale_full",
       "tx_date": "2026-08-11",
-      "est_return": 16.1,
+      "est_return": 16.17,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ALNY",
       "tx_type": "sale_full",
       "tx_date": "2026-08-11",
-      "est_return": -5.47,
+      "est_return": -4.3,
       "est_position": 8000
     }
   },
@@ -31,21 +31,21 @@
     "chamber": "senate",
     "total_trades": 9,
     "trades_with_returns": 8,
-    "est_return_1y": 1.85,
+    "est_return_1y": 1.4,
     "win_rate": 62.5,
     "unique_tickers": 7,
     "best_trade": {
       "ticker": "LRCX",
       "tx_type": "sale_partial",
       "tx_date": "2026-08-13",
-      "est_return": 16.53,
+      "est_return": 19.21,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "ADI",
       "tx_type": "sale_partial",
       "tx_date": "2026-09-04",
-      "est_return": -10.62,
+      "est_return": -11.37,
       "est_position": 8000
     }
   },
@@ -199,72 +199,22 @@
     "chamber": "senate",
     "total_trades": 148,
     "trades_with_returns": 5,
-    "est_return_1y": -3.93,
+    "est_return_1y": -2.48,
     "win_rate": 40.0,
     "unique_tickers": 98,
     "best_trade": {
       "ticker": "XLV",
       "tx_type": "purchase",
       "tx_date": "2025-12-17",
-      "est_return": 14.7,
+      "est_return": 17.42,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "AAPL",
       "tx_type": "sale_partial",
       "tx_date": "2025-12-17",
-      "est_return": -26.16,
+      "est_return": -24.89,
       "est_position": 75000
-    }
-  },
-  {
-    "name": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 43,
-    "trades_with_returns": 33,
-    "est_return_1y": -4.96,
-    "win_rate": 33.3,
-    "unique_tickers": 37,
-    "best_trade": {
-      "ticker": "CVX",
-      "tx_type": "purchase",
-      "tx_date": "2026-07-02",
-      "est_return": 32.61,
-      "est_position": 8000
-    },
-    "worst_trade": {
-      "ticker": "FTGC",
-      "tx_type": "sale_partial",
-      "tx_date": "2025-11-21",
-      "est_return": -36.05,
-      "est_position": 8000
-    }
-  },
-  {
-    "name": "Alan Armstrong",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 4,
-    "trades_with_returns": 2,
-    "est_return_1y": -5.11,
-    "win_rate": 0.0,
-    "unique_tickers": 1,
-    "best_trade": {
-      "ticker": "WMB",
-      "tx_type": "purchase",
-      "tx_date": "2026-08-20",
-      "est_return": -3.9,
-      "est_position": 32500
-    },
-    "worst_trade": {
-      "ticker": "WMB",
-      "tx_type": "purchase",
-      "tx_date": "2026-08-19",
-      "est_return": -6.32,
-      "est_position": 8000
     }
   },
   {
@@ -274,22 +224,72 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": -5.31,
+    "est_return_1y": -4.85,
     "win_rate": 0.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-09-01",
-      "est_return": -5.31,
+      "est_return": -4.85,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-09-01",
-      "est_return": -5.31,
+      "est_return": -4.85,
       "est_position": 32500
+    }
+  },
+  {
+    "name": "Alan Armstrong",
+    "party": "",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 4,
+    "trades_with_returns": 2,
+    "est_return_1y": -5.18,
+    "win_rate": 0.0,
+    "unique_tickers": 1,
+    "best_trade": {
+      "ticker": "WMB",
+      "tx_type": "purchase",
+      "tx_date": "2026-08-20",
+      "est_return": -3.97,
+      "est_position": 32500
+    },
+    "worst_trade": {
+      "ticker": "WMB",
+      "tx_type": "purchase",
+      "tx_date": "2026-08-19",
+      "est_return": -6.39,
+      "est_position": 8000
+    }
+  },
+  {
+    "name": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "total_trades": 43,
+    "trades_with_returns": 33,
+    "est_return_1y": -5.3,
+    "win_rate": 33.3,
+    "unique_tickers": 37,
+    "best_trade": {
+      "ticker": "CVX",
+      "tx_type": "purchase",
+      "tx_date": "2026-07-02",
+      "est_return": 33.4,
+      "est_position": 8000
+    },
+    "worst_trade": {
+      "ticker": "FTGC",
+      "tx_type": "sale_partial",
+      "tx_date": "2025-11-21",
+      "est_return": -35.52,
+      "est_position": 8000
     }
   },
   {
@@ -299,21 +299,21 @@
     "chamber": "senate",
     "total_trades": 5,
     "trades_with_returns": 5,
-    "est_return_1y": -7.06,
+    "est_return_1y": -6.76,
     "win_rate": 40.0,
     "unique_tickers": 5,
     "best_trade": {
       "ticker": "INTC",
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
-      "est_return": 12.73,
+      "est_return": 13.05,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "MSFT",
       "tx_type": "sale_partial",
       "tx_date": "2026-07-21",
-      "est_return": -34.13,
+      "est_return": -33.72,
       "est_position": 32500
     }
   },
@@ -324,21 +324,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": -14.64,
+    "est_return_1y": -13.36,
     "win_rate": 0.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "O",
       "tx_type": "purchase",
       "tx_date": "2026-07-23",
-      "est_return": -14.64,
+      "est_return": -13.36,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "O",
       "tx_type": "purchase",
       "tx_date": "2026-07-23",
-      "est_return": -14.64,
+      "est_return": -13.36,
       "est_position": 8000
     }
   }
