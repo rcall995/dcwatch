@@ -8065,6 +8065,15 @@
   },
   {
     "name": "Chris Jones",
+    "doc_id": "10075582",
+    "filing_type": "C",
+    "filing_date": "11/3/2026",
+    "state_district": "AR02",
+    "year": "2026",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/10075582.pdf"
+  },
+  {
+    "name": "Chris Jones",
     "doc_id": "30026963",
     "filing_type": "X",
     "filing_date": "4/28/2026",
@@ -9070,6 +9079,15 @@
     "state_district": "OH05",
     "year": "2026",
     "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035065.pdf"
+  },
+  {
+    "name": "Hon. Robert E. Latta",
+    "doc_id": "20035763",
+    "filing_type": "P",
+    "filing_date": "11/3/2026",
+    "state_district": "OH05",
+    "year": "2026",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035763.pdf"
   },
   {
     "name": "Eileen Laubacher",
@@ -14013,6 +14031,15 @@
     "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/10073306.pdf"
   },
   {
+    "name": "Mr. Nirav Sheth",
+    "doc_id": "10083176",
+    "filing_type": "C",
+    "filing_date": "11/3/2026",
+    "state_district": "WA07",
+    "year": "2026",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/10083176.pdf"
+  },
+  {
     "name": "Caroline Shinkle",
     "doc_id": "10079799",
     "filing_type": "C",
@@ -14380,6 +14407,15 @@
     "state_district": "VA02",
     "year": "2026",
     "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116387.pdf"
+  },
+  {
+    "name": "Mr. Geral Defrance Staten",
+    "doc_id": "9116396",
+    "filing_type": "D",
+    "filing_date": "10/23/2026",
+    "state_district": "VA02",
+    "year": "2026",
+    "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116396.pdf"
   },
   {
     "name": "Kevin Steele",
