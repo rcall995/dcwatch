@@ -19,8 +19,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 79.08,
-    "current_price": 80.09,
-    "est_return": -1.28
+    "current_price": 82.32,
+    "est_return": -4.1
   },
   {
     "id": "0f0b1d539b065788",
@@ -42,8 +42,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 531.87,
-    "current_price": 540.03,
-    "est_return": -1.53
+    "current_price": 545.18,
+    "est_return": -2.5
   },
   {
     "id": "51555dde8d3bb38e",
@@ -65,8 +65,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 694.25,
-    "current_price": 638.66,
-    "est_return": 8.01
+    "current_price": 641.37,
+    "est_return": 7.62
   },
   {
     "id": "19b0f6abe00c1ddb",
@@ -88,8 +88,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 339.5,
-    "current_price": 349.07,
-    "est_return": -2.82
+    "current_price": 350.69,
+    "est_return": -3.3
   },
   {
     "id": "8282d3271f7ac402",
@@ -111,8 +111,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 533.69,
-    "current_price": 540.03,
-    "est_return": -1.19
+    "current_price": 545.18,
+    "est_return": -2.15
   },
   {
     "id": "d4eb9245ec6ec0ba",
@@ -134,8 +134,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 426.11,
-    "current_price": 459.77,
-    "est_return": -7.9
+    "current_price": 465.23,
+    "est_return": -9.18
   },
   {
     "id": "87c5cf0df0103ca3",
@@ -157,31 +157,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 43.58,
-    "current_price": 40.41,
-    "est_return": 7.27
-  },
-  {
-    "id": "5235e4e27d71e073",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "MU",
-    "asset_description": "Micron Technology, Inc. - Common Stock",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-09-24",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 1071.88,
-    "current_price": 718.94,
-    "est_return": 32.93
+    "current_price": 39.91,
+    "est_return": 8.42
   },
   {
     "id": "aac606097f3bfd9b",
@@ -203,8 +180,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 106.43,
-    "current_price": 97.15,
-    "est_return": -8.72
+    "current_price": 98.65,
+    "est_return": -7.31
   },
   {
     "id": "cb72f214f985916d",
@@ -226,8 +203,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 55.61,
-    "current_price": 59.36,
-    "est_return": 6.74
+    "current_price": 59.5,
+    "est_return": 7.0
+  },
+  {
+    "id": "5235e4e27d71e073",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "MU",
+    "asset_description": "Micron Technology, Inc. - Common Stock",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-09-24",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 1071.88,
+    "current_price": 733.15,
+    "est_return": 31.6
   },
   {
     "id": "5033b7b8adc6773f",
@@ -249,8 +249,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 6.82,
-    "current_price": 3.61,
-    "est_return": 47.07
+    "current_price": 4.0,
+    "est_return": 41.35
   },
   {
     "id": "87bb338050e5f8bf",
@@ -272,8 +272,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 7.05,
-    "current_price": 3.61,
-    "est_return": 48.79
+    "current_price": 4.0,
+    "est_return": 43.26
   },
   {
     "id": "d7ff6b5acbd03ad5",
@@ -295,31 +295,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 7.05,
-    "current_price": 3.61,
-    "est_return": 48.79
-  },
-  {
-    "id": "5fd589b2094f12bf",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "TLH",
-    "asset_description": "iShares 10-20 Year Treasury Bond ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-09-21",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 95.42,
-    "current_price": 96.36,
-    "est_return": -0.99
+    "current_price": 4.0,
+    "est_return": 43.26
   },
   {
     "id": "53b1b1b9a3650bea",
@@ -341,8 +318,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 48.24,
-    "current_price": 48.58,
-    "est_return": 0.7
+    "current_price": 48.56,
+    "est_return": 0.66
+  },
+  {
+    "id": "5fd589b2094f12bf",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "TLH",
+    "asset_description": "iShares 10-20 Year Treasury Bond ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-09-21",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 95.42,
+    "current_price": 96.17,
+    "est_return": -0.79
   },
   {
     "id": "e9a75462c58cde24",
@@ -364,8 +364,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 6.96,
-    "current_price": 3.61,
-    "est_return": 48.13
+    "current_price": 4.0,
+    "est_return": 42.53
   },
   {
     "id": "769f548c313e572d",
@@ -387,100 +387,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 6.96,
-    "current_price": 3.61,
-    "est_return": 48.13
-  },
-  {
-    "id": "d0952fb8ffc09049",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "VEA",
-    "asset_description": "Vanguard Developed Markets Index Fund - ETF Shares",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-09-09",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 73.45,
-    "current_price": 69.32,
-    "est_return": 5.62
-  },
-  {
-    "id": "540048803632f9bb",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "SPYM",
-    "asset_description": "Tradr 2X Long SPY Monthly ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-09-09",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 90.17,
-    "current_price": 88.0,
-    "est_return": 2.41
-  },
-  {
-    "id": "232f53bf53c5702c",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "EFA",
-    "asset_description": "iShares MSCI EAFE ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-09-09",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 107.76,
-    "current_price": 104.17,
-    "est_return": 3.33
-  },
-  {
-    "id": "c9d4c3b0601ad405",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "MU",
-    "asset_description": "Micron Technology, Inc. - Common Stock",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-09-09",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 1000.26,
-    "current_price": 718.94,
-    "est_return": 28.12
+    "current_price": 4.0,
+    "est_return": 42.53
   },
   {
     "id": "98b39ea9f99f8242",
@@ -502,8 +410,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 44.65,
-    "current_price": 44.43,
-    "est_return": -0.49
+    "current_price": 44.39,
+    "est_return": -0.58
   },
   {
     "id": "0035d4cf5bedc9d7",
@@ -525,8 +433,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 44.09,
-    "current_price": 43.62,
-    "est_return": -1.07
+    "current_price": 43.61,
+    "est_return": -1.09
   },
   {
     "id": "cb76d8ef46ae8e10",
@@ -548,8 +456,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 47.71,
-    "current_price": 47.66,
-    "est_return": -0.1
+    "current_price": 47.57,
+    "est_return": -0.29
   },
   {
     "id": "3f8aac3df1675af8",
@@ -571,8 +479,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 92.53,
-    "current_price": 92.14,
-    "est_return": -0.42
+    "current_price": 92.08,
+    "est_return": -0.49
   },
   {
     "id": "19f2556dff3ae27f",
@@ -594,8 +502,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 92.16,
-    "current_price": 91.88,
-    "est_return": -0.3
+    "current_price": 91.8,
+    "est_return": -0.39
   },
   {
     "id": "7201a7b4ad34fb3a",
@@ -617,8 +525,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 96.52,
-    "current_price": 96.36,
-    "est_return": -0.17
+    "current_price": 96.17,
+    "est_return": -0.36
   },
   {
     "id": "91b22142560fa2ad",
@@ -640,8 +548,100 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 48.0,
-    "current_price": 47.75,
-    "est_return": -0.52
+    "current_price": 47.82,
+    "est_return": -0.37
+  },
+  {
+    "id": "d0952fb8ffc09049",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "VEA",
+    "asset_description": "Vanguard Developed Markets Index Fund - ETF Shares",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-09-09",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 73.45,
+    "current_price": 69.89,
+    "est_return": 4.85
+  },
+  {
+    "id": "540048803632f9bb",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "SPYM",
+    "asset_description": "Tradr 2X Long SPY Monthly ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-09-09",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 90.17,
+    "current_price": 88.59,
+    "est_return": 1.75
+  },
+  {
+    "id": "232f53bf53c5702c",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "EFA",
+    "asset_description": "iShares MSCI EAFE ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-09-09",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 107.76,
+    "current_price": 104.96,
+    "est_return": 2.6
+  },
+  {
+    "id": "c9d4c3b0601ad405",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "MU",
+    "asset_description": "Micron Technology, Inc. - Common Stock",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-09-09",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 1000.26,
+    "current_price": 733.15,
+    "est_return": 26.7
   },
   {
     "id": "a6ac6c8efe6c4e59",
@@ -663,8 +663,8 @@
     "days_late": 0,
     "est_position": 375000,
     "price_at_trade": 74.15,
-    "current_price": 65.31,
-    "est_return": 11.92
+    "current_price": 66.45,
+    "est_return": 10.38
   },
   {
     "id": "d7794fe2ce1b1137",
@@ -686,8 +686,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 362.06,
-    "current_price": 338.24,
-    "est_return": 6.58
+    "current_price": 342.08,
+    "est_return": 5.52
   },
   {
     "id": "396f1366c27c7874",
@@ -709,8 +709,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 356.5,
-    "current_price": 381.3,
-    "est_return": -6.96
+    "current_price": 394.66,
+    "est_return": -10.7
   },
   {
     "id": "6525d5b8baec11e7",
@@ -732,8 +732,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 378.75,
-    "current_price": 420.73,
-    "est_return": -11.08
+    "current_price": 422.16,
+    "est_return": -11.46
   },
   {
     "id": "b13634d3c6080af7",
@@ -755,31 +755,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 86.39,
-    "current_price": 85.3,
-    "est_return": -1.26
-  },
-  {
-    "id": "b398afdcc4c3b686",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "IVV",
-    "asset_description": "iShares Core S&P 500 ETF",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-08-27",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/6298991b-e48f-4b11-9bbb-dfc94a7e1b32/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 769.65,
-    "current_price": 751.23,
-    "est_return": 2.39
+    "current_price": 85.49,
+    "est_return": -1.04
   },
   {
     "id": "5e92aea56720dda1",
@@ -801,8 +778,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 72.36,
-    "current_price": 79.32,
-    "est_return": 9.62
+    "current_price": 78.77,
+    "est_return": 8.86
+  },
+  {
+    "id": "b398afdcc4c3b686",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "IVV",
+    "asset_description": "iShares Core S&P 500 ETF",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-08-27",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/6298991b-e48f-4b11-9bbb-dfc94a7e1b32/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 769.65,
+    "current_price": 756.05,
+    "est_return": 1.77
   },
   {
     "id": "2c295405a20a8ab1",
@@ -824,31 +824,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 73.24,
-    "current_price": 65.31,
-    "est_return": -10.83
-  },
-  {
-    "id": "64b63ee04b43360a",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "JNJ",
-    "asset_description": "Johnson & Johnson Common Stock",
-    "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-08-20",
-    "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/6298991b-e48f-4b11-9bbb-dfc94a7e1b32/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 273.41,
-    "current_price": 277.84,
-    "est_return": -1.62
+    "current_price": 66.45,
+    "est_return": -9.27
   },
   {
     "id": "d5674887719777c6",
@@ -870,8 +847,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 90.54,
-    "current_price": 88.0,
-    "est_return": -2.81
+    "current_price": 88.59,
+    "est_return": -2.15
+  },
+  {
+    "id": "64b63ee04b43360a",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "JNJ",
+    "asset_description": "Johnson & Johnson Common Stock",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-08-20",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/6298991b-e48f-4b11-9bbb-dfc94a7e1b32/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 273.41,
+    "current_price": 282.11,
+    "est_return": -3.18
   },
   {
     "id": "900cce8005e09645",
@@ -893,31 +893,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 75.13,
-    "current_price": 65.31,
-    "est_return": -13.07
-  },
-  {
-    "id": "d6c607e21faa6e3c",
-    "politician": "John Boozman",
-    "party": "R",
-    "state": "",
-    "chamber": "senate",
-    "ticker": "WWSYX",
-    "asset_description": "Westwood Quality SmallCap Fund - Westwood Quality SmallCap Fund Ultra Shares",
-    "asset_type": "stock",
-    "tx_type": "sale_full",
-    "tx_date": "2026-08-19",
-    "disclosure_date": "",
-    "amount_low": 15001,
-    "amount_high": 50000,
-    "owner": "Joint",
-    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/6298991b-e48f-4b11-9bbb-dfc94a7e1b32/",
-    "is_amended": false,
-    "days_late": 0,
-    "est_position": 32500,
-    "price_at_trade": 22.16,
-    "current_price": 20.16,
-    "est_return": 9.03
+    "current_price": 66.45,
+    "est_return": -11.55
   },
   {
     "id": "ded12584ebb30cbe",
@@ -939,8 +916,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 147.92,
-    "current_price": 140.56,
-    "est_return": -4.98
+    "current_price": 141.72,
+    "est_return": -4.19
   },
   {
     "id": "6a6dcc0cdc2d026c",
@@ -962,31 +939,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 126.06,
-    "current_price": 121.92,
-    "est_return": -3.28
+    "current_price": 122.51,
+    "est_return": -2.82
   },
   {
-    "id": "2ddc86418cf81c91",
+    "id": "d6c607e21faa6e3c",
     "politician": "John Boozman",
     "party": "R",
     "state": "",
     "chamber": "senate",
-    "ticker": "CEG",
-    "asset_description": "Constellation Energy Corporation - Common Stock When-Issued",
+    "ticker": "WWSYX",
+    "asset_description": "Westwood Quality SmallCap Fund - Westwood Quality SmallCap Fund Ultra Shares",
     "asset_type": "stock",
-    "tx_type": "sale_partial",
-    "tx_date": "2026-08-13",
+    "tx_type": "sale_full",
+    "tx_date": "2026-08-19",
     "disclosure_date": "",
-    "amount_low": 1001,
-    "amount_high": 15000,
+    "amount_low": 15001,
+    "amount_high": 50000,
     "owner": "Joint",
     "filing_url": "https://efdsearch.senate.gov/search/view/ptr/6298991b-e48f-4b11-9bbb-dfc94a7e1b32/",
     "is_amended": false,
     "days_late": 0,
-    "est_position": 8000,
-    "price_at_trade": 278.21,
-    "current_price": 260.24,
-    "est_return": 6.46
+    "est_position": 32500,
+    "price_at_trade": 22.16,
+    "current_price": 20.78,
+    "est_return": 6.23
   },
   {
     "id": "2d26111aa4bf56ad",
@@ -1008,8 +985,31 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 226.77,
-    "current_price": 195.05,
-    "est_return": -13.99
+    "current_price": 191.61,
+    "est_return": -15.5
+  },
+  {
+    "id": "2ddc86418cf81c91",
+    "politician": "John Boozman",
+    "party": "R",
+    "state": "",
+    "chamber": "senate",
+    "ticker": "CEG",
+    "asset_description": "Constellation Energy Corporation - Common Stock When-Issued",
+    "asset_type": "stock",
+    "tx_type": "sale_partial",
+    "tx_date": "2026-08-13",
+    "disclosure_date": "",
+    "amount_low": 1001,
+    "amount_high": 15000,
+    "owner": "Joint",
+    "filing_url": "https://efdsearch.senate.gov/search/view/ptr/6298991b-e48f-4b11-9bbb-dfc94a7e1b32/",
+    "is_amended": false,
+    "days_late": 0,
+    "est_position": 8000,
+    "price_at_trade": 278.21,
+    "current_price": 276.09,
+    "est_return": 0.76
   },
   {
     "id": "703c7ed258a9af05",
@@ -1031,8 +1031,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 224.09,
-    "current_price": 177.78,
-    "est_return": 20.67
+    "current_price": 178.67,
+    "est_return": 20.27
   },
   {
     "id": "7c812a21071373f3",
@@ -1054,8 +1054,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 224.09,
-    "current_price": 177.78,
-    "est_return": 20.67
+    "current_price": 178.67,
+    "est_return": 20.27
   },
   {
     "id": "43c8cfebdb01763b",
@@ -1077,8 +1077,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 326.11,
-    "current_price": 212.19,
-    "est_return": 34.93
+    "current_price": 221.31,
+    "est_return": 32.14
   },
   {
     "id": "ab3828626b0ea3fd",
@@ -1100,8 +1100,8 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 414.3,
-    "current_price": 459.77,
-    "est_return": -10.98
+    "current_price": 465.23,
+    "est_return": -12.29
   },
   {
     "id": "281b2b93720cf9b0",
@@ -1123,8 +1123,8 @@
     "days_late": 0,
     "est_position": 32500,
     "price_at_trade": 217.55,
-    "current_price": 177.78,
-    "est_return": 18.28
+    "current_price": 178.67,
+    "est_return": 17.87
   },
   {
     "id": "67ea657fd8ea68d8",
@@ -1146,7 +1146,7 @@
     "days_late": 0,
     "est_position": 8000,
     "price_at_trade": 76.29,
-    "current_price": 63.85,
-    "est_return": 16.31
+    "current_price": 63.95,
+    "est_return": 16.18
   }
 ]
