@@ -130,9 +130,9 @@
     "state": "",
     "chamber": "senate",
     "total_trades": 44,
-    "trades_with_returns": 39,
-    "est_return_1y": 0.34,
-    "win_rate": 43.6,
+    "trades_with_returns": 30,
+    "est_return_1y": 3.13,
+    "win_rate": 50.0,
     "unique_tickers": 35,
     "best_trade": {
       "ticker": "MU",
