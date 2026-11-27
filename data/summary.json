@@ -6,21 +6,21 @@
     "chamber": "senate",
     "total_trades": 44,
     "trades_with_returns": 6,
-    "est_return_1y": 54.18,
+    "est_return_1y": 52.32,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "STLN",
       "tx_type": "sale_partial",
       "tx_date": "2026-09-22",
-      "est_return": 54.75,
+      "est_return": 52.91,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "STLN",
       "tx_type": "sale_partial",
       "tx_date": "2026-09-23",
-      "est_return": 53.23,
+      "est_return": 51.32,
       "est_position": 8000
     }
   },
@@ -31,21 +31,21 @@
     "chamber": "senate",
     "total_trades": 7,
     "trades_with_returns": 6,
-    "est_return_1y": 17.49,
+    "est_return_1y": 16.29,
     "win_rate": 83.3,
     "unique_tickers": 6,
     "best_trade": {
       "ticker": "NVDA",
       "tx_type": "sale_full",
       "tx_date": "2026-08-11",
-      "est_return": 31.37,
+      "est_return": 31.89,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "MCD",
       "tx_type": "sale_full",
       "tx_date": "2026-08-11",
-      "est_return": -3.57,
+      "est_return": -3.18,
       "est_position": 32500
     }
   },
@@ -56,21 +56,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": 13.57,
+    "est_return_1y": 12.23,
     "win_rate": 100.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "GS",
       "tx_type": "sale_partial",
       "tx_date": "2026-11-11",
-      "est_return": 13.57,
+      "est_return": 12.23,
       "est_position": 375000
     },
     "worst_trade": {
       "ticker": "GS",
       "tx_type": "sale_partial",
       "tx_date": "2026-11-11",
-      "est_return": 13.57,
+      "est_return": 12.23,
       "est_position": 375000
     }
   },
@@ -81,21 +81,21 @@
     "chamber": "senate",
     "total_trades": 10,
     "trades_with_returns": 9,
-    "est_return_1y": 11.32,
+    "est_return_1y": 10.63,
     "win_rate": 66.7,
     "unique_tickers": 7,
     "best_trade": {
       "ticker": "LRCX",
       "tx_type": "sale_partial",
       "tx_date": "2026-08-13",
-      "est_return": 43.27,
+      "est_return": 42.25,
       "est_position": 8000
     },
     "worst_trade": {
-      "ticker": "AMGN",
+      "ticker": "V",
       "tx_type": "sale_partial",
-      "tx_date": "2026-08-12",
-      "est_return": -13.26,
+      "tx_date": "2026-09-04",
+      "est_return": -13.71,
       "est_position": 8000
     }
   },
@@ -106,21 +106,21 @@
     "chamber": "senate",
     "total_trades": 30,
     "trades_with_returns": 30,
-    "est_return_1y": 3.33,
+    "est_return_1y": 3.08,
     "win_rate": 46.7,
     "unique_tickers": 24,
     "best_trade": {
       "ticker": "MU",
       "tx_type": "sale_partial",
       "tx_date": "2026-09-24",
-      "est_return": 43.91,
+      "est_return": 40.53,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "FSLR",
       "tx_type": "purchase",
       "tx_date": "2026-08-13",
-      "est_return": -34.79,
+      "est_return": -33.59,
       "est_position": 8000
     }
   },
@@ -131,36 +131,23 @@
     "chamber": "senate",
     "total_trades": 4,
     "trades_with_returns": 4,
-    "est_return_1y": 2.71,
+    "est_return_1y": 1.74,
     "win_rate": 50.0,
     "unique_tickers": 4,
     "best_trade": {
       "ticker": "META",
       "tx_type": "sale_partial",
       "tx_date": "2026-10-21",
-      "est_return": 12.15,
+      "est_return": 8.84,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "AAPL",
       "tx_type": "sale_partial",
       "tx_date": "2026-10-21",
-      "est_return": -4.74,
+      "est_return": -5.81,
       "est_position": 8000
     }
-  },
-  {
-    "name": "Christopher A Coons",
-    "party": "",
-    "state": "",
-    "chamber": "senate",
-    "total_trades": 1,
-    "trades_with_returns": 0,
-    "est_return_1y": 0.0,
-    "win_rate": 0.0,
-    "unique_tickers": 0,
-    "best_trade": null,
-    "worst_trade": null
   },
   {
     "name": "John Fetterman",
@@ -221,21 +208,21 @@
     "chamber": "senate",
     "total_trades": 24,
     "trades_with_returns": 3,
-    "est_return_1y": -3.48,
+    "est_return_1y": -3.13,
     "win_rate": 33.3,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "WMB",
       "tx_type": "sale_full",
       "tx_date": "2026-09-08",
-      "est_return": 10.38,
+      "est_return": 9.33,
       "est_position": 375000
     },
     "worst_trade": {
       "ticker": "WMB",
       "tx_type": "purchase",
       "tx_date": "2026-08-19",
-      "est_return": -11.55,
+      "est_return": -10.52,
       "est_position": 8000
     }
   },
@@ -246,21 +233,21 @@
     "chamber": "senate",
     "total_trades": 1,
     "trades_with_returns": 1,
-    "est_return_1y": -6.31,
+    "est_return_1y": -4.68,
     "win_rate": 0.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-09-01",
-      "est_return": -6.31,
+      "est_return": -4.68,
       "est_position": 32500
     },
     "worst_trade": {
       "ticker": "WFC",
       "tx_type": "purchase",
       "tx_date": "2026-09-01",
-      "est_return": -6.31,
+      "est_return": -4.68,
       "est_position": 32500
     }
   },
@@ -271,21 +258,21 @@
     "chamber": "senate",
     "total_trades": 3,
     "trades_with_returns": 3,
-    "est_return_1y": -17.94,
+    "est_return_1y": -18.55,
     "win_rate": 0.0,
     "unique_tickers": 1,
     "best_trade": {
       "ticker": "NVDA",
       "tx_type": "purchase",
       "tx_date": "2026-11-09",
-      "est_return": -16.02,
+      "est_return": -16.65,
       "est_position": 8000
     },
     "worst_trade": {
       "ticker": "NVDA",
       "tx_type": "purchase",
       "tx_date": "2026-11-07",
-      "est_return": -20.01,
+      "est_return": -20.61,
       "est_position": 8000
     }
   }
